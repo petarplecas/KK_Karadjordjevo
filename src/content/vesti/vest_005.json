@@ -1,0 +1,29 @@
+{
+  "id": 5,
+  "url": "http://www.kkkaradjordjevo.com/sadrzaj/secanje-na-nikolu-i-branku",
+  "title": "Sećanje na Nikolu i Branku",
+  "date": "2020-09-14",
+  "date_formatted": "Pon, 14/09/2020 - 15:15",
+  "content": [
+    {
+      "type": "text",
+      "value": "Tradicionalno svake godine u ovo vreme održava se memorijalni turnir \"Nikola i Branka\" u Banatskom Karađorđevu u znak sećanja na tragično preminule Nikolu Radovića i Branku Sušu."
+    },
+    {
+      "type": "image",
+      "filename": "1_1_3.jpg",
+      "url": "http://www.kkkaradjordjevo.com/sites/default/files/1_1_3.jpg"
+    },
+    {
+      "type": "text",
+      "value": "Sećanje na Nikolu i Branku, dostojanstveno i sa poštovanjem, neguju i čuvaju KK \"Karađorđevo\", porodice Suša i Radović, košarkaški klubovi koji učestvuju na turnirima, gosti, navijači i meštani Banatskog Karađorđeva. Na žalost, ove godine trinaesti memorijalni turnir \"Nikola i Branka\" neće se održati zbog situacije sa korona virusom.\n\nU nadi da će se turnir održati sledeće godine, podsetimo se dvanaestog memorijalnog turnira održanog septembra 2019."
+    },
+    {
+      "type": "video",
+      "platform": "youtube",
+      "video_id": "QUCpHeiH5KY",
+      "url": "http://www.youtube.com/watch?v=QUCpHeiH5KY",
+      "thumbnail": "http://img.youtube.com/vi/QUCpHeiH5KY/0.jpg"
+    }
+  ]
+}

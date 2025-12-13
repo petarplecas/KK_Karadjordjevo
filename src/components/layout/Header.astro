@@ -1,0 +1,60 @@
+---
+// Mobile-first header sa hamburger menijem
+---
+
+<header class="bg-kk-primary text-white shadow-lg sticky top-0 z-50">
+  <div class="container mx-auto px-4 py-3">
+    <div class="flex items-center justify-between">
+      <!-- Logo + Club Name -->
+      <a href="/" class="flex items-center gap-3 hover:opacity-90 transition">
+        <img src="/logo.png" alt="KK Karađorđevo" class="h-12 w-12 rounded-full" />
+        <div class="flex flex-col">
+          <span class="font-bold text-base sm:text-lg">KK Karađorđevo</span>
+          <span class="text-xs sm:text-sm opacity-90 hidden sm:block">Košarkaški klub</span>
+        </div>
+      </a>
+
+      <!-- Hamburger Menu Button (Mobile) -->
+      <button id="menu-toggle" class="lg:hidden p-2 hover:bg-white/10 rounded-lg transition" aria-label="Toggle menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden lg:flex gap-6">
+        <a href="/" class="hover:text-kk-secondary transition font-medium">Početna</a>
+        <a href="/vesti/1" class="hover:text-kk-secondary transition font-medium">Vesti</a>
+        <a href="/turniri" class="hover:text-kk-secondary transition font-medium">Turniri</a>
+        <a href="/galerija" class="hover:text-kk-secondary transition font-medium">Galerija</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden lg:hidden bg-kk-dark border-t border-white/10">
+    <nav class="container mx-auto px-4 py-4 flex flex-col gap-2">
+      <a href="/" class="py-2 px-4 hover:bg-white/10 rounded-lg transition font-medium">Početna</a>
+      <a href="/vesti/1" class="py-2 px-4 hover:bg-white/10 rounded-lg transition font-medium">Vesti</a>
+      <a href="/turniri" class="py-2 px-4 hover:bg-white/10 rounded-lg transition font-medium">Turniri</a>
+      <a href="/galerija" class="py-2 px-4 hover:bg-white/10 rounded-lg transition font-medium">Galerija</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const menuToggle = document.getElementById('menu-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuToggle?.addEventListener('click', () => {
+    mobileMenu?.classList.toggle('hidden');
+  });
+
+  // Close mobile menu when clicking on a link
+  const mobileLinks = mobileMenu?.querySelectorAll('a');
+  mobileLinks?.forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu?.classList.add('hidden');
+    });
+  });
+</script>

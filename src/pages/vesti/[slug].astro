@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import NewsContent from '../../components/news/NewsContent.astro';
+import SocialShare from '../../components/shared/SocialShare.astro';
+import { slugify } from '../../utils/slugify';
+import { formatDate } from '../../utils/formatDate';
+
+export const getStaticPaths = (async () => {
+  const allNews = await getCollection('vesti');
+
+  return allNews.map((news) => ({
+    params: { slug: slugify(news.data.title) },
+    props: { news },
+  }));
+}) satisfies GetStaticPaths;
+
+const { news } = Astro.props;
+---
+
+<BaseLayout title={news.data.title} description={news.data.title}>
+  <Header />
+
+  <main class="container mx-auto px-4 py-8 max-w-4xl flex-grow">
+    <article>
+      <header class="mb-8">
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-kk-dark mb-4">
+          {news.data.title}
+        </h1>
+        <time class="text-gray-500">
+          {formatDate(news.data.date)}
+        </time>
+      </header>
+
+      <NewsContent content={news.data.content} />
+
+      <footer class="mt-8 pt-8 border-t">
+        <SocialShare
+          title={news.data.title}
+          url={Astro.url.href}
+        />
+      </footer>
+    </article>
+
+    <div class="mt-8">
+      <a href="/vesti/1" class="btn btn-outline btn-primary">
+        ← Nazad na vesti
+      </a>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

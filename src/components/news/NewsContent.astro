@@ -1,0 +1,55 @@
+---
+import YouTubeEmbed from '../shared/YouTubeEmbed.astro';
+
+interface Props {
+  content: Array<{
+    type: 'text' | 'image' | 'video' | 'gallery_link';
+    value?: string;
+    filename?: string;
+    video_id?: string;
+    title?: string;
+    url?: string;
+  }>;
+}
+
+const { content } = Astro.props;
+---
+
+<div class="prose prose-lg max-w-none">
+  {content.map((block) => {
+    if (block.type === 'text') {
+      return <p class="mb-4 text-gray-700 leading-relaxed text-base sm:text-lg whitespace-pre-line">{block.value}</p>;
+    }
+
+    if (block.type === 'image' && block.filename) {
+      return (
+        <figure class="my-6">
+          <img
+            src={`/images/news/${block.filename}`}
+            alt=""
+            class="rounded-lg w-full h-auto shadow-lg"
+            loading="lazy"
+          />
+        </figure>
+      );
+    }
+
+    if (block.type === 'video' && block.video_id) {
+      return <YouTubeEmbed videoId={block.video_id} title={block.title} />;
+    }
+
+    if (block.type === 'gallery_link' && block.url && block.title) {
+      return (
+        <div class="my-6 p-4 bg-kk-primary/10 border-l-4 border-kk-primary rounded">
+          <a href={block.url} target="_blank" rel="noopener noreferrer"
+             class="text-kk-primary hover:text-kk-secondary transition font-medium flex items-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+            {block.title} →
+          </a>
+        </div>
+      );
+    }
+  })}
+</div>
