@@ -1,43 +1,96 @@
-# Astro Starter Kit: Minimal
+# KK Karađorđevo - Zvanični Web Sajt
 
-```sh
-npm create astro@latest -- --template minimal
+Moderan, mobile-first web sajt za Košarkaški klub Karađorđevo.
+
+## 🏀 O Projektu
+
+Zvanični web sajt košarkaškog kluba Karađorđevo, izgrađen sa Astro 5, Tailwind CSS i DaisyUI. Sajt prikazuje vesti, turnire, galeriju i informacije o klubu.
+
+## 🚀 Tech Stack
+
+- **Astro 5.16.5** - Statički site generator
+- **Tailwind CSS 3** - Utility-first CSS framework
+- **DaisyUI** - Komponente za Tailwind
+- **TypeScript** - Type safety
+- **date-fns** - Formatiranje datuma
+- **lite-youtube-embed** - Lazy loading YouTube videa
+- **PhotoSwipe** - Galerija slika
+
+## 📁 Struktura Projekta
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
 /
 ├── public/
+│   ├── images/news/     # Slike za vesti
+│   ├── logo.png         # Logo kluba
+│   └── favicon.svg      # Favicon
 ├── src/
-│   └── pages/
-│       └── index.astro
+│   ├── components/
+│   │   ├── layout/      # Header, Footer
+│   │   ├── news/        # NewsCard, NewsContent, Pagination
+│   │   └── shared/      # YouTubeEmbed, SocialShare
+│   ├── content/
+│   │   ├── vesti/       # 132 vesti (JSON)
+│   │   ├── turniri/     # 12 turnira (JSON)
+│   │   ├── about/       # 2 o nama stranice (JSON)
+│   │   └── config.ts    # Content Collections config
+│   ├── layouts/
+│   │   └── BaseLayout.astro
+│   ├── pages/
+│   │   ├── index.astro
+│   │   ├── vesti/
+│   │   ├── turniri/
+│   │   ├── galerija/
+│   │   └── o-nama/
+│   └── utils/           # formatDate, slugify, truncateText
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🧞 Komande
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Sve komande se izvršavaju iz root-a projekta:
 
-Any static assets, like images, can be placed in the `public/` directory.
+| Komanda               | Akcija                                           |
+| :-------------------- | :----------------------------------------------- |
+| `npm install`         | Instalira dependencies                           |
+| `npm run dev`         | Pokreće dev server na `localhost:4321`           |
+| `npm run build`       | Build za produkciju u `./dist/`                  |
+| `npm run preview`     | Preview production build-a lokalno               |
 
-## 🧞 Commands
+## 🎨 Boje Kluba
 
-All commands are run from the root of the project, from a terminal:
+```css
+--kk-primary: #1a5490;    /* Košarkaška plava */
+--kk-secondary: #f97316;  /* Košarkaška narandžasta */
+--kk-dark: #1e293b;       /* Tamna */
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 📄 Stranice
 
-## 👀 Want to learn more?
+- **Početna** (`/`) - Hero sekcija + 10 najnovijih vesti
+- **Vesti** (`/vesti/[page]`) - Paginacija vesti (10 po stranici)
+- **Vest detalji** (`/vesti/[slug]`) - Pojedinačna vest sa slikama i video
+- **Turniri** (`/turniri`) - Lista svih turnira
+- **Turnir detalji** (`/turniri/[slug]`) - Pojedinačan turnir
+- **O nama** (`/o-nama`) - Informacije o klubu
+- **Galerija** (`/galerija`) - Slike (u izradi)
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## 🚧 U izradi
+
+- Galerija sa PhotoSwipe i infinity scroll
+- Admin panel za dodavanje vesti
+- SEO optimizacija
+
+## 📝 Deployment
+
+Sajt je konfigurisan za deployment na Netlify:
+
+```bash
+npm run build
+```
+
+Build output će biti u `dist/` folderu.
+
+---
+
+🤖 Generisano sa [Claude Code](https://claude.com/claude-code)
