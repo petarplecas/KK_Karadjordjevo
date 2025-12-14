@@ -1,25 +1,50 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
+import NewsCard from '../../components/news/NewsCard.astro';
+import { slugify } from '../../utils/slugify';
+import { truncateText } from '../../utils/truncateText';
+
+// Get all tournaments and sort by date (newest first)
+const allTournaments = await getCollection('turniri');
+const sortedTournaments = allTournaments.sort((a, b) => {
+  if (!a.data.date || !b.data.date) return 0;
+  return b.data.date.getTime() - a.data.date.getTime();
+});
+
+// Create excerpts from first text block
+function getExcerpt(content: any[]): string {
+  const firstText = content.find(item => item.type === 'text');
+  return firstText ? truncateText(firstText.value, 150) : '';
+}
 ---
 
 <BaseLayout title="Turniri">
   <Header />
 
   <main class="container mx-auto px-4 py-8 flex-grow">
-    <h1 class="text-3xl sm:text-4xl font-bold text-center mb-8 text-kk-primary">Turniri</h1>
+    <h1 class="text-3xl sm:text-4xl font-bold text-center mb-8 text-kk-primary">
+      Memorijalni turnir "Nikola i Branka"
+    </h1>
 
-    <div class="max-w-2xl mx-auto text-center bg-white rounded-lg shadow-md p-8">
-      <svg class="w-24 h-24 mx-auto mb-4 text-kk-secondary opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-      <p class="text-gray-600 text-lg mb-4">
-        Stranica turnira je u pripremi. Uskoro ćemo objaviti informacije o turnirima, rezultatima i nadolazećim takmičenjima.
+    <div class="max-w-3xl mx-auto mb-8 bg-kk-primary/5 border-l-4 border-kk-primary p-6 rounded">
+      <p class="text-gray-700 leading-relaxed">
+        U znak sećanja na tragično nastradale košarkaša i košarkašicu Nikolu Radovića i Branku Sušu,
+        košarkaški klub "Karađorđevo" 2007. godine ustanovio je memorijalni turnir koji nosi njihovo ime.
       </p>
-      <p class="text-sm text-gray-500">
-        Pratite našu istoriju turnirskih nastupa i budite u toku sa aktuelnim takmičenjima.
-      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {sortedTournaments.map((tournament) => (
+        <NewsCard
+          title={tournament.data.title}
+          date={tournament.data.date || new Date()}
+          excerpt={getExcerpt(tournament.data.content)}
+          slug={slugify(tournament.data.title)}
+        />
+      ))}
     </div>
   </main>
 

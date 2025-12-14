@@ -1,0 +1,46 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import NewsContent from '../../components/news/NewsContent.astro';
+
+// Get about page content
+const aboutPages = await getCollection('about');
+const aboutPage = aboutPages[0]; // Get first about page
+---
+
+<BaseLayout title="O nama" description="O Košarkaškom klubu Karađorđevo">
+  <Header />
+
+  <main class="container mx-auto px-4 py-8 max-w-4xl flex-grow">
+    <article>
+      <header class="mb-8">
+        <h1 class="text-3xl sm:text-4xl font-bold text-kk-primary mb-4">
+          {aboutPage.data.title}
+        </h1>
+        <div class="h-1 w-24 bg-kk-secondary rounded"></div>
+      </header>
+
+      <div class="bg-white rounded-lg shadow-md p-6 sm:p-8">
+        <NewsContent content={aboutPage.data.content} />
+      </div>
+
+      {aboutPages.length > 1 && (
+        <div class="mt-8 bg-kk-primary/5 border-l-4 border-kk-primary p-6 rounded">
+          <h2 class="text-2xl font-bold text-kk-dark mb-4">Više o nama</h2>
+          <div class="space-y-4">
+            {aboutPages.slice(1).map((page) => (
+              <div>
+                <h3 class="font-semibold text-lg mb-2">{page.data.title}</h3>
+                <NewsContent content={page.data.content} />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </article>
+  </main>
+
+  <Footer />
+</BaseLayout>

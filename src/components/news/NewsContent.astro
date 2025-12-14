@@ -21,11 +21,15 @@ const { content } = Astro.props;
       return <p class="mb-4 text-gray-700 leading-relaxed text-base sm:text-lg whitespace-pre-line">{block.value}</p>;
     }
 
-    if (block.type === 'image' && block.filename) {
+    if (block.type === 'image') {
+      const imageSrc = block.filename
+        ? `/images/news/${block.filename}`
+        : block.value || block.url || '';
+
       return (
         <figure class="my-6">
           <img
-            src={`/images/news/${block.filename}`}
+            src={imageSrc}
             alt=""
             class="rounded-lg w-full h-auto shadow-lg"
             loading="lazy"
@@ -38,15 +42,18 @@ const { content } = Astro.props;
       return <YouTubeEmbed videoId={block.video_id} title={block.title} />;
     }
 
-    if (block.type === 'gallery_link' && block.url && block.title) {
+    if (block.type === 'gallery_link') {
+      const galleryUrl = block.url || block.value || '';
+      const galleryTitle = block.title || 'Pogledaj galeriju';
+
       return (
         <div class="my-6 p-4 bg-kk-primary/10 border-l-4 border-kk-primary rounded">
-          <a href={block.url} target="_blank" rel="noopener noreferrer"
+          <a href={galleryUrl} target="_blank" rel="noopener noreferrer"
              class="text-kk-primary hover:text-kk-secondary transition font-medium flex items-center gap-2">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
             </svg>
-            {block.title} →
+            {galleryTitle} →
           </a>
         </div>
       );

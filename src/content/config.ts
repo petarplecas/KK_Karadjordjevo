@@ -1,42 +1,62 @@
-import { z, defineCollection } from 'astro:content';
+import { z, defineCollection, glob } from 'astro:content';
+
+// Shared content schema for news, tournaments, and about pages
+const contentSchema = z.object({
+  id: z.number().optional(),
+  url: z.string().url().optional(),
+  title: z.string(),
+  date: z.string().nullable().transform((str) => str ? new Date(str) : null),
+  date_formatted: z.string().nullable(),
+  content: z.array(
+    z.discriminatedUnion('type', [
+      z.object({
+        type: z.literal('text'),
+        value: z.string(),
+      }),
+      z.object({
+        type: z.literal('image'),
+        filename: z.string().optional(),
+        value: z.string().optional(), // For old format with URL
+        url: z.string().url().optional(),
+      }),
+      z.object({
+        type: z.literal('video'),
+        platform: z.enum(['youtube']),
+        video_id: z.string(),
+        title: z.string().optional(),
+        url: z.string().url().optional(),
+        thumbnail: z.string().url().optional(),
+      }),
+      z.object({
+        type: z.literal('gallery_link'),
+        title: z.string().optional(),
+        value: z.string().optional(), // For old format
+        url: z.string().url().optional(),
+      }),
+    ])
+  ),
+});
 
 const vestiCollection = defineCollection({
   type: 'data',
-  schema: z.object({
-    id: z.number().optional(),
-    url: z.string().url(),
-    title: z.string(),
-    date: z.string().transform((str) => new Date(str)),
-    date_formatted: z.string(),
-    content: z.array(
-      z.discriminatedUnion('type', [
-        z.object({
-          type: z.literal('text'),
-          value: z.string(),
-        }),
-        z.object({
-          type: z.literal('image'),
-          filename: z.string(),
-          url: z.string().url().optional(),
-        }),
-        z.object({
-          type: z.literal('video'),
-          platform: z.enum(['youtube']),
-          video_id: z.string(),
-          title: z.string().optional(),
-          url: z.string().url().optional(),
-          thumbnail: z.string().url().optional(),
-        }),
-        z.object({
-          type: z.literal('gallery_link'),
-          title: z.string(),
-          url: z.string().url(),
-        }),
-      ])
-    ),
-  }),
+  loader: glob({ pattern: '**/*.json', base: './data/news' }),
+  schema: contentSchema,
+});
+
+const turniriCollection = defineCollection({
+  type: 'data',
+  loader: glob({ pattern: '**/*.json', base: './data/turniri' }),
+  schema: contentSchema,
+});
+
+const aboutCollection = defineCollection({
+  type: 'data',
+  loader: glob({ pattern: '**/*.json', base: './data/about' }),
+  schema: contentSchema,
 });
 
 export const collections = {
   vesti: vestiCollection,
+  turniri: turniriCollection,
+  about: aboutCollection,
 };

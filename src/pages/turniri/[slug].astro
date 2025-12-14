@@ -1,0 +1,58 @@
+---
+import { getCollection } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import NewsContent from '../../components/news/NewsContent.astro';
+import SocialShare from '../../components/shared/SocialShare.astro';
+import { slugify } from '../../utils/slugify';
+import { formatDate } from '../../utils/formatDate';
+
+export const getStaticPaths = (async () => {
+  const allTournaments = await getCollection('turniri');
+
+  return allTournaments.map((tournament) => ({
+    params: { slug: slugify(tournament.data.title) },
+    props: { tournament },
+  }));
+}) satisfies GetStaticPaths;
+
+const { tournament } = Astro.props;
+---
+
+<BaseLayout title={tournament.data.title} description={tournament.data.title}>
+  <Header />
+
+  <main class="container mx-auto px-4 py-8 max-w-4xl flex-grow">
+    <article>
+      <header class="mb-8">
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-kk-dark mb-4">
+          {tournament.data.title}
+        </h1>
+        {tournament.data.date && (
+          <time class="text-gray-500">
+            {formatDate(tournament.data.date)}
+          </time>
+        )}
+      </header>
+
+      <NewsContent content={tournament.data.content} />
+
+      <footer class="mt-8 pt-8 border-t">
+        <SocialShare
+          title={tournament.data.title}
+          url={Astro.url.href}
+        />
+      </footer>
+    </article>
+
+    <div class="mt-8">
+      <a href="/turniri" class="btn btn-outline btn-primary">
+        ← Nazad na turnire
+      </a>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
