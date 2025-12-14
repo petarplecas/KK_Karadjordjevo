@@ -43,6 +43,7 @@ function getExcerpt(content: any[]): string {
           date={tournament.data.date || new Date()}
           excerpt={getExcerpt(tournament.data.content)}
           slug={slugify(tournament.data.title)}
+          baseUrl="/turniri"
         />
       ))}
     </div>
