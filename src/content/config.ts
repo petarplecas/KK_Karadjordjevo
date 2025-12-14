@@ -1,4 +1,4 @@
-import { z, defineCollection, glob } from 'astro:content';
+import { z, defineCollection } from 'astro:content';
 
 // Shared content schema for news, tournaments, and about pages
 const contentSchema = z.object({
@@ -39,19 +39,16 @@ const contentSchema = z.object({
 
 const vestiCollection = defineCollection({
   type: 'data',
-  loader: glob({ pattern: '**/*.json', base: './data/news' }),
   schema: contentSchema,
 });
 
 const turniriCollection = defineCollection({
   type: 'data',
-  loader: glob({ pattern: '**/*.json', base: './data/turniri' }),
   schema: contentSchema,
 });
 
 const aboutCollection = defineCollection({
   type: 'data',
-  loader: glob({ pattern: '**/*.json', base: './data/about' }),
   schema: contentSchema,
 });
 
