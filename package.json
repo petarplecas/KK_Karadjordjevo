@@ -6,14 +6,16 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "analyze-images": "node analyze-images.js",
+    "cleanup-duplicates": "node cleanup-duplicates.js",
+    "find-orphaned": "node find-orphaned-images.js"
   },
   "dependencies": {
     "astro": "^5.16.5",
     "daisyui": "^5.5.13",
     "date-fns": "^4.1.0",
-    "lite-youtube-embed": "^0.3.4",
-    "photoswipe": "^5.4.4"
+    "lite-youtube-embed": "^0.3.4"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^6.0.2",

@@ -1,28 +1,30 @@
 {
-  "title": "Karađorđevčanke druge na turniru u Novom Sadu",
-  "date": "2012-06-28",
-  "date_formatted": "Čet, 28/06/2012 - 11:04",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/karadordevcanke-druge-na-turniru-u-novom-sadu",
-  "content": [
-    {
-      "type": "text",
-      "value": "Dana 22.06.2012. godine u Novom Sadu, u sportskom centru \"Slana Bara\" održan je košarkaški turnir za devojčice, rođene 97 godišta, pod nazivom 'Turnir malih košarkašica'. Organizator turnira je ženski košarkaški klub 'Proleter' Novi Sad, a pokrovitelj ove manifestacije grad Novi Sad. Turnir je dobro organizovan, a učesnici su za uspomenu dobili majice na kojima je pisao naziv turnira. Utakmice su se igrale u prelepoj hali sportskog centra 'Slana Bara'."
-    },
-    {
-      "type": "image",
-      "value": "http://www.kkkaradjordjevo.com/sites/default/files/resize/IMG_1379-328x245.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Pored domaćina ŽKK 'Proleter' na turniru su učestvovali ŽKK 'Sivac' iz Sivca i ŽKK 'Karađorđevo' iz Banatskog Karađorđeva. Sistem takmičenja je bio svako sa svakim pa se u prvoj utakmici ŽKK 'Karađorđevo' sastao sa ŽKK 'Sivcem'. U ovoj utakmici devojčice iz Sivca bolje su se snašle i pobedile. U drugoj utakmici Karađorđevčanke su igrale sa domaćinom turnira ŽKK 'Proleter'. Mnogo bolja igra i zalaganje na terenu doprineli su da se pobedi domaćin. U duelu između Sivčanki i domaćina u uzbudljivoj završnici i na produžetak pobedile su Sivčanke i zauzele prvo mesto na turniru. Drugo mesto pripalo je ekipi iz Karađorđeva, a treći je bio domaćin ŽKK 'Proleter'. Između utakmica bilo je organizovano i šutiranje trojki i igra šutiranja sa raznih pozicija za tri, dva i jedan poen."
-    },
-    {
-      "type": "image",
-      "value": "http://www.kkkaradjordjevo.com/sites/default/files/resize/IMG_1383-324x244.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Bila nam je velika čast i zadovoljstvo učesvovati na ovom turniru i nadamo se da smo svojom igrom i ponašanjem opravdali poziv organizatora."
-    }
-  ]
+    "title": "Karađorđevčanke druge na turniru u Novom Sadu",
+    "date": "2012-06-28",
+    "date_formatted": "Čet, 28/06/2012 - 11:04",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/karadordevcanke-druge-na-turniru-u-novom-sadu",
+    "content": [
+        {
+            "type": "text",
+            "value": "Dana 22.06.2012. godine u Novom Sadu, u sportskom centru \"Slana Bara\" održan je košarkaški turnir za devojčice, rođene 97 godišta, pod nazivom 'Turnir malih košarkašica'. Organizator turnira je ženski košarkaški klub 'Proleter' Novi Sad, a pokrovitelj ove manifestacije grad Novi Sad. Turnir je dobro organizovan, a učesnici su za uspomenu dobili majice na kojima je pisao naziv turnira. Utakmice su se igrale u prelepoj hali sportskog centra 'Slana Bara'."
+        },
+        {
+            "type": "image",
+            "value": "http://www.kkkaradjordjevo.com/sites/default/files/resize/IMG_1379-328x245.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Pored domaćina ŽKK 'Proleter' na turniru su učestvovali ŽKK 'Sivac' iz Sivca i ŽKK 'Karađorđevo' iz Banatskog Karađorđeva. Sistem takmičenja je bio svako sa svakim pa se u prvoj utakmici ŽKK 'Karađorđevo' sastao sa ŽKK 'Sivcem'. U ovoj utakmici devojčice iz Sivca bolje su se snašle i pobedile. U drugoj utakmici Karađorđevčanke su igrale sa domaćinom turnira ŽKK 'Proleter'. Mnogo bolja igra i zalaganje na terenu doprineli su da se pobedi domaćin. U duelu između Sivčanki i domaćina u uzbudljivoj završnici i na produžetak pobedile su Sivčanke i zauzele prvo mesto na turniru. Drugo mesto pripalo je ekipi iz Karađorđeva, a treći je bio domaćin ŽKK 'Proleter'. Između utakmica bilo je organizovano i šutiranje trojki i igra šutiranja sa raznih pozicija za tri, dva i jedan poen."
+        },
+        {
+            "type": "image",
+            "value": "http://www.kkkaradjordjevo.com/sites/default/files/resize/IMG_1383-324x244.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Bila nam je velika čast i zadovoljstvo učesvovati na ovom turniru i nadamo se da smo svojom igrom i ponašanjem opravdali poziv organizatora."
+        }
+    ]
 }

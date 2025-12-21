@@ -1,54 +1,66 @@
 {
-  "title": "Važna pobeda Karađorđevčana u Kleku",
-  "date": "2014-07-14",
-  "date_formatted": "Pon, 14/07/2014 - 10:42",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/vazna-pobeda-karadordevcana-u-kleku",
-  "content": [
-    {
-      "type": "text",
-      "value": "U četvrtom kolu, druge faze takmičenja, letnje lige, play off-a, grupa C, Karađorđevčani su pobedili sportske prijatelje iz Kleka rezultatom 77-87."
-    },
-    {
-      "type": "image",
-      "filename": "DSC00556.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00556.JPG"
-    },
-    {
-      "type": "text",
-      "value": "Posle deset uzastopnih pobeda, poraz u Lukićevu puno je uticao na igrače Karađorđeva. Ne naviknuti na poraze, samopuzdanje, moral ekipe i igra totalno su bili poljuljani. Zbog svega ovog i značaja utakmice u Kleku, igrači Karađorđeva u prve dve četvrtine nisu mogli da se prepoznaju. Domaćini su dobro prepoznali ovakvo stanje protivnika, dobro otvorili utakmicu, razigrali se, a pre svih Nenad Vojnović i na najbolji mogući način kažnjavali svaku grešku Karađorđevčana. Na poluvremenu zasluženo su vodili sa 12 koševa prednosti."
-    },
-    {
-      "type": "image",
-      "filename": "DSC00558.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00558.JPG"
-    },
-    {
-      "type": "image",
-      "filename": "DSC00564.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00564.JPG"
-    },
-    {
-      "type": "text",
-      "value": "U trećoj četvrtini Karađorđevčani su čvrstom odbranom uspeli da se vrate u igru. Samopuzdanje i moral ekipe se podigao, šut za tri poena se popravio tako da je treća četvrtina završena košem prednosti za goste. Agresivna odbrana, dobra igra i dobar procenat šuta doprineli su da Karađorđevčani uđu u mirnu završnicu meča i na kraju slave pobedom od deset poena prednosti."
-    },
-    {
-      "type": "image",
-      "filename": "DSC00566.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00566.JPG"
-    },
-    {
-      "type": "image",
-      "filename": "DSC00571.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00571.JPG"
-    },
-    {
-      "type": "image",
-      "filename": "DSC00577.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00577.JPG"
-    },
-    {
-      "type": "text",
-      "value": "Porazom u Lukićevu igrači Karađorđeva sami sebi su zakomplikovali završnicu letnje lige i osvajanje prvog mesta. Svesni toga, sve u klubu ohrabruje da je u veoma važnoj utakmici u Kleku, vraćeno samopuzdanje, igra i moral ekipe pred odlučujući meč u Zrenjaninu sa ekipom Bagljaša koji se igra u sredu, 16.07.2014. godine sa početkom u 18,30 časova. Veliki pritisak igrači Karađorđeva mogu prevazići samo dobrom koncetracijom i mirnoćom. Biće ovo pravi test za njih. Pozivamo navijače da dođu na utakmicu i podrže mlade igrače Karađorđeva da ostvare svoj san, osvajanje prvog mesta u ligi."
-    }
-  ]
+    "title": "Važna pobeda Karađorđevčana u Kleku",
+    "date": "2014-07-14",
+    "date_formatted": "Pon, 14/07/2014 - 10:42",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/vazna-pobeda-karadordevcana-u-kleku",
+    "content": [
+        {
+            "type": "text",
+            "value": "U četvrtom kolu, druge faze takmičenja, letnje lige, play off-a, grupa C, Karađorđevčani su pobedili sportske prijatelje iz Kleka rezultatom 77-87."
+        },
+        {
+            "type": "image",
+            "filename": "vest-089-01.JPG",
+            "url": "/images/vesti/vest-089-01.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00556.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Posle deset uzastopnih pobeda, poraz u Lukićevu puno je uticao na igrače Karađorđeva. Ne naviknuti na poraze, samopuzdanje, moral ekipe i igra totalno su bili poljuljani. Zbog svega ovog i značaja utakmice u Kleku, igrači Karađorđeva u prve dve četvrtine nisu mogli da se prepoznaju. Domaćini su dobro prepoznali ovakvo stanje protivnika, dobro otvorili utakmicu, razigrali se, a pre svih Nenad Vojnović i na najbolji mogući način kažnjavali svaku grešku Karađorđevčana. Na poluvremenu zasluženo su vodili sa 12 koševa prednosti."
+        },
+        {
+            "type": "image",
+            "filename": "vest-089-02.JPG",
+            "url": "/images/vesti/vest-089-02.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00558.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "image",
+            "filename": "vest-089-03.JPG",
+            "url": "/images/vesti/vest-089-03.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00564.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U trećoj četvrtini Karađorđevčani su čvrstom odbranom uspeli da se vrate u igru. Samopuzdanje i moral ekipe se podigao, šut za tri poena se popravio tako da je treća četvrtina završena košem prednosti za goste. Agresivna odbrana, dobra igra i dobar procenat šuta doprineli su da Karađorđevčani uđu u mirnu završnicu meča i na kraju slave pobedom od deset poena prednosti."
+        },
+        {
+            "type": "image",
+            "filename": "vest-089-04.JPG",
+            "url": "/images/vesti/vest-089-04.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00566.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "image",
+            "filename": "vest-089-05.JPG",
+            "url": "/images/vesti/vest-089-05.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00571.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "image",
+            "filename": "vest-089-06.JPG",
+            "url": "/images/vesti/vest-089-06.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00577.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Porazom u Lukićevu igrači Karađorđeva sami sebi su zakomplikovali završnicu letnje lige i osvajanje prvog mesta. Svesni toga, sve u klubu ohrabruje da je u veoma važnoj utakmici u Kleku, vraćeno samopuzdanje, igra i moral ekipe pred odlučujući meč u Zrenjaninu sa ekipom Bagljaša koji se igra u sredu, 16.07.2014. godine sa početkom u 18,30 časova. Veliki pritisak igrači Karađorđeva mogu prevazići samo dobrom koncetracijom i mirnoćom. Biće ovo pravi test za njih. Pozivamo navijače da dođu na utakmicu i podrže mlade igrače Karađorđeva da ostvare svoj san, osvajanje prvog mesta u ligi."
+        }
+    ]
 }

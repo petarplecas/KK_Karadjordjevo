@@ -1,27 +1,31 @@
 {
-  "id": 1,
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/u-nastavku-sezone-202223-karadordevcani-protiv-%E2%80%9Cradivoj-koraca%E2%80%9C",
-  "title": "U nastavku sezone 2022/23 Karađorđevčani protiv \"Radivoj Koraća\"",
-  "date": "2023-02-19",
-  "date_formatted": "Ned, 19/02/2023 - 22:49",
-  "content": [
-    {
-      "type": "text",
-      "value": "U subotu, 04.02.2023. godine, počeo je drugi deo takmičenja u ligama košarkaškog saveza Srbije, u sezoni 2022/23. KK \"Karađorđevo\" učestvuje sa četiri selekcije.\n\nSeniorke su prve igrale i prvi put od početka sezone zaigrale su u kompletnom sastavu. Odigrale su odlično dve utakmice u nastavku sezone, pobedile ekipu Čelareva rezultatom 62-51 i izgubile u Titelu 93-80. Ovom utakmicom završen je prvi deo takmičenja i u nastavku im sledi igra u play out-u. Ovom prilikom zahvaljujemo se svim igračicama na uspešno završenoj napornoj sezoni a posebno se zahvaljujemo Bosnić Zorici, Kovačević Saški i Jankov Jovani koje su prave heroine, jer su zahvaljujući njihovom iskustvu i znanju Karađorđevčanke bile dostojan rival svakoj ekipi u ligi."
-    },
-    {
-      "type": "image",
-      "filename": "2023-02-11 22.01.10.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/2023-02-11%2022.01.10.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Pioniri i pionirke nastavljaju takmičenje u pionirskim ligama Vojvodine.\n\nSeniori KK \"Karađorđeva\" takođe su odigrali dve utakmice i obe izgubili. Prvu utakmicu igrali su na svom terenu protiv ekipe \"Sport's World\" iz Novog Sada i drugu na gostovanju u Zrenjaninu protiv prvoplasirane ekipe \"Petrovgrad\". Sledeću utakmicu igraju u utorak, 21.02.2023. godine, u hali u Banatskom Karađorđevu, u 19,00 časova. U goste im dolazi odlična ekipa \"Radivoj Korać\" iz Rumenke. Očekuje se zanimljiva i neizvesna utakmica do samog kraja. Ovom prilikom pozivamo sve ljubitelje košarke i navijače da dođu u halu i svojim navijanjem pomognu igračima Karađorđeva da zabeleže prvu pobedu u nastavku sezone."
-    },
-    {
-      "type": "image",
-      "filename": "2023-02-11 22.01.12_0.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/2023-02-11%2022.01.12_0.jpg"
-    }
-  ]
+    "id": 1,
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/u-nastavku-sezone-202223-karadordevcani-protiv-%E2%80%9Cradivoj-koraca%E2%80%9C",
+    "title": "U nastavku sezone 2022/23 Karađorđevčani protiv \"Radivoj Koraća\"",
+    "date": "2023-02-19",
+    "date_formatted": "Ned, 19/02/2023 - 22:49",
+    "content": [
+        {
+            "type": "text",
+            "value": "U subotu, 04.02.2023. godine, počeo je drugi deo takmičenja u ligama košarkaškog saveza Srbije, u sezoni 2022/23. KK \"Karađorđevo\" učestvuje sa četiri selekcije.\n\nSeniorke su prve igrale i prvi put od početka sezone zaigrale su u kompletnom sastavu. Odigrale su odlično dve utakmice u nastavku sezone, pobedile ekipu Čelareva rezultatom 62-51 i izgubile u Titelu 93-80. Ovom utakmicom završen je prvi deo takmičenja i u nastavku im sledi igra u play out-u. Ovom prilikom zahvaljujemo se svim igračicama na uspešno završenoj napornoj sezoni a posebno se zahvaljujemo Bosnić Zorici, Kovačević Saški i Jankov Jovani koje su prave heroine, jer su zahvaljujući njihovom iskustvu i znanju Karađorđevčanke bile dostojan rival svakoj ekipi u ligi."
+        },
+        {
+            "type": "image",
+            "filename": "vest-001-01.jpg",
+            "url": "/images/vesti/vest-001-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/2023-02-11%2022.01.10.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Pioniri i pionirke nastavljaju takmičenje u pionirskim ligama Vojvodine.\n\nSeniori KK \"Karađorđeva\" takođe su odigrali dve utakmice i obe izgubili. Prvu utakmicu igrali su na svom terenu protiv ekipe \"Sport's World\" iz Novog Sada i drugu na gostovanju u Zrenjaninu protiv prvoplasirane ekipe \"Petrovgrad\". Sledeću utakmicu igraju u utorak, 21.02.2023. godine, u hali u Banatskom Karađorđevu, u 19,00 časova. U goste im dolazi odlična ekipa \"Radivoj Korać\" iz Rumenke. Očekuje se zanimljiva i neizvesna utakmica do samog kraja. Ovom prilikom pozivamo sve ljubitelje košarke i navijače da dođu u halu i svojim navijanjem pomognu igračima Karađorđeva da zabeleže prvu pobedu u nastavku sezone."
+        },
+        {
+            "type": "image",
+            "filename": "vest-001-02.jpg",
+            "url": "/images/vesti/vest-001-02.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/2023-02-11%2022.01.12_0.jpg",
+            "alt": "Fotografija sa događaja"
+        }
+    ]
 }

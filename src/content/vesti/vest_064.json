@@ -1,30 +1,32 @@
 {
-  "title": "U utorak, 07.03.2017. godine, novi komšijski derbi Petrovgrad-Karađorđevo",
-  "date": "2017-03-02",
-  "date_formatted": "Čet, 02/03/2017 - 13:59",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/u-utorak-07032017-godine-novi-komsijski-derbi-petrovgrad-karadordevo",
-  "content": [
-    {
-      "type": "text",
-      "value": "Prošlog vikenda, tačnije u subotu 25.02.2017. godine, odigran je komšijski derbi između ekipa KK \"Karađorđeva\" i KK \"Bagljaša\". U veoma uzbudljivoj i dinamičnoj utakmici, pred punim gledalištem u sali osnovne škole u Žitištu, više sreće imali su Karađorđevčani i zabeležili veoma važnu pobedu u borbi za opstanak u ligi. Ovim putem zahvaljujemo se gledaocima i nadamo se da će i u narednim utakmicama doći u još većem broju."
-    },
-    {
-      "type": "text",
-      "value": "U utorak, 07.03.2017. godine, sa početkom u 20,15 časova u sali gimnazije u Zrenjaninu, igra se novi komšijski derbi između KK \"Petrovgrada\" i KK \"Karađorđeva\". Biće ovo teško gostovanje, ali se nadamo da kompletirana ekipa Karađorđeva, i dobra igra protiv Bagljaša, daju optimizam da se iznenadi i savlada Petrovgrad, koji je u ovoj utakmici favorit."
-    },
-    {
-      "type": "image",
-      "filename": "KK%20Pioniri%202016-17_0.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/KK%20Pioniri%202016-17_0.jpg",
-      "caption": "Mlađi pioniri"
-    },
-    {
-      "type": "text",
-      "value": "Što se tiče mlađih kategorija dobru igru pružili su kadeti. U uzbudljivoj i do samog kraja neizvesnoj utakmici gosti iz Novog Sada KK \"Sport's World\" savladali su Karađorđevčane rezultatrom 78:69. U sredu u zaostaloj utakmici kadeti su takođe poraženi na gostovanju u Staroj Pazovi rezultatom 79:65. Mlađi pioniri su odigrali odličnu utakmicu i savladali vršnjake iz Odžaka rezultatom 61:31. Juniorke su na gostovanju u Vrbasu izgubile rezultatom 85:69."
-    },
-    {
-      "type": "text",
-      "value": "Sledećeg vikenda kadeti i mlađi pioniri gostuju u Somboru i utakmice se igraju u subotu. Juniorke u nedelju, 05.03.2017. godine, u Žitištu sa početkom u 17,00 časova igraju protiv ŽKK \"Tamiš\" iz Pančeva."
-    }
-  ]
+    "title": "U utorak, 07.03.2017. godine, novi komšijski derbi Petrovgrad-Karađorđevo",
+    "date": "2017-03-02",
+    "date_formatted": "Čet, 02/03/2017 - 13:59",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/u-utorak-07032017-godine-novi-komsijski-derbi-petrovgrad-karadordevo",
+    "content": [
+        {
+            "type": "text",
+            "value": "Prošlog vikenda, tačnije u subotu 25.02.2017. godine, odigran je komšijski derbi između ekipa KK \"Karađorđeva\" i KK \"Bagljaša\". U veoma uzbudljivoj i dinamičnoj utakmici, pred punim gledalištem u sali osnovne škole u Žitištu, više sreće imali su Karađorđevčani i zabeležili veoma važnu pobedu u borbi za opstanak u ligi. Ovim putem zahvaljujemo se gledaocima i nadamo se da će i u narednim utakmicama doći u još većem broju."
+        },
+        {
+            "type": "text",
+            "value": "U utorak, 07.03.2017. godine, sa početkom u 20,15 časova u sali gimnazije u Zrenjaninu, igra se novi komšijski derbi između KK \"Petrovgrada\" i KK \"Karađorđeva\". Biće ovo teško gostovanje, ali se nadamo da kompletirana ekipa Karađorđeva, i dobra igra protiv Bagljaša, daju optimizam da se iznenadi i savlada Petrovgrad, koji je u ovoj utakmici favorit."
+        },
+        {
+            "type": "image",
+            "caption": "Mlađi pioniri",
+            "filename": "vest-064-01.jpg",
+            "url": "/images/vesti/vest-064-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/KK%20Pioniri%202016-17_0.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Što se tiče mlađih kategorija dobru igru pružili su kadeti. U uzbudljivoj i do samog kraja neizvesnoj utakmici gosti iz Novog Sada KK \"Sport's World\" savladali su Karađorđevčane rezultatrom 78:69. U sredu u zaostaloj utakmici kadeti su takođe poraženi na gostovanju u Staroj Pazovi rezultatom 79:65. Mlađi pioniri su odigrali odličnu utakmicu i savladali vršnjake iz Odžaka rezultatom 61:31. Juniorke su na gostovanju u Vrbasu izgubile rezultatom 85:69."
+        },
+        {
+            "type": "text",
+            "value": "Sledećeg vikenda kadeti i mlađi pioniri gostuju u Somboru i utakmice se igraju u subotu. Juniorke u nedelju, 05.03.2017. godine, u Žitištu sa početkom u 17,00 časova igraju protiv ŽKK \"Tamiš\" iz Pančeva."
+        }
+    ]
 }

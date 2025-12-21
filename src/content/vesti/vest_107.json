@@ -1,45 +1,46 @@
 {
-  "title": "Odlična igra kadeta Karađorđeva",
-  "date": "2013-02-26",
-  "date_formatted": "Uto, 26/02/2013 - 13:47",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/odlicna-igra-kadeta-karadordeva",
-  "content": [
-    {
-      "type": "text",
-      "value": "U prethodna dva vikenda od planiranih 10 prvenstvenih utakmica, odigrano je sedam. Epidemija gripa odavno nije imala takve razmere na ovim prostorima, što je i razlog neodigravanja svih utakmica, a zbog gripa na nekim utakmicama izostankom nekoliko igrača ekipe nisu mogle da pruže maksimum, što se i odrazilo na sam rezultat."
-    },
-    {
-      "type": "image",
-      "filename": "Kadeti 1996..jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/imagecache/puna-sirina/Kadeti%201996..jpg"
-    },
-    {
-      "type": "text",
-      "value": "Kadeti 1996."
-    },
-    {
-      "type": "text",
-      "value": "Od pet selekcija najbolji rezultat su ostvarili U17 kadeti. 17.02.2013. godine u Novom Sadu su trijumfovali protiv ekipe 'Panon Sistema' rezultatom 77:69. 24og februara na svom terenu u Žitištu, igrali su protiv ekipe 'Petrovgrada'. Bila je ovo veoma dramatična i zanimljiva utakmica u kojoj su Karađorđevčani posle produžetka izgubili rezultatom 90:95. Kao što smo i ranije istakli ekipa se kompletira i forma je u usponu tako da narednog vikenda na gostovanju u Vrbasu možemo očekivati dobar rezultat."
-    },
-    {
-      "type": "text",
-      "value": "Najvise bolesnih igrača bilo je u selekciji U13 mlađi pioniri. Neplaniran poraz su doživeli na svom terenu od realno lošijeg protivnika ekipe 'Velike Kikinde' iz Kikinde. Na dve sekunde do kraja Nemanja Žarković nije uspeo da realizuje ni jedno slobodno bacanje i utakmica je izgubljena rezultatom 41:40. Utakmica koja je trebala da se odigra prošlog vikenda 23.02.2013. godine, na zahtev gostujuće ekipe iz Novog Bečeja odložena je. Sledeći protivnik je ekipa KK 'Uno Grande' koja je na programu da se igra 09/10. februara."
-    },
-    {
-      "type": "text",
-      "value": "U15 pionirke u prethodna dva kola,odigrale su jednu utakmicu. 24.02.2013. protivnik je bila ekipa ŽKK 'Proletera' iz Zrenjanina. Fizički jača ekipa iz Zrenjanina savladala je Karađorđevčanke rezultatom 90:51. Zbog epidemije gripa, na zahtev gostujuće ekipe iz Smedereva, odložena je utakmica koja se trebala igrati 17.02.2013. u Žitištu. Sledećeg vikenda, odnosno 02.03.2013. godine u Žitištu, sa početkom u 12,00 časova Karađorđevčanke će igrati protiv ekipe 'Sloge' iz Plandišta, a u nedelju 03.03.2013. godine sa početkom u 13,00 časova odigraće se i odložena utakmica. Protivnik je ekipa ŽKK 'Tamiš' iz Pančeva."
-    },
-    {
-      "type": "text",
-      "value": "U13 mlađe pionirke su odigrale obe utakmice, a potivnici su bili objektivno jače ekipe, tako da su rezultatski loše prošle. Ono što je zadovoljavajuće je da se iz utakmice u utakmicu vidi napredak u igri. 17og februara su poražene od ekipe iz Titela rezultatom 79:28, a 24og izgubile su od ekipe \"Proletera\" iz Zrenjanina rezultatom 77:18. U narednom kolu, koje je na programu da se igra 09.03.2013. godine, protivnik je ekipa ŽKK \"Jedinstvo\" iz Novog Bečeja."
-    },
-    {
-      "type": "text",
-      "value": "Najmlađe devojčice 01, u minibasketu 17.02.2013. godine u Žitištu, izgubile su od vršnjakinja iz Kikinde rezultatom 13:19, a utakmica protiv ŽKK „Naftagasa\" iz Elemira, odložena je zbog bolesti. Sledećeg vikenda Karađorđevčanke će igrati protiv ekipe \"Jedinstva\" iz Novog Bečeja."
-    },
-    {
-      "type": "text",
-      "value": "Raspored utakmica možete pogledati u meniju Kalendar, a pojedinačne rezultate u meniju Takmičenja."
-    }
-  ]
+    "title": "Odlična igra kadeta Karađorđeva",
+    "date": "2013-02-26",
+    "date_formatted": "Uto, 26/02/2013 - 13:47",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/odlicna-igra-kadeta-karadordeva",
+    "content": [
+        {
+            "type": "text",
+            "value": "U prethodna dva vikenda od planiranih 10 prvenstvenih utakmica, odigrano je sedam. Epidemija gripa odavno nije imala takve razmere na ovim prostorima, što je i razlog neodigravanja svih utakmica, a zbog gripa na nekim utakmicama izostankom nekoliko igrača ekipe nisu mogle da pruže maksimum, što se i odrazilo na sam rezultat."
+        },
+        {
+            "type": "image",
+            "filename": "Kadeti 1996..jpg",
+            "url": "http://www.kkkaradjordjevo.com/sites/default/files/imagecache/puna-sirina/Kadeti%201996..jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Kadeti 1996."
+        },
+        {
+            "type": "text",
+            "value": "Od pet selekcija najbolji rezultat su ostvarili U17 kadeti. 17.02.2013. godine u Novom Sadu su trijumfovali protiv ekipe 'Panon Sistema' rezultatom 77:69. 24og februara na svom terenu u Žitištu, igrali su protiv ekipe 'Petrovgrada'. Bila je ovo veoma dramatična i zanimljiva utakmica u kojoj su Karađorđevčani posle produžetka izgubili rezultatom 90:95. Kao što smo i ranije istakli ekipa se kompletira i forma je u usponu tako da narednog vikenda na gostovanju u Vrbasu možemo očekivati dobar rezultat."
+        },
+        {
+            "type": "text",
+            "value": "Najvise bolesnih igrača bilo je u selekciji U13 mlađi pioniri. Neplaniran poraz su doživeli na svom terenu od realno lošijeg protivnika ekipe 'Velike Kikinde' iz Kikinde. Na dve sekunde do kraja Nemanja Žarković nije uspeo da realizuje ni jedno slobodno bacanje i utakmica je izgubljena rezultatom 41:40. Utakmica koja je trebala da se odigra prošlog vikenda 23.02.2013. godine, na zahtev gostujuće ekipe iz Novog Bečeja odložena je. Sledeći protivnik je ekipa KK 'Uno Grande' koja je na programu da se igra 09/10. februara."
+        },
+        {
+            "type": "text",
+            "value": "U15 pionirke u prethodna dva kola,odigrale su jednu utakmicu. 24.02.2013. protivnik je bila ekipa ŽKK 'Proletera' iz Zrenjanina. Fizički jača ekipa iz Zrenjanina savladala je Karađorđevčanke rezultatom 90:51. Zbog epidemije gripa, na zahtev gostujuće ekipe iz Smedereva, odložena je utakmica koja se trebala igrati 17.02.2013. u Žitištu. Sledećeg vikenda, odnosno 02.03.2013. godine u Žitištu, sa početkom u 12,00 časova Karađorđevčanke će igrati protiv ekipe 'Sloge' iz Plandišta, a u nedelju 03.03.2013. godine sa početkom u 13,00 časova odigraće se i odložena utakmica. Protivnik je ekipa ŽKK 'Tamiš' iz Pančeva."
+        },
+        {
+            "type": "text",
+            "value": "U13 mlađe pionirke su odigrale obe utakmice, a potivnici su bili objektivno jače ekipe, tako da su rezultatski loše prošle. Ono što je zadovoljavajuće je da se iz utakmice u utakmicu vidi napredak u igri. 17og februara su poražene od ekipe iz Titela rezultatom 79:28, a 24og izgubile su od ekipe \"Proletera\" iz Zrenjanina rezultatom 77:18. U narednom kolu, koje je na programu da se igra 09.03.2013. godine, protivnik je ekipa ŽKK \"Jedinstvo\" iz Novog Bečeja."
+        },
+        {
+            "type": "text",
+            "value": "Najmlađe devojčice 01, u minibasketu 17.02.2013. godine u Žitištu, izgubile su od vršnjakinja iz Kikinde rezultatom 13:19, a utakmica protiv ŽKK „Naftagasa\" iz Elemira, odložena je zbog bolesti. Sledećeg vikenda Karađorđevčanke će igrati protiv ekipe \"Jedinstva\" iz Novog Bečeja."
+        },
+        {
+            "type": "text",
+            "value": "Raspored utakmica možete pogledati u meniju Kalendar, a pojedinačne rezultate u meniju Takmičenja."
+        }
+    ]
 }

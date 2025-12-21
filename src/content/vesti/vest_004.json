@@ -1,35 +1,37 @@
 {
-  "id": 4,
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/u-banatsko-karadordevo-stize-proleter",
-  "title": "U Banatsko Karađorđevo stiže Proleter",
-  "date": "2020-11-21",
-  "date_formatted": "Sub, 21/11/2020 - 00:11",
-  "content": [
-    {
-      "type": "text",
-      "value": "U subotu u Banatskom Karađorđevu, u sportskoj dvorani sa početkom u 19 časova, igra se košarkaška utakmica, 8. kola Druge regionalne lige Sever - grupa A. Sastaju se Karađorđevo i ekipa Proletera iz Ravnog Sela. Domaća ekipa je na četvrtom mestu tabele sa 10 bodova, a gosti na šestom mestu. Očekuje se vrlo dobra utakmica između ova dva tima."
-    },
-    {
-      "type": "image",
-      "filename": "e6db2c9c81eab8d21ba03bc52898cc5b-584x438.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/e6db2c9c81eab8d21ba03bc52898cc5b-584x438.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Trener Karađorđeva Milan Plećaš je istakao: Dočekujemo vrlo dobre goste iz Ravnog Sela. Na početku prvenstva slavili smo kod njih. Igramo kompletni i očekujemo pobedu u svojoj dvorani u Banatskom Karađorđevu. Prava je šteta što nema navijača u dvorani, a prati nas od 300-500 gledalaca. Drago nam je što vaš portal dolazi da isprati ovaj derbi, i da se naš klub Karađorđevo iz Banatskog Karađorđeva predstavi široj košarkaškoj javnosti u Srbiji i svetu."
-    },
-    {
-      "type": "image",
-      "filename": "3adc4331bd670b5eca783b5de6fd129b-584x359.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/3adc4331bd670b5eca783b5de6fd129b-584x359.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Izvor: www.srbijasport.net"
+    "id": 4,
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/u-banatsko-karadordevo-stize-proleter",
+    "title": "U Banatsko Karađorđevo stiže Proleter",
+    "date": "2020-11-21",
+    "date_formatted": "Sub, 21/11/2020 - 00:11",
+    "content": [
+        {
+            "type": "text",
+            "value": "U subotu u Banatskom Karađorđevu, u sportskoj dvorani sa početkom u 19 časova, igra se košarkaška utakmica, 8. kola Druge regionalne lige Sever - grupa A. Sastaju se Karađorđevo i ekipa Proletera iz Ravnog Sela. Domaća ekipa je na četvrtom mestu tabele sa 10 bodova, a gosti na šestom mestu. Očekuje se vrlo dobra utakmica između ova dva tima."
+        },
+        {
+            "type": "image",
+            "filename": "e6db2c9c81eab8d21ba03bc52898cc5b-584x438.jpg",
+            "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/e6db2c9c81eab8d21ba03bc52898cc5b-584x438.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Trener Karađorđeva Milan Plećaš je istakao: Dočekujemo vrlo dobre goste iz Ravnog Sela. Na početku prvenstva slavili smo kod njih. Igramo kompletni i očekujemo pobedu u svojoj dvorani u Banatskom Karađorđevu. Prava je šteta što nema navijača u dvorani, a prati nas od 300-500 gledalaca. Drago nam je što vaš portal dolazi da isprati ovaj derbi, i da se naš klub Karađorđevo iz Banatskog Karađorđeva predstavi široj košarkaškoj javnosti u Srbiji i svetu."
+        },
+        {
+            "type": "image",
+            "filename": "3adc4331bd670b5eca783b5de6fd129b-584x359.jpg",
+            "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/3adc4331bd670b5eca783b5de6fd129b-584x359.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Izvor: www.srbijasport.net"
+        }
+    ],
+    "source": {
+        "name": "srbijasport.net",
+        "url": "https://www.srbijasport.net/n/65477/u-banatsko-karadjordjevo-stize-proleter"
     }
-  ],
-  "source": {
-    "name": "srbijasport.net",
-    "url": "https://www.srbijasport.net/n/65477/u-banatsko-karadjordjevo-stize-proleter"
-  }
 }

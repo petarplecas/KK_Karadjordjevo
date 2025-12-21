@@ -5,49 +5,218 @@ import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
 import NewsCard from '../components/news/NewsCard.astro';
 import { slugify } from '../utils/slugify';
-import { truncateText } from '../utils/truncateText';
+import { getExcerpt } from '../utils/excerpt';
 
 // Get all news and sort by date (newest first)
 const allNews = await getCollection('vesti');
-const sortedNews = allNews.sort((a, b) =>
-  b.data.date.getTime() - a.data.date.getTime()
-);
+const sortedNews = allNews.sort((a, b) => {
+  if (!a.data.date || !b.data.date) return 0;
+  return b.data.date.getTime() - a.data.date.getTime();
+});
 
-// Get first 10 for homepage
-const latestNews = sortedNews.slice(0, 10);
-
-// Create excerpts from first text block
-function getExcerpt(content: any[]): string {
-  const firstText = content.find(item => item.type === 'text');
-  return firstText ? truncateText(firstText.value, 150) : '';
-}
+// Get first 9 for homepage (better for 3-column grid)
+const latestNews = sortedNews.slice(0, 9);
 ---
 
 <BaseLayout title="Početna">
   <Header />
 
-  <main class="container mx-auto px-4 py-8 flex-grow">
-    <h1 class="text-3xl sm:text-4xl font-bold text-center mb-8 text-kk-primary">
-      Najnovije vesti
-    </h1>
+  <main class="flex-grow">
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden py-20 sm:py-28 lg:py-36">
+      <!-- Animated gradient background -->
+      <div class="absolute inset-0 bg-gradient-to-br from-kk-primary via-kk-secondary to-kk-primary"></div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {latestNews.map((news) => (
-        <NewsCard
-          title={news.data.title}
-          date={news.data.date}
-          excerpt={getExcerpt(news.data.content)}
-          slug={slugify(news.data.title)}
-        />
-      ))}
-    </div>
+      <!-- Mesh gradient overlay -->
+      <div class="absolute inset-0 opacity-30">
+        <div class="absolute top-0 left-1/4 w-96 h-96 bg-kk-accent/30 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
+        <div class="absolute top-0 right-1/4 w-96 h-96 bg-kk-accent-blue/30 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
+        <div class="absolute bottom-0 left-1/2 w-96 h-96 bg-kk-accent/20 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
+      </div>
 
-    <div class="text-center mt-8">
-      <a href="/vesti/1" class="btn btn-primary btn-lg">
-        Sve vesti →
-      </a>
-    </div>
+      <!-- Content -->
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="text-center max-w-4xl mx-auto">
+          <!-- Logo with glow -->
+          <div class="mb-8 flex justify-center">
+            <div class="relative">
+              <img
+                src="/logo.png"
+                alt="KK Karađorđevo"
+                class="h-24 w-24 sm:h-32 sm:w-32 rounded-full shadow-glow-amber animate-fade-in"
+                style="filter: brightness(1.4) contrast(1.15);"
+              />
+              <div class="absolute inset-0 rounded-full bg-kk-accent/20 blur-2xl animate-pulse"></div>
+            </div>
+          </div>
+
+          <!-- Main heading with gradient -->
+          <h1 class="font-display font-bold text-4xl sm:text-5xl lg:text-7xl mb-6 animate-fade-in-up">
+            <span class="text-gradient">Košarkaški klub</span>
+            <br />
+            <span class="text-kk-text-primary">Karađorđevo</span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="text-lg sm:text-xl lg:text-2xl text-kk-text-secondary mb-8 max-w-2xl mx-auto animate-fade-in-up animation-delay-200">
+            Tradicija, strast i posvećenost košarci od osnivanja
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up animation-delay-400">
+            <a
+              href="/galerija"
+              class="px-8 py-4 bg-gradient-to-r from-kk-accent to-amber-600 text-slate-900 font-bold rounded-lg text-lg transition-all duration-300 hover:shadow-glow-amber hover:-translate-y-1 inline-flex items-center gap-2"
+            >
+              Galerija
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+            <a
+              href="/turniri"
+              class="px-8 py-4 glass border border-kk-border/30 hover:border-kk-accent text-kk-text-primary font-bold rounded-lg text-lg transition-all duration-300 hover:shadow-glow-blue inline-flex items-center gap-2"
+            >
+              Turniri
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Decorative elements -->
+      <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-kk-border to-transparent"></div>
+    </section>
+
+    <!-- Latest News Section -->
+    <section class="py-16 sm:py-20">
+      <div class="container mx-auto px-4">
+        <!-- Section Header -->
+        <div class="text-center mb-12">
+          <h2 class="font-display font-bold text-3xl sm:text-4xl lg:text-5xl mb-4">
+            <span class="text-gradient">Najnovije</span> <span class="text-kk-text-primary">vesti</span>
+          </h2>
+          <p class="text-kk-text-secondary text-lg max-w-2xl mx-auto">
+            Pratite najnovija dešavanja, rezultate mečeva i najave turnira našeg kluba
+          </p>
+        </div>
+
+        <!-- News Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          {latestNews.map((news, index) => {
+            // Extract ID from filename (vest_009.json -> 009)
+            const newsId = news.id.replace('vest_', '').replace('.json', '');
+            return (
+              <div
+                class="animate-fade-in-up"
+                style={`animation-delay: ${index * 100}ms`}
+              >
+                <NewsCard
+                  title={news.data.title}
+                  date={news.data.date}
+                  excerpt={getExcerpt(news.data.content)}
+                  id={newsId}
+                />
+              </div>
+            );
+          })}
+        </div>
+
+        <!-- View All Button -->
+        <div class="text-center mt-12">
+          <a
+            href="/vesti/1"
+            class="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-kk-accent to-amber-600 text-slate-900 font-bold rounded-lg text-lg transition-all duration-300 hover:shadow-glow-amber hover:-translate-y-1"
+          >
+            Sve vesti
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="relative py-20 overflow-hidden">
+      <!-- Gradient background -->
+      <div class="absolute inset-0 bg-gradient-to-r from-kk-accent/10 via-kk-accent-blue/10 to-kk-accent/10"></div>
+
+      <div class="container mx-auto px-4 relative z-10">
+        <div class="glass rounded-3xl p-8 sm:p-12 lg:p-16 border border-kk-border/30 text-center max-w-4xl mx-auto">
+          <h2 class="font-display font-bold text-3xl sm:text-4xl lg:text-5xl mb-6 text-gradient">
+            Postani deo naše porodice
+          </h2>
+          <p class="text-kk-text-secondary text-lg sm:text-xl mb-8 max-w-2xl mx-auto">
+            Pratite nas na društvenim mrežama i budite u toku sa svim aktuelnostima našeg kluba
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://www.facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-3 px-8 py-4 glass border border-kk-border/30 hover:border-kk-accent text-kk-text-primary font-bold rounded-lg text-lg transition-all duration-300 hover:shadow-glow-amber"
+            >
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+              Facebook
+            </a>
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-3 px-8 py-4 glass border border-kk-border/30 hover:border-kk-accent text-kk-text-primary font-bold rounded-lg text-lg transition-all duration-300 hover:shadow-glow-amber"
+            >
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+              Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <Footer />
 </BaseLayout>
+
+<style>
+  @keyframes blob {
+    0% {
+      transform: translate(0px, 0px) scale(1);
+    }
+    33% {
+      transform: translate(30px, -50px) scale(1.1);
+    }
+    66% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+    100% {
+      transform: translate(0px, 0px) scale(1);
+    }
+  }
+
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+</style>

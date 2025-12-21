@@ -1,33 +1,35 @@
 {
-  "title": "Odličan start Karađorđevčana na početku sezone",
-  "date": "2017-10-12",
-  "date_formatted": "Čet, 12/10/2017 - 18:48",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/odlican-start-karadordevcana-na-pocetku-sezone",
-  "content": [
-    {
-      "type": "text",
-      "value": "U prva dva kola na početku sezone košarkaši Karađorđeva ostvarili su maksimalan učinak. U prvom kolu kao domaćini savladali su ekipu \"Vojvodine\" iz Bašaida, a na gostovanju u Novom Sadu pobedili su odličnu ekipu \"Budućnosti\" rezultatom 64:62. Rezultat utakmice sam po sebi govori da je ovo bila uzbudljiva, neizvesna i dramatična utakmica do samog kraja."
-    },
-    {
-      "type": "image",
-      "filename": "muski.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/muski.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Karađorđevčani su loše otvorili utakmicu i domaćin je već u prvoj četvrtini stekao prednost od osam koševa. Dosta promašenih zicera i izgubljenih lopti doprineli su ovoj rezultatskoj prednosti. Tek u četvrtoj četvrtini Karađorđevčani su stabilizovali igru kako u odbrani tako i u napadu i na kraju utakmice zasluženo slavili."
-    },
-    {
-      "type": "text",
-      "value": "Prošlog vikenda počelo je takmičenje i u pionirskoj regionalnoj ligi. Karađorđevčani su startovali pobedom. Na gostovanju u Kanjiži pobedili su svoje vršnjake rezultatom 75:54."
-    },
-    {
-      "type": "text",
-      "value": "Za vikend, 14. i 15. oktobra na programu su tri utakmice. Seniorke gostuju u Novom Sadu i u nedelju, 15. oktobra sa početkom u 12,00 časova, na Spensu, igraju protiv ekipe \"Vojvodine\". U subotu, 14. oktobra u Karađorđevu, pioniri su domaćini protiv vršnjaka iz \"Čoke\", a utakmica počinje u 15,00 časova. Posle ove utakmice, takođe u novoj hali u Karađorđevu, igra se lokalni derbi. U goste dolazi odlična ekipa \"Petrovgrada\" iz Zrenjanina, a utakmica počinje u 17,00 časova. Skoro uvek kada igraju ove dve seniorske ekipe utakmica izazove veliku pažnju zaljubljenika u ovaj sport, zbog činjenice da će sigurno ovo biti uzbudljiva i do samog kraja rezultatski neizvesna utakmica."
-    },
-    {
-      "type": "text",
-      "value": "Pozivamo sve ljubitelje košarke i navijače da dođu u što većem broju i svojim navijanjem pomognu igračima Karađorđeva da zabeleže nove pobede na početku prvenstva."
-    }
-  ]
+    "title": "Odličan start Karađorđevčana na početku sezone",
+    "date": "2017-10-12",
+    "date_formatted": "Čet, 12/10/2017 - 18:48",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/odlican-start-karadordevcana-na-pocetku-sezone",
+    "content": [
+        {
+            "type": "text",
+            "value": "U prva dva kola na početku sezone košarkaši Karađorđeva ostvarili su maksimalan učinak. U prvom kolu kao domaćini savladali su ekipu \"Vojvodine\" iz Bašaida, a na gostovanju u Novom Sadu pobedili su odličnu ekipu \"Budućnosti\" rezultatom 64:62. Rezultat utakmice sam po sebi govori da je ovo bila uzbudljiva, neizvesna i dramatična utakmica do samog kraja."
+        },
+        {
+            "type": "image",
+            "filename": "vest-045-01.jpg",
+            "url": "/images/vesti/vest-045-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/muski.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Karađorđevčani su loše otvorili utakmicu i domaćin je već u prvoj četvrtini stekao prednost od osam koševa. Dosta promašenih zicera i izgubljenih lopti doprineli su ovoj rezultatskoj prednosti. Tek u četvrtoj četvrtini Karađorđevčani su stabilizovali igru kako u odbrani tako i u napadu i na kraju utakmice zasluženo slavili."
+        },
+        {
+            "type": "text",
+            "value": "Prošlog vikenda počelo je takmičenje i u pionirskoj regionalnoj ligi. Karađorđevčani su startovali pobedom. Na gostovanju u Kanjiži pobedili su svoje vršnjake rezultatom 75:54."
+        },
+        {
+            "type": "text",
+            "value": "Za vikend, 14. i 15. oktobra na programu su tri utakmice. Seniorke gostuju u Novom Sadu i u nedelju, 15. oktobra sa početkom u 12,00 časova, na Spensu, igraju protiv ekipe \"Vojvodine\". U subotu, 14. oktobra u Karađorđevu, pioniri su domaćini protiv vršnjaka iz \"Čoke\", a utakmica počinje u 15,00 časova. Posle ove utakmice, takođe u novoj hali u Karađorđevu, igra se lokalni derbi. U goste dolazi odlična ekipa \"Petrovgrada\" iz Zrenjanina, a utakmica počinje u 17,00 časova. Skoro uvek kada igraju ove dve seniorske ekipe utakmica izazove veliku pažnju zaljubljenika u ovaj sport, zbog činjenice da će sigurno ovo biti uzbudljiva i do samog kraja rezultatski neizvesna utakmica."
+        },
+        {
+            "type": "text",
+            "value": "Pozivamo sve ljubitelje košarke i navijače da dođu u što većem broju i svojim navijanjem pomognu igračima Karađorđeva da zabeleže nove pobede na početku prvenstva."
+        }
+    ]
 }

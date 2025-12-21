@@ -1,32 +1,36 @@
 {
-  "title": "Utakmica za istoriju KKK",
-  "date": "2011-09-10",
-  "date_formatted": "Sub, 10/09/2011 - 11:01",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/utakmica-za-istoriju-kkk",
-  "content": [
-    {
-      "type": "text",
-      "value": "Dana 04.07.2011. godine u Žitištu, u sali O.Š. \"Sveti Sava\", K.K.\"Karađorđevo\" odigralo je prijateljsku košarkašku utakmicu koja će ući u istoriju kluba. Po prvi put protivnik je bila jedna reprezentacija i to juniorska reprezentacija Saudijske Arabije koja se nalazi na pripremama u Zrenjaninu."
-    },
-    {
-      "type": "text",
-      "value": "Ovo je za K.K. \"Karađorđevo\" bila velika čast zbog toga što su Arabljani izabrali baš naš klub da odigraju svoju prvu probnu utakmicu. Uprava kluba potrudila se da ovu značajnu utakmicu organizuje što je bolje mogla. Početak utakmice bio je u 18,30 časova. Na početku su intonirane himne Saudijske Arabije i Srbije, a potom je usledilo slikanje dveju ekipa i jedna zajednička fotografija."
-    },
-    {
-      "type": "image",
-      "value": "http://www.kkkaradjordjevo.com/sites/default/files/resize/DSC08208_0-281x158.JPG"
-    },
-    {
-      "type": "image",
-      "value": "http://www.kkkaradjordjevo.com/sites/default/files/resize/DSC08210-284x159.JPG"
-    },
-    {
-      "type": "text",
-      "value": "Posle utakmice Sportski Savez Opštine Žitište organizovao je zajedničko druženje ekipa u motelu u Žitištu, što je i najveća vrednost ove utakmice. Iako je rezultat ove utakmice bio u drugom planu, moramo da se pohvalimo da je Karađorđevo pobedilo juniore Saudijske Arabije rezultatom 85-71. Gosti su bili zadovoljni i oduševljeni celokupnom organizacijom i utakmicom, a zakazana je nova utakmica koja će se odigrati na otvorenom košarkaškom terenu u Banatskom Karađorđevu dana 11.07.2011. godine u 19,00."
-    },
-    {
-      "type": "gallery_link",
-      "value": "http://www.kkkaradjordjevo.com/galerija/kk-karadordevo-reprezentacija-saudijske-arabije-04072011"
-    }
-  ]
+    "title": "Utakmica za istoriju KKK",
+    "date": "2011-09-10",
+    "date_formatted": "Sub, 10/09/2011 - 11:01",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/utakmica-za-istoriju-kkk",
+    "content": [
+        {
+            "type": "text",
+            "value": "Dana 04.07.2011. godine u Žitištu, u sali O.Š. \"Sveti Sava\", K.K.\"Karađorđevo\" odigralo je prijateljsku košarkašku utakmicu koja će ući u istoriju kluba. Po prvi put protivnik je bila jedna reprezentacija i to juniorska reprezentacija Saudijske Arabije koja se nalazi na pripremama u Zrenjaninu."
+        },
+        {
+            "type": "text",
+            "value": "Ovo je za K.K. \"Karađorđevo\" bila velika čast zbog toga što su Arabljani izabrali baš naš klub da odigraju svoju prvu probnu utakmicu. Uprava kluba potrudila se da ovu značajnu utakmicu organizuje što je bolje mogla. Početak utakmice bio je u 18,30 časova. Na početku su intonirane himne Saudijske Arabije i Srbije, a potom je usledilo slikanje dveju ekipa i jedna zajednička fotografija."
+        },
+        {
+            "type": "text",
+            "value": "Posle utakmice Sportski Savez Opštine Žitište organizovao je zajedničko druženje ekipa u motelu u Žitištu, što je i najveća vrednost ove utakmice. Iako je rezultat ove utakmice bio u drugom planu, moramo da se pohvalimo da je Karađorđevo pobedilo juniore Saudijske Arabije rezultatom 85-71. Gosti su bili zadovoljni i oduševljeni celokupnom organizacijom i utakmicom, a zakazana je nova utakmica koja će se odigrati na otvorenom košarkaškom terenu u Banatskom Karađorđevu dana 11.07.2011. godine u 19,00."
+        },
+        {
+            "type": "image",
+            "url": "/images/vesti/vest-126-01.jpg",
+            "filename": "vest-126-01.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "image",
+            "url": "/images/vesti/vest-126-02.jpg",
+            "filename": "vest-126-02.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "gallery_link",
+            "value": "http://www.kkkaradjordjevo.com/galerija/kk-karadordevo-reprezentacija-saudijske-arabije-04072011"
+        }
+    ]
 }

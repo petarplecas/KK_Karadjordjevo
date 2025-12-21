@@ -1,29 +1,30 @@
 {
-  "title": "Karađorđevčani pobedili u Crvenki",
-  "date": "2017-11-16",
-  "date_formatted": "Čet, 16/11/2017 - 08:53",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/karadordevcani-pobedili-u-crvenki-0",
-  "content": [
-    {
-      "type": "text",
-      "value": "Posle dva uzastopna poraza, protiv Bečeja i odlične ekipe „Slobode\" iz Novog Sada na domaćem terenu, ekipa Karađorđeva uspela je da na gostovanju pobedi ekipu Crvenke rezultatom 81:71. I pored svih problema u sastavu tima, bez Martinovića, povređenih Ševića, Tadića, Žarkovića i prehlađenog Budisavljevića G., bila je ovo odlična partija Karađorđevčana. U ovoj utakmici odlično su odigrali Uzelac, Plećaš, Jarić i Majstorović, ali i mlađi igrači Budisavljević D., Klimović i Radosav, koji su pokazali da se na njih može ozbiljno računati."
-    },
-    {
-      "type": "text",
-      "value": "Seniorke su na gostovanju u Somboru zabeležile drugu pobedu u prvenstvu i to protiv ekipe „So Koš\" rezultatom 65:47. Pored pobede u ovoj utakmici raduje i ohrabruje dobra igra Karađorđevčanki u odbrani i još bolja u napadu."
-    },
-    {
-      "type": "text",
-      "value": "Prošlog vikenda u okviru juniorske lige, Karađorđevčani su igrali protiv zrenjaninskog „Proleter Naftagasa\" na svom terenu i izgubili rezultatom 84:93. Čvrsta i agresivna igra gostiju u prve dve četvrtine donela je prednost koja je bila za domaćina nedostižna do kraja utakmice."
-    },
-    {
-      "type": "image",
-      "filename": "Kara.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/Kara.jpg"
-    },
-    {
-      "type": "text",
-      "value": "U nedelju, 19. novembra 2017. godine, pioniri gostuju u Čoki, juniori su sledeći vikend slobodni, a u subotu, 18. Novembra 2017. godine, u Ban. Karađorđevu igraju seniorke i seniori. U 16,30 časova seniorke igraju protiv favorizovane ekipe „Karaburme\" iz Beograda, koja je prva na tabeli bez poraza. Seniori od 19,00 časova igraju protiv subotičkog „Spartaka\". Očekuje se veoma zanimljiva utakmica i nadamo se da će navijači doći u što većem broju da svojim navijanjem doprinesu novim pobedama."
-    }
-  ]
+    "title": "Karađorđevčani pobedili u Crvenki",
+    "date": "2017-11-16",
+    "date_formatted": "Čet, 16/11/2017 - 08:53",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/karadordevcani-pobedili-u-crvenki-0",
+    "content": [
+        {
+            "type": "text",
+            "value": "Posle dva uzastopna poraza, protiv Bečeja i odlične ekipe „Slobode\" iz Novog Sada na domaćem terenu, ekipa Karađorđeva uspela je da na gostovanju pobedi ekipu Crvenke rezultatom 81:71. I pored svih problema u sastavu tima, bez Martinovića, povređenih Ševića, Tadića, Žarkovića i prehlađenog Budisavljevića G., bila je ovo odlična partija Karađorđevčana. U ovoj utakmici odlično su odigrali Uzelac, Plećaš, Jarić i Majstorović, ali i mlađi igrači Budisavljević D., Klimović i Radosav, koji su pokazali da se na njih može ozbiljno računati."
+        },
+        {
+            "type": "text",
+            "value": "Seniorke su na gostovanju u Somboru zabeležile drugu pobedu u prvenstvu i to protiv ekipe „So Koš\" rezultatom 65:47. Pored pobede u ovoj utakmici raduje i ohrabruje dobra igra Karađorđevčanki u odbrani i još bolja u napadu."
+        },
+        {
+            "type": "text",
+            "value": "Prošlog vikenda u okviru juniorske lige, Karađorđevčani su igrali protiv zrenjaninskog „Proleter Naftagasa\" na svom terenu i izgubili rezultatom 84:93. Čvrsta i agresivna igra gostiju u prve dve četvrtine donela je prednost koja je bila za domaćina nedostižna do kraja utakmice."
+        },
+        {
+            "type": "image",
+            "filename": "Kara.jpg",
+            "url": "http://www.kkkaradjordjevo.com/sites/default/files/Kara.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U nedelju, 19. novembra 2017. godine, pioniri gostuju u Čoki, juniori su sledeći vikend slobodni, a u subotu, 18. Novembra 2017. godine, u Ban. Karađorđevu igraju seniorke i seniori. U 16,30 časova seniorke igraju protiv favorizovane ekipe „Karaburme\" iz Beograda, koja je prva na tabeli bez poraza. Seniori od 19,00 časova igraju protiv subotičkog „Spartaka\". Očekuje se veoma zanimljiva utakmica i nadamo se da će navijači doći u što većem broju da svojim navijanjem doprinesu novim pobedama."
+        }
+    ]
 }

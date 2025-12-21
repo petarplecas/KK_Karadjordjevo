@@ -8,20 +8,52 @@ interface Props {
 const { currentPage, totalPages, baseUrl } = Astro.props;
 ---
 
-<nav class="flex justify-center items-center gap-4 mt-8" aria-label="Pagination">
-  {currentPage > 1 && (
-    <a href={`${baseUrl}/${currentPage - 1}`} class="btn btn-outline btn-primary">
-      ← Prethodna
+<nav class="flex flex-col sm:flex-row justify-center items-center gap-4 mt-12" aria-label="Pagination">
+  {currentPage > 1 ? (
+    <a
+      href={`${baseUrl}/${currentPage - 1}`}
+      class="group px-6 py-3 glass border border-kk-border/30 hover:border-kk-accent text-kk-text-primary font-semibold rounded-lg transition-all duration-300 hover:shadow-glow-amber inline-flex items-center gap-2"
+    >
+      <svg class="w-5 h-5 transition-transform duration-300 group-hover:-translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      Prethodna
     </a>
+  ) : (
+    <div class="px-6 py-3 opacity-40 cursor-not-allowed inline-flex items-center gap-2">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+      </svg>
+      Prethodna
+    </div>
   )}
 
-  <span class="px-4 py-2 text-gray-700 font-medium">
-    Strana {currentPage} od {totalPages}
-  </span>
+  <div class="px-6 py-3 glass border border-kk-accent/50 rounded-lg">
+    <span class="text-kk-accent font-bold">
+      {currentPage}
+    </span>
+    <span class="text-kk-text-secondary mx-2">/</span>
+    <span class="text-kk-text-secondary font-medium">
+      {totalPages}
+    </span>
+  </div>
 
-  {currentPage < totalPages && (
-    <a href={`${baseUrl}/${currentPage + 1}`} class="btn btn-outline btn-primary">
-      Sledeća →
+  {currentPage < totalPages ? (
+    <a
+      href={`${baseUrl}/${currentPage + 1}`}
+      class="group px-6 py-3 bg-gradient-to-r from-kk-accent to-amber-600 text-slate-900 font-semibold rounded-lg transition-all duration-300 hover:shadow-glow-amber hover:-translate-y-0.5 inline-flex items-center gap-2"
+    >
+      Sledeća
+      <svg class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      </svg>
     </a>
+  ) : (
+    <div class="px-6 py-3 opacity-40 cursor-not-allowed inline-flex items-center gap-2">
+      Sledeća
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+      </svg>
+    </div>
   )}
 </nav>

@@ -1,44 +1,52 @@
 {
-  "title": "Prvi poraz Karađorđevčana",
-  "date": "2014-07-11",
-  "date_formatted": "Pet, 11/07/2014 - 11:15",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/prvi-poraz-karadordevcana",
-  "content": [
-    {
-      "type": "text",
-      "value": "U trećem kolu, druge faze takmičenja, letnje lige, play off-a, grupa C, Karađorđevčani su savladani u Lukićevu rezultatom 87-66. Mlada ekipa Karađorđeva, imala je za protivnika mnogo stariju i iskusniju ekipu. Samo u prvoj četvrtini igra Karađorđevčana je bila na nivou iz prethodnih utakmica."
-    },
-    {
-      "type": "image",
-      "filename": "DSC00545.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00545.JPG"
-    },
-    {
-      "type": "text",
-      "value": "Asfaltirani teren, grublja igra protivnika koju su sudije tolerisale, iskustvo protivničke ekipe, uticali su da nivo igre Karađorđevčana padne, tako da su košarkaši Lukićeva na kraju druge četvrtine vodili sa 6 koševa prednosti."
-    },
-    {
-      "type": "image",
-      "filename": "DSC00543.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00543.JPG"
-    },
-    {
-      "type": "text",
-      "value": "U nastavku igre košarkašima Karađorđeva ništa nije polazilo za rukom. Nervoza igrača i velika želja za jedanaestom uzastopnom pobedom, psihološki su uticali da se napravi puno grešaka u igri i previše promašenih šuteva. Na kraju utakmice košarkaši Lukićeva zasluženo su slavili."
-    },
-    {
-      "type": "image",
-      "filename": "DSC00544.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00544.JPG"
-    },
-    {
-      "type": "text",
-      "value": "U sledećem kolu Karađorđevčani gostuju u Kleku. Nadamo se da su igrači iz ovog poraza izvukli pouke, da će zaigrati mnogo bolje i zabeležiti veoma važnu pobedu kako bi zadržali prvo mesto na tabeli."
-    },
-    {
-      "type": "image",
-      "filename": "DSC00548.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00548.JPG"
-    }
-  ]
+    "title": "Prvi poraz Karađorđevčana",
+    "date": "2014-07-11",
+    "date_formatted": "Pet, 11/07/2014 - 11:15",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/prvi-poraz-karadordevcana",
+    "content": [
+        {
+            "type": "text",
+            "value": "U trećem kolu, druge faze takmičenja, letnje lige, play off-a, grupa C, Karađorđevčani su savladani u Lukićevu rezultatom 87-66. Mlada ekipa Karađorđeva, imala je za protivnika mnogo stariju i iskusniju ekipu. Samo u prvoj četvrtini igra Karađorđevčana je bila na nivou iz prethodnih utakmica."
+        },
+        {
+            "type": "image",
+            "filename": "vest-090-01.JPG",
+            "url": "/images/vesti/vest-090-01.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00545.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Asfaltirani teren, grublja igra protivnika koju su sudije tolerisale, iskustvo protivničke ekipe, uticali su da nivo igre Karađorđevčana padne, tako da su košarkaši Lukićeva na kraju druge četvrtine vodili sa 6 koševa prednosti."
+        },
+        {
+            "type": "image",
+            "filename": "vest-090-02.JPG",
+            "url": "/images/vesti/vest-090-02.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00543.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U nastavku igre košarkašima Karađorđeva ništa nije polazilo za rukom. Nervoza igrača i velika želja za jedanaestom uzastopnom pobedom, psihološki su uticali da se napravi puno grešaka u igri i previše promašenih šuteva. Na kraju utakmice košarkaši Lukićeva zasluženo su slavili."
+        },
+        {
+            "type": "image",
+            "filename": "vest-090-03.JPG",
+            "url": "/images/vesti/vest-090-03.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00544.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U sledećem kolu Karađorđevčani gostuju u Kleku. Nadamo se da su igrači iz ovog poraza izvukli pouke, da će zaigrati mnogo bolje i zabeležiti veoma važnu pobedu kako bi zadržali prvo mesto na tabeli."
+        },
+        {
+            "type": "image",
+            "filename": "vest-090-04.JPG",
+            "url": "/images/vesti/vest-090-04.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00548.JPG",
+            "alt": "Fotografija sa događaja"
+        }
+    ]
 }

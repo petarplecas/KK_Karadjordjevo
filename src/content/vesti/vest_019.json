@@ -1,45 +1,49 @@
 {
-  "id": 19,
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/u-subotu-derbi-kola-%E2%80%9Ckaradordevo%E2%80%9D-%E2%80%93-%E2%80%9Cproleter%E2%80%9D-iz-ravnog-sela",
-  "title": "U subotu derbi kola, \"Karađorđevo\" – \"Proleter\" iz Ravnog sela",
-  "date": "2018-11-09",
-  "date_formatted": "Pet, 09/11/2018 - 00:28",
-  "content": [
-    {
-      "type": "text",
-      "value": "U subotu, 10.11.2018. godine, u 20,00 časova, u hali u Banatskom Karađorđevu, Karađorđevčani dočekuju odličnu ekipu \"Proleter\" iz Ravnog Sela. Iako novajlija u ligi, rezultati u dosadašnjem delu prvenstva, četiri pobede i jedan poraz, pokazuju da se radi o dobroj i kvalitetnoj ekipi. Po novom sistemu takmičenja u drugoj muškoj regionalnoj ligi, pobeda Karađorđevčana omogućuje i dalje borbu za najviši plasman. Pozivamo sve ljubitelje košarke i navijače da dođu i svojim navijanjem pomognu igračima Karađorđeva da u ovoj veoma bitnoj utakmici zabeleže pobedu."
-    },
-    {
-      "type": "image",
-      "filename": "2d020670fd6ac1592e2b76b8b6e44761-584x438.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/2d020670fd6ac1592e2b76b8b6e44761-584x438.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Seniorke Karađorđeva u nedelju, 11.11.2018. godine, sa početkom u 18,00 časova, u hali u Banatskom Karađorđevu, igraju protiv neporažene ekipe u dosadašnjem delu prvenstva u prvoj ženskoj regionalnoj ligi. U goste dolazi odlična ekipa \"Art Basket\" iz Beograda koja je u ovoj utakmici favorit. Zato pozivamo publiku da dođe u što većem broju i podrži igračice Karađorđeva kako bi ostavile što bolji utisak i pružile što bolji otpor."
-    },
-    {
-      "type": "image",
-      "filename": "f490ed6c36b429d43503d1788d528af3-584x438.jpeg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/f490ed6c36b429d43503d1788d528af3-584x438.jpeg"
-    },
-    {
-      "type": "text",
-      "value": "Pioniri su prošlog vikenda gostovali u Čoki gde su pobedili svoje vršnjake rezultatom 79:75. U subotu, 10.11.2018. godine, sa početkom u 15,00 časova, Karađorđevčani će na svom terenu ugostiti ekipu \"Petrovgrad\" iz Melenaca. Biće ovo interesantna utakmica."
-    },
-    {
-      "type": "image",
-      "filename": "ae5652b21664c1f127102de17f022bb8-584x438.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/ae5652b21664c1f127102de17f022bb8-584x438.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Pionirke, takođe, u subotu, 10.11.2018. godine, u 17,30 časova u Banatskom Karađorđevu igraju prvenstvenu košarkašku utakmicu protiv Tamiša iz Pančeva."
-    },
-    {
-      "type": "image",
-      "filename": "9afcaeb4304207543d7fa2ee66de65a9-584x438.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/9afcaeb4304207543d7fa2ee66de65a9-584x438.jpg"
-    }
-  ]
+    "id": 19,
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/u-subotu-derbi-kola-%E2%80%9Ckaradordevo%E2%80%9D-%E2%80%93-%E2%80%9Cproleter%E2%80%9D-iz-ravnog-sela",
+    "title": "U subotu derbi kola, \"Karađorđevo\" - \"Proleter\" iz Ravnog sela",
+    "date": "2018-11-09",
+    "date_formatted": "Pet, 09/11/2018 - 00:28",
+    "content": [
+        {
+            "type": "text",
+            "value": "U subotu, 10.11.2018. godine, u 20,00 časova, u hali u Banatskom Karađorđevu, Karađorđevčani dočekuju odličnu ekipu \"Proleter\" iz Ravnog Sela. Iako novajlija u ligi, rezultati u dosadašnjem delu prvenstva, četiri pobede i jedan poraz, pokazuju da se radi o dobroj i kvalitetnoj ekipi. Po novom sistemu takmičenja u drugoj muškoj regionalnoj ligi, pobeda Karađorđevčana omogućuje i dalje borbu za najviši plasman. Pozivamo sve ljubitelje košarke i navijače da dođu i svojim navijanjem pomognu igračima Karađorđeva da u ovoj veoma bitnoj utakmici zabeleže pobedu."
+        },
+        {
+            "type": "image",
+            "filename": "2d020670fd6ac1592e2b76b8b6e44761-584x438.jpg",
+            "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/2d020670fd6ac1592e2b76b8b6e44761-584x438.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Seniorke Karađorđeva u nedelju, 11.11.2018. godine, sa početkom u 18,00 časova, u hali u Banatskom Karađorđevu, igraju protiv neporažene ekipe u dosadašnjem delu prvenstva u prvoj ženskoj regionalnoj ligi. U goste dolazi odlična ekipa \"Art Basket\" iz Beograda koja je u ovoj utakmici favorit. Zato pozivamo publiku da dođe u što većem broju i podrži igračice Karađorđeva kako bi ostavile što bolji utisak i pružile što bolji otpor."
+        },
+        {
+            "type": "image",
+            "filename": "f490ed6c36b429d43503d1788d528af3-584x438.jpeg",
+            "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/f490ed6c36b429d43503d1788d528af3-584x438.jpeg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Pioniri su prošlog vikenda gostovali u Čoki gde su pobedili svoje vršnjake rezultatom 79:75. U subotu, 10.11.2018. godine, sa početkom u 15,00 časova, Karađorđevčani će na svom terenu ugostiti ekipu \"Petrovgrad\" iz Melenaca. Biće ovo interesantna utakmica."
+        },
+        {
+            "type": "image",
+            "filename": "ae5652b21664c1f127102de17f022bb8-584x438.jpg",
+            "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/ae5652b21664c1f127102de17f022bb8-584x438.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Pionirke, takođe, u subotu, 10.11.2018. godine, u 17,30 časova u Banatskom Karađorđevu igraju prvenstvenu košarkašku utakmicu protiv Tamiša iz Pančeva."
+        },
+        {
+            "type": "image",
+            "filename": "9afcaeb4304207543d7fa2ee66de65a9-584x438.jpg",
+            "url": "http://www.kkkaradjordjevo.com/sites/default/files/resize/remote/9afcaeb4304207543d7fa2ee66de65a9-584x438.jpg",
+            "alt": "Fotografija sa događaja"
+        }
+    ]
 }

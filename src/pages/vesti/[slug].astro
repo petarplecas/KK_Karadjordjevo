@@ -6,32 +6,52 @@ import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 import NewsContent from '../../components/news/NewsContent.astro';
 import SocialShare from '../../components/shared/SocialShare.astro';
-import { slugify } from '../../utils/slugify';
 import { formatDate } from '../../utils/formatDate';
+import { getFirstImage } from '../../utils/getFirstImage';
 
 export const getStaticPaths = (async () => {
   const allNews = await getCollection('vesti');
 
-  return allNews.map((news) => ({
-    params: { slug: slugify(news.data.title) },
-    props: { news },
-  }));
+  return allNews.map((news) => {
+    // Extract ID from filename (vest_XXX.json -> XXX)
+    const id = news.id.replace('vest_', '').replace('.json', '');
+    return {
+      params: { slug: id },
+      props: { news },
+    };
+  });
 }) satisfies GetStaticPaths;
 
 const { news } = Astro.props;
+
+// Get page number from URL query parameter, default to 1
+const pageParam = Astro.url.searchParams.get('page');
+const backToPage = pageParam ? parseInt(pageParam) : 1;
+
+// Get first image for Open Graph
+const firstImage = getFirstImage(news.data.content);
+
+// Get published time for article metadata
+const publishedTime = news.data.date?.toISOString();
 ---
 
-<BaseLayout title={news.data.title} description={news.data.title}>
+<BaseLayout
+  title={news.data.title}
+  description={news.data.title}
+  type="article"
+  image={firstImage}
+  publishedTime={publishedTime}
+>
   <Header />
 
   <main class="container mx-auto px-4 py-8 max-w-4xl flex-grow">
     <article>
       <header class="mb-8">
-        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-kk-dark mb-4">
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-kk-text-primary mb-4">
           {news.data.title}
         </h1>
-        <time class="text-gray-500">
-          {formatDate(news.data.date)}
+        <time class="text-kk-accent font-medium">
+          {news.data.date ? formatDate(news.data.date) : ''}
         </time>
       </header>
 
@@ -46,9 +66,9 @@ const { news } = Astro.props;
     </article>
 
     <div class="mt-8">
-      <a href="/vesti/1" class="btn btn-outline btn-primary">
+      <button onclick="history.back()" class="btn btn-outline btn-primary">
         ← Nazad na vesti
-      </a>
+      </button>
     </div>
   </main>
 

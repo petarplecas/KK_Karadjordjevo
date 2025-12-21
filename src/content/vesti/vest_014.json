@@ -1,22 +1,24 @@
 {
-  "id": 14,
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/odlucujuca-utakmica-za-ulazak-u-play",
-  "title": "Odlučujuća utakmica za ulazak u play off",
-  "date": "2019-02-14",
-  "date_formatted": "Čet, 14/02/2019 - 11:20",
-  "content": [
-    {
-      "type": "text",
-      "value": "U subotu, 16.02.2019. godine u 16,30 časova, u hali u Banatskom Karađorđevu, Karađorđevčani igraju najznačajniju utakmicu u prvoj fazi takmičenja, protiv Budućnosti iz Novog Sada."
-    },
-    {
-      "type": "image",
-      "filename": "IMG-20181111-WA0003_3_0.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/IMG-20181111-WA0003_3_0.jpg"
-    },
-    {
-      "type": "text",
-      "value": "U nastavku prvenstva Karađorđevčani su se susreli sa dosta problema i neplanirano doživeli dva poraza. U prvoj utakmici na svom parketu, u derbiju kola, protiv neporažene novosadske Slobode, u drugoj četvrtini povreda u vidu preloma jagodične kosti, plejmejkera Plećaš Petra, umnogome je poremetila igru Karađorđevčana, pa su u samoj završnici Novosađani uspeli da zabeleže pobedu. Ovom prilikom zahvaljujemo se publici na podršci i svesrdnom navijanju.\n\nNa gostovanju, u Ravnom Selu protiv Proletera, bez prave organizacije u igri, a protiv raspoloženih i motivisanih domaćih igrača, poraz je bio neminovan. Posle ova dva poraza, utakmica protiv novosadske Budućnosti je odlučujuća u prvoj fazi takmičenja. Sastaju se dve ekipe gde pobednik nastavlja takmičenje u play off-u, a poraženi u play out-u.\n\nZbog značaja utakmice pozivamo ljubitelje košarke i navijače da dođu u što većem broju, u ovom neobičnom terminu za igranje utakmice, i svojim prisustvom i navijanjem daju dodatnu energiju igračima Karađorđeva, da zabeleže važnu pobedu."
-    }
-  ]
+    "id": 14,
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/odlucujuca-utakmica-za-ulazak-u-play",
+    "title": "Odlučujuća utakmica za ulazak u play off",
+    "date": "2019-02-14",
+    "date_formatted": "Čet, 14/02/2019 - 11:20",
+    "content": [
+        {
+            "type": "text",
+            "value": "U subotu, 16.02.2019. godine u 16,30 časova, u hali u Banatskom Karađorđevu, Karađorđevčani igraju najznačajniju utakmicu u prvoj fazi takmičenja, protiv Budućnosti iz Novog Sada."
+        },
+        {
+            "type": "image",
+            "filename": "vest-014-01.jpg",
+            "url": "/images/vesti/vest-014-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/IMG-20181111-WA0003_3_0.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U nastavku prvenstva Karađorđevčani su se susreli sa dosta problema i neplanirano doživeli dva poraza. U prvoj utakmici na svom parketu, u derbiju kola, protiv neporažene novosadske Slobode, u drugoj četvrtini povreda u vidu preloma jagodične kosti, plejmejkera Plećaš Petra, umnogome je poremetila igru Karađorđevčana, pa su u samoj završnici Novosađani uspeli da zabeleže pobedu. Ovom prilikom zahvaljujemo se publici na podršci i svesrdnom navijanju.\n\nNa gostovanju, u Ravnom Selu protiv Proletera, bez prave organizacije u igri, a protiv raspoloženih i motivisanih domaćih igrača, poraz je bio neminovan. Posle ova dva poraza, utakmica protiv novosadske Budućnosti je odlučujuća u prvoj fazi takmičenja. Sastaju se dve ekipe gde pobednik nastavlja takmičenje u play off-u, a poraženi u play out-u.\n\nZbog značaja utakmice pozivamo ljubitelje košarke i navijače da dođu u što većem broju, u ovom neobičnom terminu za igranje utakmice, i svojim prisustvom i navijanjem daju dodatnu energiju igračima Karađorđeva, da zabeleže važnu pobedu."
+        }
+    ]
 }

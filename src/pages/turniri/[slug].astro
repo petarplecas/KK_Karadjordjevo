@@ -8,6 +8,7 @@ import NewsContent from '../../components/news/NewsContent.astro';
 import SocialShare from '../../components/shared/SocialShare.astro';
 import { slugify } from '../../utils/slugify';
 import { formatDate } from '../../utils/formatDate';
+import { getFirstImage } from '../../utils/getFirstImage';
 
 export const getStaticPaths = (async () => {
   const allTournaments = await getCollection('turniri');
@@ -19,19 +20,31 @@ export const getStaticPaths = (async () => {
 }) satisfies GetStaticPaths;
 
 const { tournament } = Astro.props;
+
+// Get first image for Open Graph
+const firstImage = getFirstImage(tournament.data.content);
+
+// Get published time for article metadata
+const publishedTime = tournament.data.date?.toISOString();
 ---
 
-<BaseLayout title={tournament.data.title} description={tournament.data.title}>
+<BaseLayout
+  title={tournament.data.title}
+  description={tournament.data.title}
+  type="article"
+  image={firstImage}
+  publishedTime={publishedTime}
+>
   <Header />
 
   <main class="container mx-auto px-4 py-8 max-w-4xl flex-grow">
     <article>
       <header class="mb-8">
-        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-kk-dark mb-4">
+        <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-kk-text-primary mb-4">
           {tournament.data.title}
         </h1>
         {tournament.data.date && (
-          <time class="text-gray-500">
+          <time class="text-kk-accent font-medium">
             {formatDate(tournament.data.date)}
           </time>
         )}

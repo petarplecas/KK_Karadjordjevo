@@ -1,39 +1,45 @@
 {
-  "title": "Karađorđevčani u ponedeljak protiv \"Tise\" iz Bečeja",
-  "date": "2018-02-23",
-  "date_formatted": "Pet, 23/02/2018 - 19:27",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/karadordevcani-u-ponedeljak-protiv-tise-iz-beceja",
-  "content": [
-    {
-      "type": "text",
-      "value": "U ponedeljak, 26.02.2018. godine, sa početkom u 21,00 časova u hali u Banatskom Karađorđevu, Karađorđevčani igraju protiv ekipe \"Tisa\" iz Bečeja. Zbog raznih nedaća i problema koji su pratili ekipu Karađorđeva u prethodna tri kola zabeležena su tri poraza. Biće ovo prilika za revanš ekipi iz Bečeja koja je na svom parketu u prvom delu prvenstva pobedila Karađorđevčane. Pobedom nad Bečejcima, Karađorđevčani bi prekinuli seriju poraza, vratili samopuzdanje ekipi i zadržali četvrtu poziciju na tabeli. Pozivamo navijače i ljubitelje košarke da ispune halu u Banatskom Karađorđevu i daju podršku igračima kako bi se zabeležila važna pobeda."
-    },
-    {
-      "type": "image",
-      "filename": "muski nova_8.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/muski%20nova_8.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Seniorke Karađorđeva u petak, 23.02.2018. godine sa početkom u 20,00 časova, takođe u Banatskom Karađorđevu igraju protiv ekipe \"Jokera\" iz Sombora. Nadamo se da će uz podršku publike uspeti da ostvare pobedu i tako po drugi put u ovoj sezoni, pobede ekipu \"Jokera\" iz Sombora. Već u subotu, 24.02.2018. sa početkom u 14,45 časova, Karađorđevčanke idu u goste ekipi \"Karaburme\" iz Beograda. Ovaj susret se igra u hali \"SD Radnički\" u Beogradu."
-    },
-    {
-      "type": "image",
-      "filename": "zenske_3.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/zenske_3.JPG"
-    },
-    {
-      "type": "text",
-      "value": "Pioniri Karađorđeva ovog vikenda, tačnije u nedelju 25.02.2018. godine, gostuju u Starčevu gde igraju protiv svojih vršnjaka."
-    },
-    {
-      "type": "text",
-      "value": "Juniori Karađorđeva igraju u četvrtak, 01.03.2018 godine u Banatskom Karađorđevu sa početkom u 19,30 časova, utakmicu protiv \"Petrovgrada\" iz Zrenjanina. Kao utakmice seniora i utakmice juniora izazivaju interesovanje publike i nadamo se da podrška sa tribina neće izostati."
-    },
-    {
-      "type": "image",
-      "filename": "Juniori.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/Juniori.jpg"
-    }
-  ]
+    "title": "Karađorđevčani u ponedeljak protiv \"Tise\" iz Bečeja",
+    "date": "2018-02-23",
+    "date_formatted": "Pet, 23/02/2018 - 19:27",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/karadordevcani-u-ponedeljak-protiv-tise-iz-beceja",
+    "content": [
+        {
+            "type": "text",
+            "value": "U ponedeljak, 26.02.2018. godine, sa početkom u 21,00 časova u hali u Banatskom Karađorđevu, Karađorđevčani igraju protiv ekipe \"Tisa\" iz Bečeja. Zbog raznih nedaća i problema koji su pratili ekipu Karađorđeva u prethodna tri kola zabeležena su tri poraza. Biće ovo prilika za revanš ekipi iz Bečeja koja je na svom parketu u prvom delu prvenstva pobedila Karađorđevčane. Pobedom nad Bečejcima, Karađorđevčani bi prekinuli seriju poraza, vratili samopuzdanje ekipi i zadržali četvrtu poziciju na tabeli. Pozivamo navijače i ljubitelje košarke da ispune halu u Banatskom Karađorđevu i daju podršku igračima kako bi se zabeležila važna pobeda."
+        },
+        {
+            "type": "image",
+            "filename": "vest-032-01.jpg",
+            "url": "/images/vesti/vest-032-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/muski%20nova_8.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Seniorke Karađorđeva u petak, 23.02.2018. godine sa početkom u 20,00 časova, takođe u Banatskom Karađorđevu igraju protiv ekipe \"Jokera\" iz Sombora. Nadamo se da će uz podršku publike uspeti da ostvare pobedu i tako po drugi put u ovoj sezoni, pobede ekipu \"Jokera\" iz Sombora. Već u subotu, 24.02.2018. sa početkom u 14,45 časova, Karađorđevčanke idu u goste ekipi \"Karaburme\" iz Beograda. Ovaj susret se igra u hali \"SD Radnički\" u Beogradu."
+        },
+        {
+            "type": "image",
+            "filename": "vest-032-02.JPG",
+            "url": "/images/vesti/vest-032-02.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/zenske_3.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Pioniri Karađorđeva ovog vikenda, tačnije u nedelju 25.02.2018. godine, gostuju u Starčevu gde igraju protiv svojih vršnjaka."
+        },
+        {
+            "type": "text",
+            "value": "Juniori Karađorđeva igraju u četvrtak, 01.03.2018 godine u Banatskom Karađorđevu sa početkom u 19,30 časova, utakmicu protiv \"Petrovgrada\" iz Zrenjanina. Kao utakmice seniora i utakmice juniora izazivaju interesovanje publike i nadamo se da podrška sa tribina neće izostati."
+        },
+        {
+            "type": "image",
+            "filename": "vest-032-03.jpg",
+            "url": "/images/vesti/vest-032-03.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/Juniori.jpg",
+            "alt": "Fotografija sa događaja"
+        }
+    ]
 }

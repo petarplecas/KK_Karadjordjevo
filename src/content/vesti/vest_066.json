@@ -1,29 +1,31 @@
 {
-  "title": "Karađorđevčani prvi u letnjoj ligi grupa sever B",
-  "date": "2016-07-01",
-  "date_formatted": "Pet, 01/07/2016 - 10:46",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/karadordevcani-prvi-u-letnjoj-ligi-grupa-sever-b",
-  "content": [
-    {
-      "type": "text",
-      "value": "Posle duge i naporne sezone u drugoj muškoj regionalnoj ligi grupa sever, Karađorđevčani nisu uspeli da obezbede opstanak. Povratak u ovu ligu obezbeđuje takmičenje u letnjoj košarkaškoj ligi Banat sever grupa B."
-    },
-    {
-      "type": "text",
-      "value": "U letnjoj košarkaškoj ligi Banat sever takmiči se deset klubova podeljenih u dve grupe. Prva faza takmičenja je završena i Karađorđevčani su prvi u grupi B. Pored Karađorđeva u ovoj grupi su se takmičili \"Vojvodina\" iz Bašaida, \"Lukićevo\" iz Lukićeva, \"Proleter Naftagas\" iz Zrenjanina i \"Vojvodina\" iz Novog Miloševa. Sistem takmičenja je takav da se u play off-u sastaju prvoplasirana ekipa iz grupe A sa drugoplasiranom ekipom iz grupe B i obrnuto. Plasman u viši rang obezbeđuje ekipa koja prva zabeleži dve pobede."
-    },
-    {
-      "type": "image",
-      "filename": "IMG-20160701-WA0001.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/IMG-20160701-WA0001.jpg"
-    },
-    {
-      "type": "text",
-      "value": "U subotu 02.07.2016. godine u 19,00 časova u Banatskom Karađorđevu u prvoj utakmici play off-a, Karađorđevčani dočekuju drugoplasiranu ekipu iz grupe A, košarkaški klub \"Petrovgrad\" iz Zrenjanina. Iako Karađorđevčani imaju prednost domaćeg terena biće ovo teška i zanimljiva utakmica."
-    },
-    {
-      "type": "text",
-      "value": "Pozivamo sve ljubitelje košarke i navijače da dođu u što večem broju i pomognu igračima da ostvare povratak u viši rang takmičenja, drugu srpsku regionalnu ligu u kojoj bi posle četrdeset godina, utakmice kao domaćini igrli u Banatskom Karađorđevu, u nadamo se novo izgrađenoj hali."
-    }
-  ]
+    "title": "Karađorđevčani prvi u letnjoj ligi grupa sever B",
+    "date": "2016-07-01",
+    "date_formatted": "Pet, 01/07/2016 - 10:46",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/karadordevcani-prvi-u-letnjoj-ligi-grupa-sever-b",
+    "content": [
+        {
+            "type": "text",
+            "value": "Posle duge i naporne sezone u drugoj muškoj regionalnoj ligi grupa sever, Karađorđevčani nisu uspeli da obezbede opstanak. Povratak u ovu ligu obezbeđuje takmičenje u letnjoj košarkaškoj ligi Banat sever grupa B."
+        },
+        {
+            "type": "text",
+            "value": "U letnjoj košarkaškoj ligi Banat sever takmiči se deset klubova podeljenih u dve grupe. Prva faza takmičenja je završena i Karađorđevčani su prvi u grupi B. Pored Karađorđeva u ovoj grupi su se takmičili \"Vojvodina\" iz Bašaida, \"Lukićevo\" iz Lukićeva, \"Proleter Naftagas\" iz Zrenjanina i \"Vojvodina\" iz Novog Miloševa. Sistem takmičenja je takav da se u play off-u sastaju prvoplasirana ekipa iz grupe A sa drugoplasiranom ekipom iz grupe B i obrnuto. Plasman u viši rang obezbeđuje ekipa koja prva zabeleži dve pobede."
+        },
+        {
+            "type": "image",
+            "filename": "vest-066-01.jpg",
+            "url": "/images/vesti/vest-066-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/IMG-20160701-WA0001.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U subotu 02.07.2016. godine u 19,00 časova u Banatskom Karađorđevu u prvoj utakmici play off-a, Karađorđevčani dočekuju drugoplasiranu ekipu iz grupe A, košarkaški klub \"Petrovgrad\" iz Zrenjanina. Iako Karađorđevčani imaju prednost domaćeg terena biće ovo teška i zanimljiva utakmica."
+        },
+        {
+            "type": "text",
+            "value": "Pozivamo sve ljubitelje košarke i navijače da dođu u što večem broju i pomognu igračima da ostvare povratak u viši rang takmičenja, drugu srpsku regionalnu ligu u kojoj bi posle četrdeset godina, utakmice kao domaćini igrli u Banatskom Karađorđevu, u nadamo se novo izgrađenoj hali."
+        }
+    ]
 }

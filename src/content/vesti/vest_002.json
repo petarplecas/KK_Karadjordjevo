@@ -1,22 +1,24 @@
 {
-  "id": 2,
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/novu-sezonu-karadordevcani-startovali-pobedom",
-  "title": "Novu sezonu Karađorđevčani startovali pobedom",
-  "date": "2021-10-11",
-  "date_formatted": "Pon, 11/10/2021 - 18:24",
-  "content": [
-    {
-      "type": "text",
-      "value": "Seniori KK \"Karađorđevo\" su na najbolji mogući način započeli novu košarkašku sezonu 2021/22, u drugoj muškoj reginalnoj ligi, grupa sever B. U dosta podmlađenom sastavu, bez iskusnog kapitena Martinovića, uspeli su da ostvare pobedu na gostovanju u Ravnom Selu rezultatom 66:65."
-    },
-    {
-      "type": "image",
-      "filename": "IMG_6015.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/IMG_6015.JPG"
-    },
-    {
-      "type": "text",
-      "value": "Podmlađena ekipa Karađorđeva, predvođena iskusnim Lukom Uzelcom, odlično je otvorila utakmicu i prvu četvrtinu dobila rezultatom 22:13. U drugoj četvrtini i dalje su Karađorđevčani diktirali tempo i agresivnom odbranom uspeli su da povećaju prednost, pa se na poluvreme otišlo sa dvanaest koševa prednosti. Uz veliku podršku publike, iskusna ekipa domaćeg \"Proletera\", u trećoj i četvrtoj četvrtini, polako je smanjivala prednost gostiju. Međutim, razlika na poluvremenu ulila je dobru dozu samopouzdanja Karađorđevčanima, koji su uspeli da se odbrane i na kraju pobede sa pola koša prednosti. Pored Uzelca, odličnu igru pružili su mlađi igrači braća Budisavljević, Klimović, Žarković, Radaković, Radosav, Sirar i na taj način dali do znanja da na njih klub može ozbiljno da računa.\n\nU sledećem kolu Karađorđevčani igraju na svom terenu protiv favorizovane ekipe \"Akademika\" iz Srbobrana. Pozivamo sve pijatelje kluba, navijače i ljubitelje košarke da dođu u halu i svojim prisustvom daju podršku ekipi \"Karađorđeva\"."
-    }
-  ]
+    "id": 2,
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/novu-sezonu-karadordevcani-startovali-pobedom",
+    "title": "Novu sezonu Karađorđevčani startovali pobedom",
+    "date": "2021-10-11",
+    "date_formatted": "Pon, 11/10/2021 - 18:24",
+    "content": [
+        {
+            "type": "text",
+            "value": "Seniori KK \"Karađorđevo\" su na najbolji mogući način započeli novu košarkašku sezonu 2021/22, u drugoj muškoj reginalnoj ligi, grupa sever B. U dosta podmlađenom sastavu, bez iskusnog kapitena Martinovića, uspeli su da ostvare pobedu na gostovanju u Ravnom Selu rezultatom 66:65."
+        },
+        {
+            "type": "image",
+            "filename": "vest-002-01.JPG",
+            "url": "/images/vesti/vest-002-01.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/IMG_6015.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Podmlađena ekipa Karađorđeva, predvođena iskusnim Lukom Uzelcom, odlično je otvorila utakmicu i prvu četvrtinu dobila rezultatom 22:13. U drugoj četvrtini i dalje su Karađorđevčani diktirali tempo i agresivnom odbranom uspeli su da povećaju prednost, pa se na poluvreme otišlo sa dvanaest koševa prednosti. Uz veliku podršku publike, iskusna ekipa domaćeg \"Proletera\", u trećoj i četvrtoj četvrtini, polako je smanjivala prednost gostiju. Međutim, razlika na poluvremenu ulila je dobru dozu samopouzdanja Karađorđevčanima, koji su uspeli da se odbrane i na kraju pobede sa pola koša prednosti. Pored Uzelca, odličnu igru pružili su mlađi igrači braća Budisavljević, Klimović, Žarković, Radaković, Radosav, Sirar i na taj način dali do znanja da na njih klub može ozbiljno da računa.\n\nU sledećem kolu Karađorđevčani igraju na svom terenu protiv favorizovane ekipe \"Akademika\" iz Srbobrana. Pozivamo sve pijatelje kluba, navijače i ljubitelje košarke da dođu u halu i svojim prisustvom daju podršku ekipi \"Karađorđeva\"."
+        }
+    ]
 }

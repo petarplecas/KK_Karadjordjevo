@@ -1,27 +1,29 @@
 {
-  "id": 22,
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/xi-memorijalni-turnir-%E2%80%9Enikola-i-branka%E2%80%9D",
-  "title": "XI MEMORIJALNI TURNIR „NIKOLA I BRANKA\"",
-  "date": "2018-09-13",
-  "date_formatted": "Čet, 13/09/2018 - 16:38",
-  "content": [
-    {
-      "type": "text",
-      "value": "U subotu, 15. i nedelju, 16. septembra 2018. godine, u novoj hali OŠ \"Nikola Tesla\" u Ban. Karađorđevu, održaće se XI memorijalni turnir \"Nikola i Branka\". Ovaj turnir je postao tradicionalno takmičenje koje se održava u znak sećanja na tragično preminule Nikolu Radovića i Branku Sušu."
-    },
-    {
-      "type": "image",
-      "filename": "Nikola i Branka_1_1.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/Nikola%20i%20Branka_1_1.jpg"
-    },
-    {
-      "type": "image",
-      "filename": "test.PNG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/test.PNG"
-    },
-    {
-      "type": "text",
-      "value": "Pehare za osvojeno I, II i III mesto kao i medalje za igrače obezbedio je Sportski savez opštine Žitište, a poklone za najboljeg igrača/igračicu obezbedile su porodice pokojnih Nikole Radovića i Branke Suše.\n\nTurnir se organizuje pod pokroviteljstvom Mesne zajednice Ban. Karađorđevo, a organizaciju su pomogli i Sportski savez opštine Žitište, Skupština opštine Žitište, OŠ \"Nikola Tesla\" Ban. Karađorđevo i ZZ \"Karađorđevo."
-    }
-  ]
+    "id": 22,
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/xi-memorijalni-turnir-%E2%80%9Enikola-i-branka%E2%80%9D",
+    "title": "XI MEMORIJALNI TURNIR „NIKOLA I BRANKA\"",
+    "date": "2018-09-13",
+    "date_formatted": "Čet, 13/09/2018 - 16:38",
+    "content": [
+        {
+            "type": "text",
+            "value": "U subotu, 15. i nedelju, 16. septembra 2018. godine, u novoj hali OŠ \"Nikola Tesla\" u Ban. Karađorđevu, održaće se XI memorijalni turnir \"Nikola i Branka\". Ovaj turnir je postao tradicionalno takmičenje koje se održava u znak sećanja na tragično preminule Nikolu Radovića i Branku Sušu."
+        },
+        {
+            "type": "image",
+            "filename": "Nikola i Branka_1_1.jpg",
+            "url": "http://www.kkkaradjordjevo.com/sites/default/files/Nikola%20i%20Branka_1_1.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "image",
+            "filename": "test.PNG",
+            "url": "http://www.kkkaradjordjevo.com/sites/default/files/test.PNG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Pehare za osvojeno I, II i III mesto kao i medalje za igrače obezbedio je Sportski savez opštine Žitište, a poklone za najboljeg igrača/igračicu obezbedile su porodice pokojnih Nikole Radovića i Branke Suše.\n\nTurnir se organizuje pod pokroviteljstvom Mesne zajednice Ban. Karađorđevo, a organizaciju su pomogli i Sportski savez opštine Žitište, Skupština opštine Žitište, OŠ \"Nikola Tesla\" Ban. Karađorđevo i ZZ \"Karađorđevo."
+        }
+    ]
 }

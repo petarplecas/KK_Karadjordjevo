@@ -1,29 +1,31 @@
 {
-  "title": "Velika Kikinda – Karađorđevo 77:70",
-  "date": "2015-10-16",
-  "date_formatted": "Pet, 16/10/2015 - 13:49",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/velika-kikinda-%E2%80%93-karadordevo-7770",
-  "content": [
-    {
-      "type": "text",
-      "value": "U drugom kolu druge muške regionalne lige grupa sever, Karađorđevčani su poraženi u Kikindi. Bila je ovo solidna igra dve ravnopravne ekipe, a više strpljenja i živaca imali su košarkaši \"Velike Kikinde\". Utakmica je rešena početkom treće četvrtine kada su domaćini stvorili prednost od deset koševa. Jureći rezultat do kraja utakmice, igrači Karađorđeva su u momentima pravili početničke greške i na kraju su Kikinđani zasluženo pobedili sa sedam koševa prednosti."
-    },
-    {
-      "type": "text",
-      "value": "S obzirom da su u prva dva kola zabeleženi jedna pobeda i jedan poraz, Karađorđevčani sa puno nade, želje i optimizma očekuju da u sledećem kolu zabeleže novu pobedu."
-    },
-    {
-      "type": "image",
-      "filename": "PA030035%20%281024x768%29.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/PA030035%20%281024x768%29.jpg"
-    },
-    {
-      "type": "text",
-      "value": "U trećem kolu u subotu 17.10.2015. godine s početkom u 17,00 časova Karađorđevčani igraju protiv odlične ekipe \"Budućnosti\" iz Novog Sada koja je u prva dva kola zabeležila pobede. Utakmica se igra u sali osnovne škole \"Sveti Sava\" u Žitištu."
-    },
-    {
-      "type": "text",
-      "value": "Pozivamo sve ljubitelje košarke, navijače iz Karađorđeva i Žitišta da dođu na utakmicu i svojim navijanjem daju podršku Karađorđevčanima da zabeleže pobedu koja bi bila veliki stimulans za naredne utakmice."
-    }
-  ]
+    "title": "Velika Kikinda  -  Karađorđevo 77:70",
+    "date": "2015-10-16",
+    "date_formatted": "Pet, 16/10/2015 - 13:49",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/velika-kikinda-%E2%80%93-karadordevo-7770",
+    "content": [
+        {
+            "type": "text",
+            "value": "U drugom kolu druge muške regionalne lige grupa sever, Karađorđevčani su poraženi u Kikindi. Bila je ovo solidna igra dve ravnopravne ekipe, a više strpljenja i živaca imali su košarkaši \"Velike Kikinde\". Utakmica je rešena početkom treće četvrtine kada su domaćini stvorili prednost od deset koševa. Jureći rezultat do kraja utakmice, igrači Karađorđeva su u momentima pravili početničke greške i na kraju su Kikinđani zasluženo pobedili sa sedam koševa prednosti."
+        },
+        {
+            "type": "text",
+            "value": "S obzirom da su u prva dva kola zabeleženi jedna pobeda i jedan poraz, Karađorđevčani sa puno nade, želje i optimizma očekuju da u sledećem kolu zabeleže novu pobedu."
+        },
+        {
+            "type": "image",
+            "filename": "vest-069-01.jpg",
+            "url": "/images/vesti/vest-069-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/PA030035%20%281024x768%29.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U trećem kolu u subotu 17.10.2015. godine s početkom u 17,00 časova Karađorđevčani igraju protiv odlične ekipe \"Budućnosti\" iz Novog Sada koja je u prva dva kola zabeležila pobede. Utakmica se igra u sali osnovne škole \"Sveti Sava\" u Žitištu."
+        },
+        {
+            "type": "text",
+            "value": "Pozivamo sve ljubitelje košarke, navijače iz Karađorđeva i Žitišta da dođu na utakmicu i svojim navijanjem daju podršku Karađorđevčanima da zabeleže pobedu koja bi bila veliki stimulans za naredne utakmice."
+        }
+    ]
 }

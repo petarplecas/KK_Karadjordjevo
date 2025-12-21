@@ -1,21 +1,23 @@
 {
-  "title": "Drugi poraz Karađorđevčana",
-  "date": "2014-07-17",
-  "date_formatted": "Čet, 17/07/2014 - 23:26",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/drugi-poraz-karadordevcana",
-  "content": [
-    {
-      "type": "text",
-      "value": "U petom kolu, druge faze takmičenja, letnje lige, play off-a, grupa C, sastale su se ekipe KK Bagljaš iz Zrenjanina i KK Karađorđevo. Ovaj put derbi je pripao košarkašima Bagljaša koji su pobedili rezultatom 79-60."
-    },
-    {
-      "type": "image",
-      "filename": "Fotor0717230644.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/Fotor0717230644.jpg"
-    },
-    {
-      "type": "text",
-      "value": "U poslednjem kolu Karađorđevčani su domaćini Lukićevu i pobedom bi sigurno rešili plasman u drugu srpsku regionalnu ligu. Ovo je najbitnija utakmica za mlade Karađorđevčane i zato pozivamo navijače da dođu u što većem broju u petak, 18.07.2014. godine u 20,00 i svojim navijanjem pomognu ostvarenju cilja."
-    }
-  ]
+    "title": "Drugi poraz Karađorđevčana",
+    "date": "2014-07-17",
+    "date_formatted": "Čet, 17/07/2014 - 23:26",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/drugi-poraz-karadordevcana",
+    "content": [
+        {
+            "type": "text",
+            "value": "U petom kolu, druge faze takmičenja, letnje lige, play off-a, grupa C, sastale su se ekipe KK Bagljaš iz Zrenjanina i KK Karađorđevo. Ovaj put derbi je pripao košarkašima Bagljaša koji su pobedili rezultatom 79-60."
+        },
+        {
+            "type": "image",
+            "filename": "vest-088-01.jpg",
+            "url": "/images/vesti/vest-088-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/Fotor0717230644.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U poslednjem kolu Karađorđevčani su domaćini Lukićevu i pobedom bi sigurno rešili plasman u drugu srpsku regionalnu ligu. Ovo je najbitnija utakmica za mlade Karađorđevčane i zato pozivamo navijače da dođu u što većem broju u petak, 18.07.2014. godine u 20,00 i svojim navijanjem pomognu ostvarenju cilja."
+        }
+    ]
 }

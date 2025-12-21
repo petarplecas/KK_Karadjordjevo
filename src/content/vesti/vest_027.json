@@ -1,34 +1,38 @@
 {
-  "title": "U subotu lokalni derbi \"Karađorđevo\" - \"Bagljaš\"",
-  "date": "2018-04-05",
-  "date_formatted": "Čet, 05/04/2018 - 23:13",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/u-subotu-lokalni-derbi-karadordevo-bagljas",
-  "content": [
-    {
-      "type": "text",
-      "value": "U subotu, 07.04.2018. godine, sa početkom u 20,00 časova, u hali u Banatskom Karađorđevu odigraće se lokalni derbi između KK \"Karađorđevo\" i KK \"Bagljaš\" iz Zrenjanina."
-    },
-    {
-      "type": "image",
-      "filename": "muski nova_5_2.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/muski%20nova_5_2.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Ove sezone, u odnosu na prošlu, uloge ova dva prijateljska kluba su se promenile. U prošloj sezoni Karađorđevčani su se borili za opstanak, a \"Bagljaš\" je bio u gornjem delu tabele. Na svu sreću \"Bagljaš\" je u ovoj sezoni obezbedio opstanak tri kola pre kraja prvenstva i želi da se domogne sredine tabele. Upravo iz ovog razloga očekuje se jedna dinamična i neizvesna utakmica. Zrenjaninci će ući u meč totalno rasterećeni, željni dokazivanja, jer je u pitanju podmlađena ekipa, a Karađorđevčani, ipak, malo opterećeni domaćim terenom i pobedom koja bi ih zadržala u gornjem delu tabele. Utakmice ova dva kluba uvek izazovu veliku pažnju ljubitelja košarke i navijača. Nadamo se da će hala u Karađorđevu biti i ovog puta popunjena i da će gledaoci uživati u lepoj košarkaškoj predstavi."
-    },
-    {
-      "type": "image",
-      "filename": "Juniori_1.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/Juniori_1.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Juniori Karađorđeva u drugoj utakmici play off-a, juniorske lige Vojvodine, izgubili su od ekipe \"Sombor\" u Somboru rezultatom 85:77. Mora se istaći da je ovo bila jedna od najboljih partija mladih Karađorđevčana, a uz nekoliko grešaka u fazi napada u samoj završnici dozvolili su domaćinima da ipak zasluženo slave."
-    },
-    {
-      "type": "text",
-      "value": "Već u sredu, 11.04.2018. godine sa početkom u 20,00 časova u Banatskom Karađorđevu, sastaju se opet ova dva kluba. Očekuje se da će Karađorđevčani uspeti da se revanširaju Somborcima za poraz i zato pozivamo navijače da dođu u što većem broju i daju podršku Karađorđevčanima."
-    }
-  ]
+    "title": "U subotu lokalni derbi \"Karađorđevo\" - \"Bagljaš\"",
+    "date": "2018-04-05",
+    "date_formatted": "Čet, 05/04/2018 - 23:13",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/u-subotu-lokalni-derbi-karadordevo-bagljas",
+    "content": [
+        {
+            "type": "text",
+            "value": "U subotu, 07.04.2018. godine, sa početkom u 20,00 časova, u hali u Banatskom Karađorđevu odigraće se lokalni derbi između KK \"Karađorđevo\" i KK \"Bagljaš\" iz Zrenjanina."
+        },
+        {
+            "type": "image",
+            "filename": "vest-027-01.jpg",
+            "url": "/images/vesti/vest-027-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/muski%20nova_5_2.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Ove sezone, u odnosu na prošlu, uloge ova dva prijateljska kluba su se promenile. U prošloj sezoni Karađorđevčani su se borili za opstanak, a \"Bagljaš\" je bio u gornjem delu tabele. Na svu sreću \"Bagljaš\" je u ovoj sezoni obezbedio opstanak tri kola pre kraja prvenstva i želi da se domogne sredine tabele. Upravo iz ovog razloga očekuje se jedna dinamična i neizvesna utakmica. Zrenjaninci će ući u meč totalno rasterećeni, željni dokazivanja, jer je u pitanju podmlađena ekipa, a Karađorđevčani, ipak, malo opterećeni domaćim terenom i pobedom koja bi ih zadržala u gornjem delu tabele. Utakmice ova dva kluba uvek izazovu veliku pažnju ljubitelja košarke i navijača. Nadamo se da će hala u Karađorđevu biti i ovog puta popunjena i da će gledaoci uživati u lepoj košarkaškoj predstavi."
+        },
+        {
+            "type": "image",
+            "filename": "vest-027-02.jpg",
+            "url": "/images/vesti/vest-027-02.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/Juniori_1.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Juniori Karađorđeva u drugoj utakmici play off-a, juniorske lige Vojvodine, izgubili su od ekipe \"Sombor\" u Somboru rezultatom 85:77. Mora se istaći da je ovo bila jedna od najboljih partija mladih Karađorđevčana, a uz nekoliko grešaka u fazi napada u samoj završnici dozvolili su domaćinima da ipak zasluženo slave."
+        },
+        {
+            "type": "text",
+            "value": "Već u sredu, 11.04.2018. godine sa početkom u 20,00 časova u Banatskom Karađorđevu, sastaju se opet ova dva kluba. Očekuje se da će Karađorđevčani uspeti da se revanširaju Somborcima za poraz i zato pozivamo navijače da dođu u što većem broju i daju podršku Karađorđevčanima."
+        }
+    ]
 }

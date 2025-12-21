@@ -1,32 +1,33 @@
 {
-  "title": "III Memorijalni turnir \"Nikola i Branka\" 2009.",
-  "date": "2009-09-12",
-  "date_formatted": null,
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/iii-memorijalni-turnir-nikola-i-branka-2009",
-  "content": [
-    {
-      "type": "image",
-      "value": "http://www.kkkaradjordjevo.com/sites/default/files/resize/bscap0000-291x201.jpg"
-    },
-    {
-      "type": "text",
-      "value": "12. i 13. septembra 2009. godine održan je treći memorijalni turnir. Turnir je otvorio generalni sekretar Sportskog saveza opštine Žitište Milenko Martinović."
-    },
-    {
-      "type": "text",
-      "value": "U muškoj konkurenciji učestvovale su sledeće ekipe – kadeti: KK \"Partizan\" Beograd, KK \"Hemofarm\" Vršac, KK \"Proleter\" Zrenjanin i KK \"Karađorđevo\". Drugi put turnir je osvojio \"Partizan\", a najbolji igrač bio je Nikola Radičević iz \"Partizan\"-a."
-    },
-    {
-      "type": "text",
-      "value": "U ženskoj konkurenciji učestvovale su sledeće ekipe – kadetkinje: ŽKK \"Vojvodina\" Novi Sad, ŽKK \"Sivac\" Sivac, ŽKK \"Gimnazija\" Kikinda i ŽKK \"Karađorđevo\". Pobednice su bile devojčice iz Sivca, a najbolja igračica bila je Tamara Rajić, takođe, iz Sivca."
-    },
-    {
-      "type": "text",
-      "value": "Na kraju, posebna priznanja najboljoj košarkašici i košarkašu uručile su majke Nikole Radovića i Branke Suše."
-    },
-    {
-      "type": "gallery_link",
-      "value": "http://www.kkkaradjordjevo.com/galerija/turnir-nikola-i-branka-12-13092009"
-    }
-  ]
+    "title": "III Memorijalni turnir \"Nikola i Branka\" 2009.",
+    "date": "2009-09-12",
+    "date_formatted": null,
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/iii-memorijalni-turnir-nikola-i-branka-2009",
+    "content": [
+        {
+            "type": "image",
+            "value": "http://www.kkkaradjordjevo.com/sites/default/files/resize/bscap0000-291x201.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "12. i 13. septembra 2009. godine održan je treći memorijalni turnir. Turnir je otvorio generalni sekretar Sportskog saveza opštine Žitište Milenko Martinović."
+        },
+        {
+            "type": "text",
+            "value": "U muškoj konkurenciji učestvovale su sledeće ekipe - kadeti: KK \"Partizan\" Beograd, KK \"Hemofarm\" Vršac, KK \"Proleter\" Zrenjanin i KK \"Karađorđevo\". Drugi put turnir je osvojio \"Partizan\", a najbolji igrač bio je Nikola Radičević iz \"Partizan\"-a."
+        },
+        {
+            "type": "text",
+            "value": "U ženskoj konkurenciji učestvovale su sledeće ekipe - kadetkinje: ŽKK \"Vojvodina\" Novi Sad, ŽKK \"Sivac\" Sivac, ŽKK \"Gimnazija\" Kikinda i ŽKK \"Karađorđevo\". Pobednice su bile devojčice iz Sivca, a najbolja igračica bila je Tamara Rajić, takođe, iz Sivca."
+        },
+        {
+            "type": "text",
+            "value": "Na kraju, posebna priznanja najboljoj košarkašici i košarkašu uručile su majke Nikole Radovića i Branke Suše."
+        },
+        {
+            "type": "gallery_link",
+            "value": "http://www.kkkaradjordjevo.com/galerija/turnir-nikola-i-branka-12-13092009"
+        }
+    ]
 }

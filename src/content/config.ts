@@ -17,7 +17,11 @@ const contentSchema = z.object({
         type: z.literal('image'),
         filename: z.string().optional(),
         value: z.string().optional(), // For old format with URL
-        url: z.string().url().optional(),
+        url: z.string().optional(), // Allow both URLs and local paths like /images/...
+        originalUrl: z.string().url().optional(), // Original URL from old site
+        note: z.string().optional(), // Optional note about the image
+        alt: z.string().default('Fotografija sa događaja'), // Alt text for accessibility
+        caption: z.string().optional(), // Optional caption
       }),
       z.object({
         type: z.literal('video'),

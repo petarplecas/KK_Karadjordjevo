@@ -9,6 +9,8 @@ interface Props {
     video_id?: string;
     title?: string;
     url?: string;
+    alt?: string;
+    caption?: string;
   }>;
 }
 
@@ -18,22 +20,30 @@ const { content } = Astro.props;
 <div class="prose prose-lg max-w-none">
   {content.map((block) => {
     if (block.type === 'text') {
-      return <p class="mb-4 text-gray-700 leading-relaxed text-base sm:text-lg whitespace-pre-line">{block.value}</p>;
+      return <p class="mb-4 text-slate-200 leading-relaxed text-base sm:text-lg whitespace-pre-line">{block.value}</p>;
     }
 
     if (block.type === 'image') {
-      const imageSrc = block.filename
-        ? `/images/news/${block.filename}`
-        : block.value || block.url || '';
+      // Use the url field if available (new format with /images/vesti/vest-xxx-xx.jpg)
+      // Otherwise fall back to filename or value
+      const imageSrc = block.url ||
+                       (block.filename ? `/images/vesti/${block.filename}` : '') ||
+                       block.value || '';
 
       return (
         <figure class="my-6">
           <img
             src={imageSrc}
-            alt=""
+            alt={block.alt || 'Fotografija sa događaja'}
             class="rounded-lg w-full h-auto shadow-lg"
             loading="lazy"
+            decoding="async"
           />
+          {block.caption && (
+            <figcaption class="text-sm text-slate-400 mt-2 text-center italic">
+              {block.caption}
+            </figcaption>
+          )}
         </figure>
       );
     }

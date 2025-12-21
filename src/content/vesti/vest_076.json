@@ -1,25 +1,27 @@
 {
-  "title": "Teško gostovanje u Apatinu",
-  "date": "2014-12-10",
-  "date_formatted": "Sre, 10/12/2014 - 15:55",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/tesko-gostovanje-u-apatinu",
-  "content": [
-    {
-      "type": "text",
-      "value": "Posle druge pobede u drugoj muškoj regionalnoj ligi – grupa sever, protiv ekipe Velike Kikinde, Karadjordjevčani su pretrpeli četiri uzastopna poraza. Na domaćem terenu, u Žitištu, poraženi su od ekipa: Kadet iz Novog Sada, Vojvodina iz Novog Miloševa i Sport Key Plus takođe iz Novog Sada i na gostovanju od ekipe So koš iz Sombora."
-    },
-    {
-      "type": "image",
-      "filename": "10703828_903163836380380_9220979548467401774_n_1.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/10703828_903163836380380_9220979548467401774_n_1.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Analizom poraza dolazi se do zaključka da Karadjordjevčani moraju pre svega da sa više samopuzdanja ulaze u svaki meč, bez obzira koji protivnik je u pitanju. Tokom utakmice ne smeju se dozvoliti velike oscilacije u igri. Zalaganje igrača, borbenost, skok u odbrani i napadu, šut za dva i tri poena, moraju da se podignu na viši nivo, kako bi se izborio opstanak u ligi. Ono što ohrabruje je činjenica da su na poslednjem meču protiv jake ekipe Dragana Lukovskog, Sport Key Plus, svi ovi segmenti igre poboljšani i nadamo se da će tako biti i na sledećim utakmicama."
-    },
-    {
-      "type": "text",
-      "value": "U jedanaestom kolu u subotu 13. decembra 2014. godine, Karađorđevčane očekuje još jedno teško gostovanje u Apatinu protiv ekipe Crvenke – Dunav. Nadamo se da će mlada ekipa Karađorđeva dobro odigrati taj meč i na taj način ako ništa drugo biti ravnopravan protivnik."
-    }
-  ]
+    "title": "Teško gostovanje u Apatinu",
+    "date": "2014-12-10",
+    "date_formatted": "Sre, 10/12/2014 - 15:55",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/tesko-gostovanje-u-apatinu",
+    "content": [
+        {
+            "type": "text",
+            "value": "Posle druge pobede u drugoj muškoj regionalnoj ligi  -  grupa sever, protiv ekipe Velike Kikinde, Karadjordjevčani su pretrpeli četiri uzastopna poraza. Na domaćem terenu, u Žitištu, poraženi su od ekipa: Kadet iz Novog Sada, Vojvodina iz Novog Miloševa i Sport Key Plus takođe iz Novog Sada i na gostovanju od ekipe So koš iz Sombora."
+        },
+        {
+            "type": "image",
+            "filename": "vest-076-01.jpg",
+            "url": "/images/vesti/vest-076-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/10703828_903163836380380_9220979548467401774_n_1.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Analizom poraza dolazi se do zaključka da Karadjordjevčani moraju pre svega da sa više samopuzdanja ulaze u svaki meč, bez obzira koji protivnik je u pitanju. Tokom utakmice ne smeju se dozvoliti velike oscilacije u igri. Zalaganje igrača, borbenost, skok u odbrani i napadu, šut za dva i tri poena, moraju da se podignu na viši nivo, kako bi se izborio opstanak u ligi. Ono što ohrabruje je činjenica da su na poslednjem meču protiv jake ekipe Dragana Lukovskog, Sport Key Plus, svi ovi segmenti igre poboljšani i nadamo se da će tako biti i na sledećim utakmicama."
+        },
+        {
+            "type": "text",
+            "value": "U jedanaestom kolu u subotu 13. decembra 2014. godine, Karađorđevčane očekuje još jedno teško gostovanje u Apatinu protiv ekipe Crvenke  -  Dunav. Nadamo se da će mlada ekipa Karađorđeva dobro odigrati taj meč i na taj način ako ništa drugo biti ravnopravan protivnik."
+        }
+    ]
 }

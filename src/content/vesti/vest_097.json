@@ -1,26 +1,28 @@
 {
-  "title": "Prijateljska košarkaška utakmica u Kleku",
-  "date": "2013-10-30",
-  "date_formatted": "Sre, 30/10/2013 - 11:42",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/prijateljska-kosarkaska-utakmica-u-kleku",
-  "content": [
-    {
-      "type": "text",
-      "value": "Na dan Svete Petke, 27.10.2013. godine, na slavi u Kleku, košarkaši Karađorđeva odigrali su prijateljsku košarkašku utakmicu protiv Klečana. Za košarkaški klub \"Karađorđevo\" ovo je bilo veliko priznanje za dugogodišnji rad, a ujedno i velika čast i zadovoljstvo bilo je igrati pred punim tribinama u sjajnoj košarkaškoj atmosferi gde je publika aplauzima nagrađivala lepe akcije i poteze košarkaša oba kluba. Rezultat ove utakmice nisu brojke postignutih koševa, već upornost i zalaganje nekolicine ljudi u Kleku koji su se izborili da ožive rad košarkaškog kluba, koji ima dugu tradiciju. Ovo je ujedno bila i prva košarkaška utakmica odigrana u sportskoj Sali u Kleku. Po završetku utakmice druženje je nastavljeno uz večeru. Zahvaljujemo se sportskim prijateljima na pozivu i nadamo se da smo svojom igrom uveličali slavlje, a druženje ova dva kluba će se nastaviti prvom zgodnom prilikom u Banatskom Karađorđevu."
-    },
-    {
-      "type": "image",
-      "filename": "PA270110_0.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/PA270110_0.JPG"
-    },
-    {
-      "type": "text",
-      "value": "U Galeriji možete pogledati fotografije sa utakmice."
-    },
-    {
-      "type": "gallery_link",
-      "title": "Prijateljska utakmica Klek - Karađorđevo 27.10.2013",
-      "url": "http://www.kkkaradjordjevo.com/galerija/prijateljska-utakmica-klek-karadordevo-27102013"
-    }
-  ]
+    "title": "Prijateljska košarkaška utakmica u Kleku",
+    "date": "2013-10-30",
+    "date_formatted": "Sre, 30/10/2013 - 11:42",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/prijateljska-kosarkaska-utakmica-u-kleku",
+    "content": [
+        {
+            "type": "text",
+            "value": "Na dan Svete Petke, 27.10.2013. godine, na slavi u Kleku, košarkaši Karađorđeva odigrali su prijateljsku košarkašku utakmicu protiv Klečana. Za košarkaški klub \"Karađorđevo\" ovo je bilo veliko priznanje za dugogodišnji rad, a ujedno i velika čast i zadovoljstvo bilo je igrati pred punim tribinama u sjajnoj košarkaškoj atmosferi gde je publika aplauzima nagrađivala lepe akcije i poteze košarkaša oba kluba. Rezultat ove utakmice nisu brojke postignutih koševa, već upornost i zalaganje nekolicine ljudi u Kleku koji su se izborili da ožive rad košarkaškog kluba, koji ima dugu tradiciju. Ovo je ujedno bila i prva košarkaška utakmica odigrana u sportskoj Sali u Kleku. Po završetku utakmice druženje je nastavljeno uz večeru. Zahvaljujemo se sportskim prijateljima na pozivu i nadamo se da smo svojom igrom uveličali slavlje, a druženje ova dva kluba će se nastaviti prvom zgodnom prilikom u Banatskom Karađorđevu."
+        },
+        {
+            "type": "image",
+            "filename": "vest-097-01.JPG",
+            "url": "/images/vesti/vest-097-01.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/PA270110_0.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U Galeriji možete pogledati fotografije sa utakmice."
+        },
+        {
+            "type": "gallery_link",
+            "title": "Prijateljska utakmica Klek - Karađorđevo 27.10.2013",
+            "url": "http://www.kkkaradjordjevo.com/galerija/prijateljska-utakmica-klek-karadordevo-27102013"
+        }
+    ]
 }

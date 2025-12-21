@@ -1,33 +1,35 @@
 {
-  "title": "Karađorđevčani bez poraza",
-  "date": "2014-06-30",
-  "date_formatted": "Pon, 30/06/2014 - 13:52",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/karadordevcani-bez-poraza",
-  "content": [
-    {
-      "type": "text",
-      "value": "Košarkaški klub \"Karađorđevo\" prvu fazu takmičenja, u grupi A letnje košarkaške lige okružnog košarkaškog saveza Zrenjanin, završio je kako je i planirano na početku takmičenja na prvom mestu bez poraza. Već u ovoj fazi takmičenja mlada ekipa Karađorđeva pokazala je da ima kvalitet za plasman u viši rang takmičenja. Savladane su mnogo iskusnije ekipe kao što su \"Vojvodina\" iz Bašaida, \"Čoka\" iz Čoke, \"Sloboda\" iz Novih Kozaraca i \"Velika Kikinda\" iz Kikinde, na domaćem i gostujućem terenu."
-    },
-    {
-      "type": "text",
-      "value": "Druga faza takmičenja play off, počinje u sredu, 2. jula. Karađorđevčani startuju kao neporažena ekipa sa prve pozicije i velikim šansama za ostvarenje svog istorijskog sna, plasman u viši rang takmičenja. U prva dva kola play off-a Karađorđevčani su domaćini i sa te dve pobede šanse bi se puno uvećale."
-    },
-    {
-      "type": "text",
-      "value": "U sredu, 2. jula sa početkom u 20,00 časova u goste nam dolaze naši veliki sportski prijatelji KK \"Klek\" iz Kleka, a u subotu 5. jula takođe sa početkom u 20,00 časova, igra se derbi lige, gde se sastaju prvoplasirana i drugoplasirana ekipa, KK \"Karađorđevo\" i KK \"Bagljaš\" iz Zrenjanina."
-    },
-    {
-      "type": "image",
-      "filename": "DSC00322_2.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00322_2.JPG"
-    },
-    {
-      "type": "text",
-      "value": "Nadamo se da će iskusniji igrači, kapiten Luka Uzelac, Petar Plećaš, Dušan Jarić, Vukašin Varićak, Nešo Vignjević, Bojan Lučičanin i mnogo mlađi, Goran Krivokuća, Mladen Žarković, Goran Budisavljević, Filip Radosav i dr. nastaviti sa dobrim igrama i osvojiti prvo mesto."
-    },
-    {
-      "type": "text",
-      "value": "Pozivamo sve ljubitelje košarke i navijače da dođu u što večem broju i pomognu mladim igračima da ostvare istorijski san, plasman u viši rang takmičenja, drugu srpsku regionalnu ligu."
-    }
-  ]
+    "title": "Karađorđevčani bez poraza",
+    "date": "2014-06-30",
+    "date_formatted": "Pon, 30/06/2014 - 13:52",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/karadordevcani-bez-poraza",
+    "content": [
+        {
+            "type": "text",
+            "value": "Košarkaški klub \"Karađorđevo\" prvu fazu takmičenja, u grupi A letnje košarkaške lige okružnog košarkaškog saveza Zrenjanin, završio je kako je i planirano na početku takmičenja na prvom mestu bez poraza. Već u ovoj fazi takmičenja mlada ekipa Karađorđeva pokazala je da ima kvalitet za plasman u viši rang takmičenja. Savladane su mnogo iskusnije ekipe kao što su \"Vojvodina\" iz Bašaida, \"Čoka\" iz Čoke, \"Sloboda\" iz Novih Kozaraca i \"Velika Kikinda\" iz Kikinde, na domaćem i gostujućem terenu."
+        },
+        {
+            "type": "text",
+            "value": "Druga faza takmičenja play off, počinje u sredu, 2. jula. Karađorđevčani startuju kao neporažena ekipa sa prve pozicije i velikim šansama za ostvarenje svog istorijskog sna, plasman u viši rang takmičenja. U prva dva kola play off-a Karađorđevčani su domaćini i sa te dve pobede šanse bi se puno uvećale."
+        },
+        {
+            "type": "text",
+            "value": "U sredu, 2. jula sa početkom u 20,00 časova u goste nam dolaze naši veliki sportski prijatelji KK \"Klek\" iz Kleka, a u subotu 5. jula takođe sa početkom u 20,00 časova, igra se derbi lige, gde se sastaju prvoplasirana i drugoplasirana ekipa, KK \"Karađorđevo\" i KK \"Bagljaš\" iz Zrenjanina."
+        },
+        {
+            "type": "image",
+            "filename": "vest-093-01.JPG",
+            "url": "/images/vesti/vest-093-01.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00322_2.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Nadamo se da će iskusniji igrači, kapiten Luka Uzelac, Petar Plećaš, Dušan Jarić, Vukašin Varićak, Nešo Vignjević, Bojan Lučičanin i mnogo mlađi, Goran Krivokuća, Mladen Žarković, Goran Budisavljević, Filip Radosav i dr. nastaviti sa dobrim igrama i osvojiti prvo mesto."
+        },
+        {
+            "type": "text",
+            "value": "Pozivamo sve ljubitelje košarke i navijače da dođu u što večem broju i pomognu mladim igračima da ostvare istorijski san, plasman u viši rang takmičenja, drugu srpsku regionalnu ligu."
+        }
+    ]
 }

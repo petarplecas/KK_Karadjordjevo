@@ -1,46 +1,50 @@
 {
-  "title": "Prvi poraz Karađorđevčana u Bečeju",
-  "date": "2017-11-02",
-  "date_formatted": "Čet, 02/11/2017 - 22:00",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/prvi-poraz-karadordevcana-u-beceju",
-  "content": [
-    {
-      "type": "text",
-      "value": "U sredu, 01.11.2017. godine u 21,00 čas, u neobičajenom terminu za odigravanje prvenstvenih utakmica, Karađorđevčani su gostovali u Bečeju, gde su pretrpeli prvi poraz u prvenstvu. Bila je ovo teška i neizvesna utakmica koja se završila pobedom domaćina. Karađorđevčani su dobro otvorili utakmicu, ali je slabije odigrana druga četvrtina uvela ovaj meč u neizvesnu završnicu. U večeri kada Karađorđevčanima ništa nije polazilo za rukom, preagresivna odbrana domaćih igrača doprinela je da više sreće i koncentracije u završnici imaju igrači \"Tise\" i pobede rezultatom 79:73."
-    },
-    {
-      "type": "image",
-      "filename": "muski nova_0.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/muski%20nova_0.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Seniorke Karađorđeva u prošlom kolu poražene su u Feketiću od ekipe \"Njegoša\" iz Lovćenca rezultatom 64:33. Kao novajlije u drugoj ženskoj ligi Srbije, mlade i neiskusne igračice Karađorđeva nisu mogle bolje protiv fizički jačeg i mnogo iskusnijeg protivnika kakva je ekipa \"Njegoš\"."
-    },
-    {
-      "type": "image",
-      "filename": "zenske.JPG",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/zenske.JPG"
-    },
-    {
-      "type": "text",
-      "value": "Pioniri Karađorđeva na domaćem terenu bili su bolji od svojih vršnjaka iz Žitišta i pobedili rezultatom 60:49. Treba istaći dobru igru mladog Milana Radakovića koji je na ovoj utakmici postigao 50 koševa."
-    },
-    {
-      "type": "text",
-      "value": "Sledećeg vikenda počinje takmičenje i za juniore Karađorđeva, koji svoju prvu utakmicu igraju već u petak, 03.11.2017. godine u Pančevu protiv ekipe \"Tamiš\" sa početkom u 20,00 časova."
-    },
-    {
-      "type": "text",
-      "value": "Pioniri u nedelju, 05.11.2017. godine, idu u goste ekipi \"Zadrugar\" iz Lazareva. Utakmica se igra u sportskoj hali u Kleku sa početkom u 14,00 časova."
-    },
-    {
-      "type": "text",
-      "value": "U subotu, 04.11.2017. godine, u Karađorđevu na programu je dupli program. U prvoj utakmici koja počinje u 16,30 časova, u drugoj ženskoj ligi Srbije, Karađorđevčanke igraju protiv odlične ekipe \"Proleter 023\" iz Zrenjanina."
-    },
-    {
-      "type": "text",
-      "value": "U drugoj utakmici, u derbiju kola druge srpske lige, seniori Karađorđeva igraju protiv jake ekipe \"Sloboda\" iz Novog Sada. Biće ovo sigurno tvrda i neizvesna utakmica u kojoj bi pobeda vratila samopuzdanje igračima, kako bi nastavili i dalje da pobeđuju. Utakmica počinje u 19,00 časova. Pozivamo sve ljubitelje košarke i navijače da dođu i svojim navijanjem pomognu igračima da ostvare važnu pobedu u trci za najviši plasman."
-    }
-  ]
+    "title": "Prvi poraz Karađorđevčana u Bečeju",
+    "date": "2017-11-02",
+    "date_formatted": "Čet, 02/11/2017 - 22:00",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/prvi-poraz-karadordevcana-u-beceju",
+    "content": [
+        {
+            "type": "text",
+            "value": "U sredu, 01.11.2017. godine u 21,00 čas, u neobičajenom terminu za odigravanje prvenstvenih utakmica, Karađorđevčani su gostovali u Bečeju, gde su pretrpeli prvi poraz u prvenstvu. Bila je ovo teška i neizvesna utakmica koja se završila pobedom domaćina. Karađorđevčani su dobro otvorili utakmicu, ali je slabije odigrana druga četvrtina uvela ovaj meč u neizvesnu završnicu. U večeri kada Karađorđevčanima ništa nije polazilo za rukom, preagresivna odbrana domaćih igrača doprinela je da više sreće i koncentracije u završnici imaju igrači \"Tise\" i pobede rezultatom 79:73."
+        },
+        {
+            "type": "image",
+            "filename": "vest-042-01.jpg",
+            "url": "/images/vesti/vest-042-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/muski%20nova_0.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Seniorke Karađorđeva u prošlom kolu poražene su u Feketiću od ekipe \"Njegoša\" iz Lovćenca rezultatom 64:33. Kao novajlije u drugoj ženskoj ligi Srbije, mlade i neiskusne igračice Karađorđeva nisu mogle bolje protiv fizički jačeg i mnogo iskusnijeg protivnika kakva je ekipa \"Njegoš\"."
+        },
+        {
+            "type": "image",
+            "filename": "vest-042-02.JPG",
+            "url": "/images/vesti/vest-042-02.JPG",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/zenske.JPG",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Pioniri Karađorđeva na domaćem terenu bili su bolji od svojih vršnjaka iz Žitišta i pobedili rezultatom 60:49. Treba istaći dobru igru mladog Milana Radakovića koji je na ovoj utakmici postigao 50 koševa."
+        },
+        {
+            "type": "text",
+            "value": "Sledećeg vikenda počinje takmičenje i za juniore Karađorđeva, koji svoju prvu utakmicu igraju već u petak, 03.11.2017. godine u Pančevu protiv ekipe \"Tamiš\" sa početkom u 20,00 časova."
+        },
+        {
+            "type": "text",
+            "value": "Pioniri u nedelju, 05.11.2017. godine, idu u goste ekipi \"Zadrugar\" iz Lazareva. Utakmica se igra u sportskoj hali u Kleku sa početkom u 14,00 časova."
+        },
+        {
+            "type": "text",
+            "value": "U subotu, 04.11.2017. godine, u Karađorđevu na programu je dupli program. U prvoj utakmici koja počinje u 16,30 časova, u drugoj ženskoj ligi Srbije, Karađorđevčanke igraju protiv odlične ekipe \"Proleter 023\" iz Zrenjanina."
+        },
+        {
+            "type": "text",
+            "value": "U drugoj utakmici, u derbiju kola druge srpske lige, seniori Karađorđeva igraju protiv jake ekipe \"Sloboda\" iz Novog Sada. Biće ovo sigurno tvrda i neizvesna utakmica u kojoj bi pobeda vratila samopuzdanje igračima, kako bi nastavili i dalje da pobeđuju. Utakmica počinje u 19,00 časova. Pozivamo sve ljubitelje košarke i navijače da dođu i svojim navijanjem pomognu igračima da ostvare važnu pobedu u trci za najviši plasman."
+        }
+    ]
 }

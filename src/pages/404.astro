@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+---
+
+<BaseLayout title="Stranica nije pronađena">
+  <Header />
+
+  <main class="container mx-auto px-4 py-16 flex-grow">
+    <div class="max-w-2xl mx-auto text-center">
+      <h1 class="text-6xl sm:text-8xl font-bold text-kk-accent mb-4">404</h1>
+      <h2 class="text-2xl sm:text-3xl font-bold text-kk-text-primary mb-6">
+        Stranica nije pronađena
+      </h2>
+      <p class="text-kk-text-secondary mb-8 text-lg">
+        Žao nam je, ali stranica koju tražite ne postoji ili je premeštena.
+      </p>
+
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="/"
+          class="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-kk-accent to-amber-600 text-slate-900 font-bold rounded-lg hover:shadow-glow-amber transition-all"
+        >
+          Početna stranica
+        </a>
+        <a
+          href="/vesti/1"
+          class="inline-flex items-center gap-2 px-6 py-3 glass border border-kk-border/30 text-kk-text-primary rounded-lg hover:border-kk-accent transition-all"
+        >
+          Vesti
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>

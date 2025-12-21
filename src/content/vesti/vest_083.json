@@ -1,25 +1,27 @@
 {
-  "title": "Na startu nove sezone Karađorđevčani protiv Sivca",
-  "date": "2014-10-02",
-  "date_formatted": "Čet, 02/10/2014 - 11:22",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/na-startu-nove-sezone-karadordevcani-protiv-sivca",
-  "content": [
-    {
-      "type": "text",
-      "value": "Četvrtog oktobra startuje nova sezona 2014/15. Ovo je za KK \"Karađorđevo\" sigurno najvažnija sezona od osnivanja kluba, jer su seniori ostvarili istorijski uspeh i plasirali se u viši rang takmičenja, a to je Druga muška regionalna liga, grupa sever. Takmičenje u ovoj ligi biće izuzetno teško i naporno, ali Karađorđevo raspolaže velikim brojem mladih igrača koji su košarkaško znanje stekli u ovom klubu i sigurno je da će velikom željom, borbenošću i znanjem pokušati da ostvare cilj, opstanak u ovom rangu takmičenja. Za KK \"Karađorđevo\", kao novajliju, svaki protivnik je nepoznat i prognozirati rezultat je nezahvalno."
-    },
-    {
-      "type": "image",
-      "filename": "DSC00654_0.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00654_0.jpg"
-    },
-    {
-      "type": "text",
-      "value": "U prvom kolu u subotu 04.10.2014. godine s početkom u 19,00 časova Karađorđevčani igraju protiv ekipe Sivca. Sve utakmice kao domaćin KK \"Karađorđevo\" igra u sali osnovne škole \"Sveti Sava\" u Žitištu i ovom prilikom zahvaljujemo se osnovnoj školi \"Sveti Sava\" i KK \"Sveti Đorđe\" iz Žitišta na ustupljenim terminima."
-    },
-    {
-      "type": "text",
-      "value": "Pozivamo sve ljubitelje košarke i navijače iz Karađorđeva i Žitišta da dođu na utakmicu i svojim navijanjem daju podršku Karađorđevčanima da na startu sezone zabeleže pobedu koja bi bila veliki stimulans za naredne utakmice."
-    }
-  ]
+    "title": "Na startu nove sezone Karađorđevčani protiv Sivca",
+    "date": "2014-10-02",
+    "date_formatted": "Čet, 02/10/2014 - 11:22",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/na-startu-nove-sezone-karadordevcani-protiv-sivca",
+    "content": [
+        {
+            "type": "text",
+            "value": "Četvrtog oktobra startuje nova sezona 2014/15. Ovo je za KK \"Karađorđevo\" sigurno najvažnija sezona od osnivanja kluba, jer su seniori ostvarili istorijski uspeh i plasirali se u viši rang takmičenja, a to je Druga muška regionalna liga, grupa sever. Takmičenje u ovoj ligi biće izuzetno teško i naporno, ali Karađorđevo raspolaže velikim brojem mladih igrača koji su košarkaško znanje stekli u ovom klubu i sigurno je da će velikom željom, borbenošću i znanjem pokušati da ostvare cilj, opstanak u ovom rangu takmičenja. Za KK \"Karađorđevo\", kao novajliju, svaki protivnik je nepoznat i prognozirati rezultat je nezahvalno."
+        },
+        {
+            "type": "image",
+            "filename": "vest-083-01.jpg",
+            "url": "/images/vesti/vest-083-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/DSC00654_0.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U prvom kolu u subotu 04.10.2014. godine s početkom u 19,00 časova Karađorđevčani igraju protiv ekipe Sivca. Sve utakmice kao domaćin KK \"Karađorđevo\" igra u sali osnovne škole \"Sveti Sava\" u Žitištu i ovom prilikom zahvaljujemo se osnovnoj školi \"Sveti Sava\" i KK \"Sveti Đorđe\" iz Žitišta na ustupljenim terminima."
+        },
+        {
+            "type": "text",
+            "value": "Pozivamo sve ljubitelje košarke i navijače iz Karađorđeva i Žitišta da dođu na utakmicu i svojim navijanjem daju podršku Karađorđevčanima da na startu sezone zabeleže pobedu koja bi bila veliki stimulans za naredne utakmice."
+        }
+    ]
 }

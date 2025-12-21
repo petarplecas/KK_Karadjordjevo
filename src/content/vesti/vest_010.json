@@ -1,22 +1,24 @@
 {
-  "id": 10,
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/na-kraju-sezone-201819-karadordevcani-protiv-jokera-iz-sombora",
-  "title": "Na kraju sezone 2018/19 Karađorđevčani protiv \"Jokera\" iz Sombora",
-  "date": "2019-04-17",
-  "date_formatted": "Sre, 17/04/2019 - 22:53",
-  "content": [
-    {
-      "type": "text",
-      "value": "Poslednju prvoligašku utakmicu play off-a Karađorđevčani igraju protiv Jokićevog \"Jokera\" iz Sombora. Utakmica se igra u hali u Banatskom Karađorđevu, u petak 19.04.2019. godine, u 20,00 časova.\n\nNa kraju prvenstva, atraktivan, ali težak protivnik, koji ima ambicije da se plasira u viši rang. Pravi ispit za Karađorđevčane."
-    },
-    {
-      "type": "image",
-      "filename": "IMG-20181111-WA0003_4.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/IMG-20181111-WA0003_4.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Iako je u toku prvenstva bilo mnogo problema, pre svega mislimo na povrede igrača i ostalo, može se reći da je sezona 2018/19 bila veoma uspešna. Pobeda protiv \"Jokera\" bi bila šlag na torti. Očekuje se jedna uzbudljiva, dinamična, i napeta utakmica do samog kraja. Zato pozivamo sve ljubitelje košarke i navijače da dođu u halu i svojim prisustvom, kao i do sada, naprave atmosferu kakva se poželeti može na košarkaškim terenima. Sigurni smo da igrači Karađorđeva, predvođeni kapitenom Mišom Martinovićem, znaju to da cene i svojom igrom i požrtvovanjem na terenu, vraćaju taj dug.\n\nDa napomenemo da od 10 prvenstvenih utakmica odigranih u ovoj sezoni, na domaćem terenu, uz podršku divne publike, samo je \"Sloboda\" iz Novog Sada, uz dosta sreće uspela da savlada Karađorđevčane."
-    }
-  ]
+    "id": 10,
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/na-kraju-sezone-201819-karadordevcani-protiv-jokera-iz-sombora",
+    "title": "Na kraju sezone 2018/19 Karađorđevčani protiv \"Jokera\" iz Sombora",
+    "date": "2019-04-17",
+    "date_formatted": "Sre, 17/04/2019 - 22:53",
+    "content": [
+        {
+            "type": "text",
+            "value": "Poslednju prvoligašku utakmicu play off-a Karađorđevčani igraju protiv Jokićevog \"Jokera\" iz Sombora. Utakmica se igra u hali u Banatskom Karađorđevu, u petak 19.04.2019. godine, u 20,00 časova.\n\nNa kraju prvenstva, atraktivan, ali težak protivnik, koji ima ambicije da se plasira u viši rang. Pravi ispit za Karađorđevčane."
+        },
+        {
+            "type": "image",
+            "filename": "vest-010-01.jpg",
+            "url": "/images/vesti/vest-010-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/IMG-20181111-WA0003_4.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Iako je u toku prvenstva bilo mnogo problema, pre svega mislimo na povrede igrača i ostalo, može se reći da je sezona 2018/19 bila veoma uspešna. Pobeda protiv \"Jokera\" bi bila šlag na torti. Očekuje se jedna uzbudljiva, dinamična, i napeta utakmica do samog kraja. Zato pozivamo sve ljubitelje košarke i navijače da dođu u halu i svojim prisustvom, kao i do sada, naprave atmosferu kakva se poželeti može na košarkaškim terenima. Sigurni smo da igrači Karađorđeva, predvođeni kapitenom Mišom Martinovićem, znaju to da cene i svojom igrom i požrtvovanjem na terenu, vraćaju taj dug.\n\nDa napomenemo da od 10 prvenstvenih utakmica odigranih u ovoj sezoni, na domaćem terenu, uz podršku divne publike, samo je \"Sloboda\" iz Novog Sada, uz dosta sreće uspela da savlada Karađorđevčane."
+        }
+    ]
 }

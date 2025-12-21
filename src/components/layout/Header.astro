@@ -1,62 +1,126 @@
 ---
-// Mobile-first header sa hamburger menijem
+import { navLinks } from '../../config/navigation';
+
+// Modern header with gradient and glass effects
+const currentPath = Astro.url.pathname;
 ---
 
-<header class="bg-kk-primary text-white shadow-lg sticky top-0 z-50">
-  <div class="container mx-auto px-4 py-3">
-    <div class="flex items-center justify-between">
-      <!-- Logo + Club Name -->
-      <a href="/" class="flex items-center gap-3 hover:opacity-90 transition">
-        <img src="/logo.png" alt="KK Karađorđevo" class="h-12 w-12 rounded-full" />
-        <div class="flex flex-col">
-          <span class="font-bold text-base sm:text-lg">KK Karađorđevo</span>
-          <span class="text-xs sm:text-sm opacity-90 hidden sm:block">Košarkaški klub</span>
-        </div>
-      </a>
+<header class="sticky top-0 z-50 glass border-b border-kk-border/20 shadow-glow-amber">
+  <div class="bg-gradient-to-r from-kk-primary via-kk-secondary to-kk-primary">
+    <div class="container mx-auto px-4 py-4">
+      <div class="flex items-center justify-between">
+        <!-- Logo + Club Name with Glow Effect -->
+        <a href="/" class="flex items-center gap-3 group transition-all duration-300">
+          <div class="relative">
+            <img
+              src="/logo.png"
+              alt="KK Karađorđevo"
+              class="h-12 w-12 sm:h-14 sm:w-14 rounded-full transition-transform duration-300 group-hover:scale-110 group-hover:shadow-glow-amber brightness-125"
+              style="filter: brightness(1.3) contrast(1.1);"
+            />
+            <div class="absolute inset-0 rounded-full bg-kk-accent/20 blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+          </div>
+          <div class="flex flex-col">
+            <span class="font-display font-bold text-lg sm:text-xl text-gradient">KK Karađorđevo</span>
+            <span class="text-xs sm:text-sm text-kk-text-secondary hidden sm:block">Košarkaški klub</span>
+          </div>
+        </a>
 
-      <!-- Hamburger Menu Button (Mobile) -->
-      <button id="menu-toggle" class="lg:hidden p-2 hover:bg-white/10 rounded-lg transition" aria-label="Toggle menu">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
+        <!-- Hamburger Menu Button (Mobile) - Animated -->
+        <button
+          id="menu-toggle"
+          class="lg:hidden p-2 hover:bg-kk-accent/20 rounded-lg transition-all duration-300 relative group"
+          aria-label="Toggle menu"
+        >
+          <svg id="hamburger-icon" class="w-6 h-6 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <svg id="close-icon" class="w-6 h-6 transition-transform duration-300 absolute top-2 left-2 opacity-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
 
-      <!-- Desktop Navigation -->
-      <nav class="hidden lg:flex gap-6">
-        <a href="/" class="hover:text-kk-secondary transition font-medium">Početna</a>
-        <a href="/vesti/1" class="hover:text-kk-secondary transition font-medium">Vesti</a>
-        <a href="/turniri" class="hover:text-kk-secondary transition font-medium">Turniri</a>
-        <a href="/galerija" class="hover:text-kk-secondary transition font-medium">Galerija</a>
-        <a href="/o-nama" class="hover:text-kk-secondary transition font-medium">O nama</a>
-      </nav>
+        <!-- Desktop Navigation with Animated Underlines -->
+        <nav class="hidden lg:flex gap-8">
+          {navLinks.map((link) => {
+            const isActive = link.matchPath === '/' ? currentPath === '/' : currentPath.startsWith(link.matchPath);
+            return (
+              <a
+                href={link.href}
+                class={`relative font-medium transition-all duration-300 hover:text-kk-accent ${isActive ? 'text-kk-accent' : 'text-kk-text-primary'} group`}
+              >
+                {link.label}
+                <span class={`absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-kk-accent to-kk-accent-blue transform origin-left transition-transform duration-300 ${isActive ? 'scale-x-100' : 'scale-x-0'} group-hover:scale-x-100`}></span>
+              </a>
+            );
+          })}
+        </nav>
+      </div>
     </div>
   </div>
 
-  <!-- Mobile Menu -->
-  <div id="mobile-menu" class="hidden lg:hidden bg-kk-dark border-t border-white/10">
+  <!-- Mobile Menu with Slide-in Effect -->
+  <div id="mobile-menu" class="hidden lg:hidden glass-light border-t border-kk-border/20 animate-slide-in">
     <nav class="container mx-auto px-4 py-4 flex flex-col gap-2">
-      <a href="/" class="py-2 px-4 hover:bg-white/10 rounded-lg transition font-medium">Početna</a>
-      <a href="/vesti/1" class="py-2 px-4 hover:bg-white/10 rounded-lg transition font-medium">Vesti</a>
-      <a href="/turniri" class="py-2 px-4 hover:bg-white/10 rounded-lg transition font-medium">Turniri</a>
-      <a href="/galerija" class="py-2 px-4 hover:bg-white/10 rounded-lg transition font-medium">Galerija</a>
-      <a href="/o-nama" class="py-2 px-4 hover:bg-white/10 rounded-lg transition font-medium">O nama</a>
+      {navLinks.map((link) => {
+        const isActive = link.matchPath === '/' ? currentPath === '/' : currentPath.startsWith(link.matchPath);
+        return (
+          <a
+            href={link.href}
+            class={`py-3 px-4 rounded-lg transition-all duration-300 font-medium ${isActive ? 'bg-kk-accent/20 text-kk-accent border-l-4 border-kk-accent' : 'hover:bg-kk-accent/10 hover:border-l-4 hover:border-kk-accent/50'}`}
+          >
+            {link.label}
+          </a>
+        );
+      })}
     </nav>
   </div>
 </header>
 
-<script>
-  const menuToggle = document.getElementById('menu-toggle');
-  const mobileMenu = document.getElementById('mobile-menu');
+<script is:inline>
+  function initMobileMenu() {
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const closeIcon = document.getElementById('close-icon');
 
-  menuToggle?.addEventListener('click', () => {
-    mobileMenu?.classList.toggle('hidden');
-  });
+    if (!menuToggle || !mobileMenu) return;
 
-  // Close mobile menu when clicking on a link
-  const mobileLinks = mobileMenu?.querySelectorAll('a');
-  mobileLinks?.forEach(link => {
-    link.addEventListener('click', () => {
-      mobileMenu?.classList.add('hidden');
+    // Remove old listeners by cloning
+    const newMenuToggle = menuToggle.cloneNode(true);
+    menuToggle.parentNode?.replaceChild(newMenuToggle, menuToggle);
+
+    newMenuToggle.addEventListener('click', () => {
+      const isHidden = mobileMenu.classList.contains('hidden');
+      mobileMenu.classList.toggle('hidden');
+
+      // Animate hamburger to X and vice versa
+      if (isHidden) {
+        hamburgerIcon?.classList.add('opacity-0', 'rotate-90');
+        closeIcon?.classList.remove('opacity-0');
+        closeIcon?.classList.add('rotate-90');
+      } else {
+        hamburgerIcon?.classList.remove('opacity-0', 'rotate-90');
+        closeIcon?.classList.add('opacity-0');
+        closeIcon?.classList.remove('rotate-90');
+      }
     });
-  });
+
+    // Close mobile menu when clicking on a link
+    const mobileLinks = mobileMenu.querySelectorAll('a');
+    mobileLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        hamburgerIcon?.classList.remove('opacity-0', 'rotate-90');
+        closeIcon?.classList.add('opacity-0');
+        closeIcon?.classList.remove('rotate-90');
+      });
+    });
+  }
+
+  // Initialize on page load
+  initMobileMenu();
+
+  // Re-initialize on page navigation (View Transitions)
+  document.addEventListener('astro:page-load', initMobileMenu);
 </script>

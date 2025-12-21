@@ -1,57 +1,67 @@
 {
-  "title": "Druženje košarkaša Karađorđeva povodom uspešnog završetka sezone 2016/17",
-  "date": "2017-07-14",
-  "date_formatted": "Pet, 14/07/2017 - 09:48",
-  "url": "http://www.kkkaradjordjevo.com/sadrzaj/druzenje-kosarkasa-karadordeva-povodom-uspesnog-zavrsetka-sezone-201617",
-  "content": [
-    {
-      "type": "text",
-      "value": "Po završetku uspešne košarkaške sezone 2016/17, rukovodstvo kluba igračima je obećalo druženje. Obećanje je i ispunjeno, a izbor igrača je bio da se to druženje, uz roštilj, održi u dvorištu trenerove kuće. Bio je ovo jedan lep dan i druženje je ispunilo svoj cilj, a to je da se igrači jos više zbliže i upoznaju kako bi na terenu pružili još bolju igru. Iako je datum druženja unapred dogovoren, žao nam je što, iz opravdanih razloga, svi igrači nisu mogli da prisustvuju."
-    },
-    {
-      "type": "image",
-      "filename": "20170701_200949_0.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/20170701_200949_0.jpg"
-    },
-    {
-      "type": "text",
-      "value": "U jednoj opuštenoj i porodičnoj atmosferi, uz dobar roštilj, koji je ispekao naš prevoznik Zoran Zoki Žarković, igrači su se opustili kroz sportsko, kulturni i muzički program koji su sami osmislili. Igrali su se odbojka, fudbal na male goliće, gde je svaki gol proslavljan na poseban način, karte, a najatraktivnija disciplina bila je nadvlačenje konopca."
-    },
-    {
-      "type": "image",
-      "filename": "media-share-0-02-05 5_0.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/media-share-0-02-05%205_0.jpg"
-    },
-    {
-      "type": "image",
-      "filename": "media-share-0-02-05 1_0.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/media-share-0-02-05%201_0.jpg"
-    },
-    {
-      "type": "text",
-      "value": "U kulturnom delu večeri na improvizovanoj bini, trotonki prikolici, Goran Budisavljević odglumio je odlomak iz monodrame \"Prva bračna noć\". U muzičkom delu programa uz gitaru zabavljali su nas Dušan Jarić, Goran Budisavljević i Rajko Božić."
-    },
-    {
-      "type": "image",
-      "filename": "media-share-0-02-05 4_1.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/media-share-0-02-05%204_1.jpg"
-    },
-    {
-      "type": "image",
-      "filename": "media-share-0-02-05 3_0.jpg",
-      "url": "http://www.kkkaradjordjevo.com/sites/default/files/media-share-0-02-05%203_0.jpg"
-    },
-    {
-      "type": "text",
-      "value": "Na kraju druženja svi su se složili da bi trebalo ovako nešto česće organizovati i sigurno bi ovo bilo motiv više da se na terenu pruže još bolje igre, poboljša atmosfera i poverenje među igračima, trenerom i rukovodstvom kluba."
-    },
-    {
-      "type": "video",
-      "platform": "youtube",
-      "video_id": "peCYHTi4c7c",
-      "title": "Druženje košarkaša Karađorđeva",
-      "url": "http://www.youtube.com/watch?v=peCYHTi4c7c",
-      "thumbnail": "http://img.youtube.com/vi/peCYHTi4c7c/0.jpg"
-    }
-  ]
+    "title": "Druženje košarkaša Karađorđeva povodom uspešnog završetka sezone 2016/17",
+    "date": "2017-07-14",
+    "date_formatted": "Pet, 14/07/2017 - 09:48",
+    "url": "http://www.kkkaradjordjevo.com/sadrzaj/druzenje-kosarkasa-karadordeva-povodom-uspesnog-zavrsetka-sezone-201617",
+    "content": [
+        {
+            "type": "text",
+            "value": "Po završetku uspešne košarkaške sezone 2016/17, rukovodstvo kluba igračima je obećalo druženje. Obećanje je i ispunjeno, a izbor igrača je bio da se to druženje, uz roštilj, održi u dvorištu trenerove kuće. Bio je ovo jedan lep dan i druženje je ispunilo svoj cilj, a to je da se igrači jos više zbliže i upoznaju kako bi na terenu pružili još bolju igru. Iako je datum druženja unapred dogovoren, žao nam je što, iz opravdanih razloga, svi igrači nisu mogli da prisustvuju."
+        },
+        {
+            "type": "image",
+            "filename": "vest-050-01.jpg",
+            "url": "/images/vesti/vest-050-01.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/20170701_200949_0.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U jednoj opuštenoj i porodičnoj atmosferi, uz dobar roštilj, koji je ispekao naš prevoznik Zoran Zoki Žarković, igrači su se opustili kroz sportsko, kulturni i muzički program koji su sami osmislili. Igrali su se odbojka, fudbal na male goliće, gde je svaki gol proslavljan na poseban način, karte, a najatraktivnija disciplina bila je nadvlačenje konopca."
+        },
+        {
+            "type": "image",
+            "filename": "vest-050-02.jpg",
+            "url": "/images/vesti/vest-050-02.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/media-share-0-02-05%205_0.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "image",
+            "filename": "vest-050-03.jpg",
+            "url": "/images/vesti/vest-050-03.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/media-share-0-02-05%201_0.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "U kulturnom delu večeri na improvizovanoj bini, trotonki prikolici, Goran Budisavljević odglumio je odlomak iz monodrame \"Prva bračna noć\". U muzičkom delu programa uz gitaru zabavljali su nas Dušan Jarić, Goran Budisavljević i Rajko Božić."
+        },
+        {
+            "type": "image",
+            "filename": "vest-050-04.jpg",
+            "url": "/images/vesti/vest-050-04.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/media-share-0-02-05%204_1.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "image",
+            "filename": "vest-050-05.jpg",
+            "url": "/images/vesti/vest-050-05.jpg",
+            "originalUrl": "http://www.kkkaradjordjevo.com/sites/default/files/media-share-0-02-05%203_0.jpg",
+            "alt": "Fotografija sa događaja"
+        },
+        {
+            "type": "text",
+            "value": "Na kraju druženja svi su se složili da bi trebalo ovako nešto česće organizovati i sigurno bi ovo bilo motiv više da se na terenu pruže još bolje igre, poboljša atmosfera i poverenje među igračima, trenerom i rukovodstvom kluba."
+        },
+        {
+            "type": "video",
+            "platform": "youtube",
+            "video_id": "peCYHTi4c7c",
+            "title": "Druženje košarkaša Karađorđeva",
+            "url": "http://www.youtube.com/watch?v=peCYHTi4c7c",
+            "thumbnail": "http://img.youtube.com/vi/peCYHTi4c7c/0.jpg"
+        }
+    ]
 }
