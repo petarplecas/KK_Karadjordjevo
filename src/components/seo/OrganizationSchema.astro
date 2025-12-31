@@ -1,0 +1,42 @@
+---
+/**
+ * Schema.org SportsOrganization structured data
+ * Helps Google understand the basketball club's identity and social profiles
+ */
+
+const siteUrl = Astro.site || 'https://kkkaradjordjevo.com';
+const logoUrl = new URL('/logo.png', siteUrl).href;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "SportsOrganization",
+  "name": "Košarkaški klub Karađorđevo",
+  "alternateName": "KK Karađorđevo",
+  "url": siteUrl,
+  "logo": logoUrl,
+  "description": "Košarkaški klub Karađorđevo - Tradicija, strast i posvećenost košarci od osnivanja",
+  "sport": "Basketball",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Karađorđevo",
+    "addressRegion": "Bačka",
+    "addressCountry": "RS"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "general inquiry",
+    "availableLanguage": "Serbian"
+  },
+  "sameAs": [
+    // Add social media profiles here when available
+    // "https://www.facebook.com/kkkaradjordjevo",
+    // "https://www.instagram.com/kkkaradjordjevo"
+  ],
+  "memberOf": {
+    "@type": "SportsOrganization",
+    "name": "Košarkaški savez Srbije"
+  }
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

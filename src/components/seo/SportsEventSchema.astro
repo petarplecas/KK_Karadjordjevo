@@ -1,0 +1,67 @@
+---
+/**
+ * Schema.org SportsEvent structured data for Google Rich Results
+ * Enables event cards in search results with dates, locations, and details
+ */
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  startDate: string;
+  url: string;
+  location?: string;
+}
+
+const {
+  title,
+  description,
+  image = '/og-image.jpg',
+  startDate,
+  url,
+  location = 'Karađorđevo, Srbija'
+} = Astro.props;
+
+// Construct absolute URLs
+const siteUrl = Astro.site || 'https://kkkaradjordjevo.com';
+const absoluteUrl = new URL(url, siteUrl).href;
+const absoluteImageUrl = new URL(image, siteUrl).href;
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "SportsEvent",
+  "name": title,
+  "description": description,
+  "image": absoluteImageUrl,
+  "startDate": startDate,
+  "url": absoluteUrl,
+  "location": {
+    "@type": "Place",
+    "name": location,
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Karađorđevo",
+      "addressCountry": "RS"
+    }
+  },
+  "organizer": {
+    "@type": "SportsOrganization",
+    "name": "Košarkaški klub Karađorđevo",
+    "url": siteUrl,
+    "sport": "Basketball"
+  },
+  "sport": "Basketball",
+  "competitor": [
+    {
+      "@type": "SportsTeam",
+      "name": "KK Karađorđevo",
+      "sport": "Basketball"
+    }
+  ],
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "inLanguage": "sr-RS"
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

@@ -1,0 +1,50 @@
+---
+/**
+ * Schema.org ImageGallery structured data for Google Rich Results
+ * Enables image gallery display in search results
+ */
+
+import type { GalleryEvent } from '../../types/gallery';
+
+interface Props {
+  event: GalleryEvent;
+}
+
+const { event } = Astro.props;
+
+// Construct absolute URLs
+const siteUrl = Astro.site || 'https://kkkaradjordjevo.com';
+const eventUrl = new URL(`/galerija/${event.id}`, siteUrl).href;
+
+// Build image list (limit to first 10 for performance)
+const imageObjects = event.images.slice(0, 10).map(img => ({
+  "@type": "ImageObject",
+  "url": new URL(img.fullPath, siteUrl).href,
+  "description": img.alt,
+  "name": img.alt
+}));
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "ImageGallery",
+  "name": event.title,
+  "description": event.dateRange || event.date || `Galerija slike iz ${event.year}`,
+  "url": eventUrl,
+  "image": imageObjects,
+  "numberOfItems": event.imageCount,
+  "datePublished": event.date || `${event.year}-01-01`,
+  "inLanguage": "sr-RS",
+  "about": {
+    "@type": "SportsEvent",
+    "name": event.title,
+    "sport": "Basketball",
+    "organizer": {
+      "@type": "SportsOrganization",
+      "name": "KK Karađorđevo",
+      "sport": "Basketball"
+    }
+  }
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />
