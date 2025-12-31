@@ -4,6 +4,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 import NewsContent from '../../components/news/NewsContent.astro';
+import Timeline from '../../components/timeline/Timeline.astro';
 
 // Get about page content
 const aboutPages = await getCollection('about');
@@ -13,7 +14,7 @@ const aboutPage = aboutPages[0]; // Get first about page
 <BaseLayout title="O nama" description="O Košarkaškom klubu Karađorđevo">
   <Header />
 
-  <main class="container mx-auto px-4 py-8 max-w-4xl flex-grow">
+  <main class="container mx-auto px-4 py-8 max-w-6xl flex-grow">
     <article>
       <header class="mb-8">
         <h1 class="text-3xl sm:text-4xl font-bold text-kk-text-primary mb-4">
@@ -24,6 +25,23 @@ const aboutPage = aboutPages[0]; // Get first about page
 
       <div class="bg-kk-surface/50 rounded-lg shadow-md p-6 sm:p-8">
         <NewsContent content={aboutPage.data.content} />
+      </div>
+
+      <!-- Nova sekcija: Timeline -->
+      <div class="mt-16 sm:mt-20">
+        <!-- Section Header -->
+        <div class="text-center mb-12">
+          <h2 class="font-display font-bold text-3xl sm:text-4xl lg:text-5xl mb-4">
+            <span class="text-gradient">Naša</span> <span class="text-kk-text-primary">Istorija</span>
+          </h2>
+          <p class="text-kk-text-secondary text-lg sm:text-xl max-w-3xl mx-auto">
+            Hronološki pregled ključnih trenutaka i dostignuća od osnivanja 1976. godine
+          </p>
+          <div class="h-1 w-32 bg-gradient-to-r from-kk-accent to-kk-accent-blue rounded mx-auto mt-6"></div>
+        </div>
+
+        <!-- Timeline Component -->
+        <Timeline />
       </div>
 
       {aboutPages.length > 1 && (

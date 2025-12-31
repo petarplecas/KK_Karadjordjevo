@@ -29,14 +29,14 @@ const currentPath = Astro.url.pathname;
         <!-- Hamburger Menu Button (Mobile) - Animated -->
         <button
           id="menu-toggle"
-          class="lg:hidden p-2 hover:bg-kk-accent/20 rounded-lg transition-all duration-300 relative group"
+          class="lg:hidden p-2 hover:bg-white/10 rounded-lg transition-all duration-300 relative group text-white"
           aria-label="Toggle menu"
         >
-          <svg id="hamburger-icon" class="w-6 h-6 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          <svg id="hamburger-icon" class="w-7 h-7 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
-          <svg id="close-icon" class="w-6 h-6 transition-transform duration-300 absolute top-2 left-2 opacity-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          <svg id="close-icon" class="w-7 h-7 transition-all duration-300 absolute top-2 left-2 opacity-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" />
           </svg>
         </button>
 
@@ -60,14 +60,14 @@ const currentPath = Astro.url.pathname;
   </div>
 
   <!-- Mobile Menu with Slide-in Effect -->
-  <div id="mobile-menu" class="hidden lg:hidden glass-light border-t border-kk-border/20 animate-slide-in">
-    <nav class="container mx-auto px-4 py-4 flex flex-col gap-2">
+  <div id="mobile-menu" class="hidden lg:hidden bg-gradient-to-b from-kk-primary/95 to-kk-secondary/95 backdrop-blur-xl border-t border-kk-border/30 shadow-2xl animate-slide-in">
+    <nav class="container mx-auto px-4 py-6 flex flex-col gap-3">
       {navLinks.map((link) => {
         const isActive = link.matchPath === '/' ? currentPath === '/' : currentPath.startsWith(link.matchPath);
         return (
           <a
             href={link.href}
-            class={`py-3 px-4 rounded-lg transition-all duration-300 font-medium ${isActive ? 'bg-kk-accent/20 text-kk-accent border-l-4 border-kk-accent' : 'hover:bg-kk-accent/10 hover:border-l-4 hover:border-kk-accent/50'}`}
+            class={`py-3 px-4 rounded-lg transition-all duration-300 font-medium ${isActive ? 'bg-kk-accent/30 text-kk-accent border-l-4 border-kk-accent shadow-lg' : 'text-white hover:bg-white/10 hover:border-l-4 hover:border-kk-accent/50 hover:text-kk-accent'}`}
           >
             {link.label}
           </a>
@@ -94,15 +94,16 @@ const currentPath = Astro.url.pathname;
       const isHidden = mobileMenu.classList.contains('hidden');
       mobileMenu.classList.toggle('hidden');
 
-      // Animate hamburger to X and vice versa
+      // Animate hamburger to X and vice versa with smooth rotation
       if (isHidden) {
-        hamburgerIcon?.classList.add('opacity-0', 'rotate-90');
-        closeIcon?.classList.remove('opacity-0');
-        closeIcon?.classList.add('rotate-90');
+        hamburgerIcon?.classList.add('opacity-0', 'rotate-180', 'scale-75');
+        closeIcon?.classList.remove('opacity-0', 'scale-75');
+        closeIcon?.classList.add('rotate-0', 'scale-100');
       } else {
-        hamburgerIcon?.classList.remove('opacity-0', 'rotate-90');
-        closeIcon?.classList.add('opacity-0');
-        closeIcon?.classList.remove('rotate-90');
+        hamburgerIcon?.classList.remove('opacity-0', 'rotate-180', 'scale-75');
+        hamburgerIcon?.classList.add('rotate-0', 'scale-100');
+        closeIcon?.classList.add('opacity-0', 'scale-75');
+        closeIcon?.classList.remove('rotate-0', 'scale-100');
       }
     });
 
@@ -111,9 +112,10 @@ const currentPath = Astro.url.pathname;
     mobileLinks.forEach(link => {
       link.addEventListener('click', () => {
         mobileMenu.classList.add('hidden');
-        hamburgerIcon?.classList.remove('opacity-0', 'rotate-90');
-        closeIcon?.classList.add('opacity-0');
-        closeIcon?.classList.remove('rotate-90');
+        hamburgerIcon?.classList.remove('opacity-0', 'rotate-180', 'scale-75');
+        hamburgerIcon?.classList.add('rotate-0', 'scale-100');
+        closeIcon?.classList.add('opacity-0', 'scale-75');
+        closeIcon?.classList.remove('rotate-0', 'scale-100');
       });
     });
   }
