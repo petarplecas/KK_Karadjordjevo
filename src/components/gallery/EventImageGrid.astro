@@ -1,0 +1,115 @@
+---
+import type { GalleryEvent } from '../../types/gallery';
+
+interface Props {
+  event: GalleryEvent;
+}
+
+const { event } = Astro.props;
+---
+
+<!-- Image Grid -->
+<div class="gallery-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-12">
+  {event.images.map((image, index) => (
+    <div class="gallery-item group relative aspect-square overflow-hidden rounded-lg glass border border-kk-border/30 cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-[1.02]">
+      <!-- Image -->
+      <img
+        data-src={image.fullPath}
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        alt={image.alt}
+        class="lazy-image w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+        data-index={index}
+        loading="lazy"
+      />
+
+      <!-- Index Badge -->
+      <div class="absolute top-2 left-2 px-2 py-1 bg-black/70 backdrop-blur-sm rounded text-white text-xs font-bold">
+        {index + 1} / {event.imageCount}
+      </div>
+
+      <!-- Overlay on Hover -->
+      <div class="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300 flex items-center justify-center">
+        <svg class="w-12 h-12 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+        </svg>
+      </div>
+    </div>
+  ))}
+</div>
+
+<!-- Lightbox Container (will be rendered by Preact component) -->
+<div id="lightbox-root"></div>
+
+<style>
+  /* Lazy loading shimmer effect */
+  .lazy-image {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.05) 25%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0.05) 75%
+    );
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+
+  @keyframes shimmer {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+</style>
+
+<script>
+  function initLazyLoading() {
+    // Intersection Observer for lazy loading images
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target as HTMLImageElement;
+          const src = img.getAttribute('data-src');
+          if (src) {
+            img.src = src;
+            img.classList.remove('lazy-image');
+            observer.unobserve(img);
+          }
+        }
+      });
+    }, {
+      rootMargin: '200px' // Start loading 200px before viewport
+    });
+
+    // Observe all lazy images
+    document.querySelectorAll('.lazy-image').forEach(img => observer.observe(img));
+  }
+
+  function initLightboxTriggers() {
+    // Click handler for opening lightbox
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    galleryItems.forEach(item => {
+      item.addEventListener('click', () => {
+        const img = item.querySelector('img');
+        const index = parseInt(img?.getAttribute('data-index') || '0');
+
+        // Dispatch custom event that EventLightbox will listen to
+        window.dispatchEvent(new CustomEvent('openLightbox', {
+          detail: { index }
+        }));
+      });
+    });
+  }
+
+  // Initialize on first load
+  initLazyLoading();
+  initLightboxTriggers();
+
+  // Re-initialize after Astro view transitions
+  document.addEventListener('astro:page-load', () => {
+    initLazyLoading();
+    initLightboxTriggers();
+  });
+</script>

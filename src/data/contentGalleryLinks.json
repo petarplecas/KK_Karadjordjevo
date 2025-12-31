@@ -1,0 +1,302 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-12-31T11:00:13.917Z",
+  "links": [
+    {
+      "contentType": "turniri",
+      "contentId": "turnir_002",
+      "galleryEventId": "2008-turnir-nikola-i-branka-13-14-09-2008",
+      "matchType": "auto",
+      "confidence": 0.7428571428571428,
+      "confirmedAt": "2025-12-31T10:13:48.997Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_039",
+      "galleryEventId": "2017-kk-karadjordjve-kk-velika-kikinda-02-12-2017",
+      "matchType": "auto",
+      "confidence": 0.3106060606060606,
+      "confirmedAt": "2025-12-31T10:42:04.486Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_048",
+      "galleryEventId": "2017-memorijalni-turnir-2017-09-09",
+      "matchType": "auto",
+      "confidence": 0.29230769230769227,
+      "confirmedAt": "2025-12-31T10:42:39.436Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_053",
+      "galleryEventId": "2016-22-04-2017",
+      "matchType": "auto",
+      "confidence": 0.25,
+      "confirmedAt": "2025-12-31T10:44:38.219Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_056",
+      "galleryEventId": "2016-svecano-otvorena-sportska-hala-u-ban-karadjordjevu-15-04-2017",
+      "matchType": "auto",
+      "confidence": 0.3875,
+      "confirmedAt": "2025-12-31T10:45:12.906Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_070",
+      "galleryEventId": "2015-kk-velika-kikinda-kk-karadjordjevo-11-10-2015",
+      "matchType": "auto",
+      "confidence": 0.26282051282051283,
+      "confirmedAt": "2025-12-31T10:45:53.439Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_072",
+      "galleryEventId": "2015-memorijalni-turnir-2015",
+      "matchType": "auto",
+      "confidence": 0.30256410256410254,
+      "confirmedAt": "2025-12-31T10:46:05.302Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_078",
+      "galleryEventId": "2014-kkk-kk-bagljas-01-11-2014",
+      "matchType": "auto",
+      "confidence": 0.21666666666666665,
+      "confirmedAt": "2025-12-31T10:47:51.258Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_079",
+      "galleryEventId": "2014-mladost-veternik-kkk-25-10-2014",
+      "matchType": "auto",
+      "confidence": 0.24615384615384617,
+      "confirmedAt": "2025-12-31T10:48:12.989Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_080",
+      "galleryEventId": "2014-kk-karadjordjevo-kk-feniks-18-10-2014",
+      "matchType": "auto",
+      "confidence": 0.23076923076923073,
+      "confirmedAt": "2025-12-31T10:48:28.665Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_082",
+      "galleryEventId": "2014-kkk-kk-sivac-04-10-2014",
+      "matchType": "auto",
+      "confidence": 0.3106060606060606,
+      "confirmedAt": "2025-12-31T10:48:55.658Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_084",
+      "galleryEventId": "2014-nikola-i-branka-13-14-09-2014",
+      "matchType": "auto",
+      "confidence": 0.3435897435897436,
+      "confirmedAt": "2025-12-31T10:49:07.438Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_086",
+      "galleryEventId": "2014-zavrsni-turnir-mk-jul-2014",
+      "matchType": "auto",
+      "confidence": 0.21,
+      "confirmedAt": "2025-12-31T10:49:38.563Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_088",
+      "galleryEventId": "2014-kk-baglja-kk-karadjordjevo-16-07-2014",
+      "matchType": "auto",
+      "confidence": 0.4537037037037037,
+      "confirmedAt": "2025-12-31T10:50:04.014Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_089",
+      "galleryEventId": "2014-kk-klek-kk-karadjordjevo-12-07-2014",
+      "matchType": "auto",
+      "confidence": 0.43,
+      "confirmedAt": "2025-12-31T10:50:11.458Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_091",
+      "galleryEventId": "2014-kk-karadjordjevo-kk-baglja-05-07-2014",
+      "matchType": "auto",
+      "confidence": 0.4240740740740741,
+      "confirmedAt": "2025-12-31T10:50:53.655Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_092",
+      "galleryEventId": "2014-kk-karadjordjevo-kk-klek-02-07-2014",
+      "matchType": "auto",
+      "confidence": 0.42272727272727273,
+      "confirmedAt": "2025-12-31T10:51:10.395Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_094",
+      "galleryEventId": "2014-seniori-jun-2014",
+      "matchType": "auto",
+      "confidence": 0.21666666666666665,
+      "confirmedAt": "2025-12-31T10:52:04.974Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_095",
+      "galleryEventId": "2014-sportsko-vece-03-03-2014",
+      "matchType": "auto",
+      "confidence": 0.29081632653061223,
+      "confirmedAt": "2025-12-31T10:52:24.278Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_097",
+      "galleryEventId": "2013-prijateljska-utakmica-klek-27-10-2013",
+      "matchType": "auto",
+      "confidence": 0.6433333333333333,
+      "confirmedAt": "2025-12-31T10:52:54.013Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_098",
+      "galleryEventId": "2013-nikola-i-branka-14-15-09-2013",
+      "matchType": "auto",
+      "confidence": 0.6412280701754386,
+      "confirmedAt": "2025-12-31T10:53:02.124Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_099",
+      "galleryEventId": "2013-turnir-za-devoj-ice-u-novom-be-eju-22-06-2013",
+      "matchType": "auto",
+      "confidence": 0.49798792756539234,
+      "confirmedAt": "2025-12-31T10:53:11.848Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_101",
+      "galleryEventId": "2013-medjunarodni-turnir-u-ba-koj-topoli-08-06-2013",
+      "matchType": "auto",
+      "confidence": 0.6006896551724138,
+      "confirmedAt": "2025-12-31T10:53:36.957Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_103",
+      "galleryEventId": "2013-turnir-u-madjarskoj-28-30-03-2013",
+      "matchType": "auto",
+      "confidence": 0.3861702127659575,
+      "confirmedAt": "2025-12-31T10:53:45.500Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_119",
+      "galleryEventId": "2011-zavr-etak-2011-godine-trening-30-12-2011",
+      "matchType": "auto",
+      "confidence": 0.3684210526315789,
+      "confirmedAt": "2025-12-31T10:56:22.402Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_122",
+      "galleryEventId": "2011-slava-sela-ban-karadjordjevo-devojcice-11-09-2011",
+      "matchType": "auto",
+      "confidence": 0.425,
+      "confirmedAt": "2025-12-31T10:57:11.954Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_123",
+      "galleryEventId": "2011-kup-zrenjanin-dani-piva-24-28-08-2011",
+      "matchType": "auto",
+      "confidence": 0.23555555555555555,
+      "confirmedAt": "2025-12-31T10:57:30.112Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_124",
+      "galleryEventId": "2011-plandiste-revijalne-utakmice-27-08-2011",
+      "matchType": "auto",
+      "confidence": 0.22,
+      "confirmedAt": "2025-12-31T10:57:42.497Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_125",
+      "galleryEventId": "2011-zavrsni-turnir-mk-jun-2011",
+      "matchType": "auto",
+      "confidence": 0.2749999999999999,
+      "confirmedAt": "2025-12-31T10:57:54.114Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_126",
+      "galleryEventId": "2011-kk-karadjordjevo-reprezentacija-saudijske-arabije-04-07-2011",
+      "matchType": "manual",
+      "confidence": 1,
+      "confirmedAt": "2025-12-31T11:20:00.000Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_128",
+      "galleryEventId": "2011-uskrsnji-turnir-secanj-23-04-2011",
+      "matchType": "auto",
+      "confidence": 0.3,
+      "confirmedAt": "2025-12-31T10:58:40.630Z"
+    },
+    {
+      "contentType": "vesti",
+      "contentId": "vest_130",
+      "galleryEventId": "2011-i-cup-of-banat-14-16-01-2011",
+      "matchType": "auto",
+      "confidence": 0.25333333333333335,
+      "confirmedAt": "2025-12-31T10:58:57.003Z"
+    },
+    {
+      "contentType": "turniri",
+      "contentId": "turnir_005",
+      "galleryEventId": "2011-memorijalni-turnir-nikola-i-branka-2011",
+      "matchType": "auto",
+      "confidence": 0.5804878048780487,
+      "confirmedAt": "2025-12-31T10:59:25.194Z"
+    },
+    {
+      "contentType": "turniri",
+      "contentId": "turnir_007",
+      "galleryEventId": "2013-nikola-i-branka-14-15-09-2013",
+      "matchType": "auto",
+      "confidence": 0.6395348837209301,
+      "confirmedAt": "2025-12-31T10:59:34.363Z"
+    },
+    {
+      "contentType": "turniri",
+      "contentId": "turnir_008",
+      "galleryEventId": "2014-nikola-i-branka-13-14-09-2014",
+      "matchType": "auto",
+      "confidence": 0.2863636363636364,
+      "confirmedAt": "2025-12-31T10:59:41.123Z"
+    },
+    {
+      "contentType": "turniri",
+      "contentId": "turnir_009",
+      "galleryEventId": "2015-memorijalni-turnir-2015",
+      "matchType": "auto",
+      "confidence": 0.2857142857142857,
+      "confirmedAt": "2025-12-31T10:59:47.540Z"
+    },
+    {
+      "contentType": "turniri",
+      "contentId": "turnir_010",
+      "galleryEventId": "2017-memorijalni-turnir-2017-09-09",
+      "matchType": "auto",
+      "confidence": 0.2813008130081301,
+      "confirmedAt": "2025-12-31T11:00:02.034Z"
+    }
+  ]
+}
