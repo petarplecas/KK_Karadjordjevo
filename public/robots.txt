@@ -1,0 +1,12 @@
+# Robots.txt for KK Karađorđevo
+# Allow all crawlers to access the site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://kkkaradjordjevo.com/sitemap-index.xml
+Sitemap: https://kkkaradjordjevo.com/sitemap-0.xml
+
+# Crawl delay (optional - helps prevent server overload)
+Crawl-delay: 1
