@@ -1,0 +1,162 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/layout/Header.astro';
+import Footer from '../../components/layout/Footer.astro';
+import Breadcrumbs from '../../components/shared/Breadcrumbs.astro';
+import EventImageGrid from '../../components/gallery/EventImageGrid.astro';
+import EventLightbox from '../../components/gallery/EventLightbox';
+import ImageGallerySchema from '../../components/seo/ImageGallerySchema.astro';
+import { buildGalleryData } from '../../utils/buildGalleryData';
+import type { GalleryEvent, GalleryPeriod } from '../../types/gallery';
+
+export const getStaticPaths = () => {
+  const galleryData = buildGalleryData();
+  const paths = [];
+
+  for (const period of galleryData.periods) {
+    for (const event of period.events) {
+      paths.push({
+        params: { id: event.id },
+        props: { event, period }
+      });
+    }
+  }
+
+  return paths;
+};
+
+interface Props {
+  event: GalleryEvent;
+  period: GalleryPeriod;
+}
+
+const { event, period } = Astro.props;
+
+// Open Graph metadata
+const ogTitle = `${event.title} - Galerija`;
+const ogDescription = `${event.imageCount} ${event.imageCount === 1 ? 'slika' : event.imageCount < 5 ? 'slike' : 'slika'}${event.date ? ` - ${event.date}` : ''} iz ${event.year}. godine`;
+const ogImage = event.coverImage.fullPath;
+const ogUrl = Astro.url.href;
+
+// Breadcrumbs
+const breadcrumbs = [
+  { label: 'Početna', href: '/' },
+  { label: 'Galerija', href: '/galerija' },
+  { label: `${period.year}`, href: `/galerija#year-${period.year}` },
+  { label: event.title }
+];
+
+// Category/event type badge color
+const categoryColor = event.category === 'muški'
+  ? 'bg-kk-accent text-slate-900'
+  : event.category === 'ženski'
+  ? 'bg-kk-accent-blue text-white'
+  : 'bg-kk-border text-kk-text-primary';
+
+const eventTypeLabels = {
+  turnir: 'Turnir',
+  utakmica: 'Utakmica',
+  trening: 'Trening',
+  kamp: 'Kamp',
+  promocija: 'Promocija',
+  slava: 'Slava',
+  mixed: 'Razno'
+};
+---
+
+<BaseLayout
+  title={ogTitle}
+  description={ogDescription}
+>
+  <Header />
+
+  <main class="container mx-auto px-4 py-8 max-w-6xl flex-grow">
+    <!-- Breadcrumbs -->
+    <Breadcrumbs items={breadcrumbs} />
+
+    <!-- Event Header -->
+    <article>
+      <header class="mb-8">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-kk-text-primary mb-4">
+          {event.title}
+        </h1>
+
+        <!-- Event Meta -->
+        <div class="flex flex-wrap items-center gap-4 mb-4">
+          <!-- Category Badge -->
+          <span class={`inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold ${categoryColor}`}>
+            {event.category}
+          </span>
+
+          <!-- Event Type Badge -->
+          <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-semibold bg-kk-surface border border-kk-border text-kk-text-primary">
+            {eventTypeLabels[event.eventType]}
+          </span>
+
+          <!-- Date -->
+          {(event.dateRange || event.date || event.month) && (
+            <span class="text-kk-text-secondary text-sm sm:text-base">
+              📅 {event.dateRange || event.date || `${String(event.month).padStart(2, '0')}.${event.year}`}
+            </span>
+          )}
+
+          <!-- Image Count -->
+          <span class="text-kk-text-secondary text-sm sm:text-base">
+            📸 {event.imageCount} {event.imageCount === 1 ? 'slika' : event.imageCount < 5 ? 'slike' : 'slika'}
+          </span>
+        </div>
+
+        <div class="h-1 w-24 bg-kk-accent rounded"></div>
+      </header>
+
+      <!-- Image Grid -->
+      <EventImageGrid event={event} />
+    </article>
+
+    <!-- Lightbox Component (Preact Island) -->
+    <EventLightbox
+      client:only="preact"
+      images={event.images}
+      eventTitle={event.title}
+      eventDate={event.dateRange || event.date}
+    />
+  </main>
+
+  <Footer />
+</BaseLayout>
+
+<style>
+  /* Additional styles for gallery event page */
+  article {
+    animation: fadeIn 0.3s ease-in;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+
+<!-- Open Graph Meta Tags and Structured Data -->
+<Fragment slot="head">
+  <meta property="og:title" content={ogTitle} />
+  <meta property="og:description" content={ogDescription} />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:url" content={ogUrl} />
+  <meta property="og:type" content="article" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={ogTitle} />
+  <meta name="twitter:description" content={ogDescription} />
+  <meta name="twitter:image" content={ogImage} />
+
+  <!-- Schema.org Structured Data -->
+  <ImageGallerySchema event={event} />
+</Fragment>

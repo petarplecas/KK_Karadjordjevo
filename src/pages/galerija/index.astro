@@ -2,26 +2,77 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
+import GalleryTimeline from '../../components/gallery/GalleryTimeline.astro';
+import { buildGalleryData } from '../../utils/buildGalleryData';
+
+// Build gallery data at build time
+const galleryData = buildGalleryData();
 ---
 
-<BaseLayout title="Galerija">
+<BaseLayout
+  title="Galerija"
+  description={`Galerija Košarkaškog kluba Karađorđevo - ${galleryData.totalImages} slika iz ${galleryData.yearRange}`}
+>
   <Header />
 
-  <main class="container mx-auto px-4 py-8 flex-grow">
-    <h1 class="text-3xl sm:text-4xl font-bold text-center mb-8 text-kk-primary">Galerija</h1>
+  <main class="container mx-auto px-4 py-8 max-w-6xl flex-grow">
+    <!-- Hero Section -->
+    <article>
+      <header class="mb-12 text-center">
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-kk-text-primary mb-4">
+          <span class="text-gradient">Galerija</span>
+        </h1>
+        <div class="h-1 w-24 bg-kk-accent rounded mx-auto mb-6"></div>
 
-    <div class="max-w-2xl mx-auto text-center bg-white rounded-lg shadow-md p-8">
-      <svg class="w-24 h-24 mx-auto mb-4 text-kk-primary opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-      </svg>
-      <p class="text-gray-600 text-lg mb-4">
-        Galerija je u pripremi. Uskoro će biti dostupna sa preko 200 slika iz istorije našeg kluba.
-      </p>
-      <p class="text-sm text-gray-500">
-        Fotografije sa utakmica, turnira i posebnih događaja biće organizovane po albumima za lakše pretraživanje.
-      </p>
-    </div>
+        <!-- Stats -->
+        <div class="flex flex-wrap justify-center gap-6 sm:gap-8 mb-6">
+          <div class="text-center">
+            <div class="text-3xl sm:text-4xl font-bold text-kk-accent mb-1">
+              {galleryData.totalImages}
+            </div>
+            <div class="text-sm sm:text-base text-kk-text-secondary">
+              Slika
+            </div>
+          </div>
+
+          <div class="text-center">
+            <div class="text-3xl sm:text-4xl font-bold text-kk-accent-blue mb-1">
+              {galleryData.totalEvents}
+            </div>
+            <div class="text-sm sm:text-base text-kk-text-secondary">
+              Događaja
+            </div>
+          </div>
+
+          <div class="text-center">
+            <div class="text-3xl sm:text-4xl font-bold text-kk-accent mb-1">
+              {galleryData.yearRange}
+            </div>
+            <div class="text-sm sm:text-base text-kk-text-secondary">
+              Godine
+            </div>
+          </div>
+        </div>
+
+        <p class="text-kk-text-secondary text-base sm:text-lg max-w-3xl mx-auto">
+          Hronološki pregled fotografija iz istorije našeg kluba - od osnivanja do danas.
+          Kliknite na bilo koji događaj da vidite sve slike.
+        </p>
+      </header>
+
+      <!-- Gallery Timeline -->
+      <GalleryTimeline periods={galleryData.periods} />
+    </article>
   </main>
 
   <Footer />
 </BaseLayout>
+
+<style>
+  .text-gradient {
+    background: linear-gradient(135deg, #f59e0b 0%, #3b82f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+</style>

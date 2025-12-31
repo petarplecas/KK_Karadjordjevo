@@ -1,0 +1,40 @@
+---
+import TimelinePeriod from './TimelinePeriod.astro';
+import TimelineEvent from './TimelineEvent.astro';
+import { timelinePeriods } from '../../data/timeline-events';
+---
+
+<!-- Timeline Container -->
+<section class="timeline-container py-12 sm:py-16 relative">
+  <!-- Desktop: Central vertical line -->
+  <div class="hidden lg:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-gradient-to-b from-kk-border via-kk-border/50 to-transparent transform -translate-x-1/2"></div>
+
+  <!-- Timeline Content -->
+  <div class="max-w-6xl mx-auto">
+    {timelinePeriods.map((period, periodIndex) => (
+      <div class="timeline-period">
+        <!-- Period Header -->
+        <TimelinePeriod
+          title={period.title}
+          subtitle={period.subtitle}
+          years={period.years}
+          description={period.description}
+          accentColor={period.accentColor}
+          isFirst={periodIndex === 0}
+        />
+
+        <!-- Period Events -->
+        <div class="timeline-events">
+          {period.events.map((event, eventIndex) => (
+            <TimelineEvent
+              event={event}
+              category={event.category}
+              isLeft={eventIndex % 2 === 0}
+              periodAccent={period.accentColor}
+            />
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>

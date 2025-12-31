@@ -1,0 +1,68 @@
+---
+import type { GalleryEvent } from '../../types/gallery';
+
+interface Props {
+  event: GalleryEvent;
+}
+
+const { event } = Astro.props;
+
+const imageCountText = event.imageCount === 1
+  ? 'slika'
+  : event.imageCount < 5
+  ? 'slike'
+  : 'slika';
+---
+
+<div class="my-8 p-6 glass rounded-lg border-l-4 border-kk-accent/50 hover:border-kk-accent transition-all duration-300">
+  <div class="flex flex-col sm:flex-row gap-6 items-start">
+    <!-- Thumbnail -->
+    <div class="w-full sm:w-48 flex-shrink-0">
+      <a href={`/galerija/${event.id}`} class="block relative aspect-video rounded-lg overflow-hidden group">
+        <img
+          src={event.coverImage.fullPath}
+          alt={event.coverImage.alt}
+          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          loading="lazy"
+        />
+        <!-- Image count badge -->
+        <div class="absolute bottom-2 right-2 px-3 py-1 bg-black/70 backdrop-blur-sm rounded-full text-white text-xs font-bold">
+          {event.imageCount} {imageCountText}
+        </div>
+      </a>
+    </div>
+
+    <!-- Content -->
+    <div class="flex-grow">
+      <div class="flex items-start gap-2 mb-2">
+        <svg class="w-5 h-5 text-kk-accent flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+        </svg>
+        <div>
+          <h3 class="font-display font-bold text-xl text-kk-text-primary mb-1">
+            Galerija: {event.title}
+          </h3>
+          {(event.date || event.dateRange) && (
+            <p class="text-sm text-kk-text-secondary mb-3">
+              📅 {event.dateRange || event.date}
+            </p>
+          )}
+        </div>
+      </div>
+
+      <p class="text-kk-text-secondary mb-4">
+        Pogledajte {event.imageCount} {imageCountText} iz ovog događaja u galeriji.
+      </p>
+
+      <a
+        href={`/galerija/${event.id}`}
+        class="inline-flex items-center gap-2 px-4 py-2 bg-kk-accent hover:bg-kk-accent/80 text-slate-900 font-semibold rounded-lg transition-all duration-300 hover:shadow-glow-amber"
+      >
+        Pogledaj galeriju
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>

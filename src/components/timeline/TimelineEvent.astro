@@ -1,0 +1,188 @@
+---
+import type { TimelineEvent, EventCategory } from '../../types/timeline';
+
+interface Props {
+  event: TimelineEvent;
+  category: EventCategory;
+  isLeft?: boolean;
+  periodAccent: 'amber' | 'blue';
+}
+
+const { event, category, isLeft = false, periodAccent } = Astro.props;
+
+// Icon selection based on event type
+const eventIcons = {
+  osnivanje: 'M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6',
+  turnir: 'M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z',
+  priznanje: 'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z',
+  infrastruktura: 'M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4',
+  utakmica: 'M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z',
+  achievement: 'M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z',
+};
+
+// Category-based marker color
+const markerColor = category === 'muški'
+  ? 'bg-kk-accent border-kk-accent shadow-glow-amber'
+  : category === 'ženski'
+  ? 'bg-kk-accent-blue border-kk-accent-blue shadow-glow-blue'
+  : periodAccent === 'amber'
+  ? 'bg-kk-accent border-kk-accent shadow-glow-amber'
+  : 'bg-kk-accent-blue border-kk-accent-blue shadow-glow-blue';
+
+const cardAccent = category === 'muški'
+  ? 'border-kk-accent'
+  : category === 'ženski'
+  ? 'border-kk-accent-blue'
+  : periodAccent === 'amber'
+  ? 'border-kk-accent'
+  : 'border-kk-accent-blue';
+
+const highlightClasses = event.isHighlight
+  ? 'ring-2 ring-offset-2 ring-offset-kk-primary ' + (category === 'muški' || (category === 'opšte' && periodAccent === 'amber') ? 'ring-kk-accent' : 'ring-kk-accent-blue')
+  : '';
+---
+
+<!-- Timeline Event Container -->
+<div class="relative timeline-event">
+  <!-- Mobile: Vertical Timeline (default) -->
+  <div class="block lg:hidden">
+    <!-- Mobile layout with left-aligned timeline -->
+    <div class="flex gap-4 sm:gap-6 mb-8">
+      <!-- Timeline marker column -->
+      <div class="flex flex-col items-center flex-shrink-0">
+        <!-- Marker dot -->
+        <div class={`w-10 h-10 sm:w-12 sm:h-12 rounded-full ${markerColor} border-4 flex items-center justify-center z-10`}>
+          <svg class="w-5 h-5 sm:w-6 sm:h-6 text-slate-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={eventIcons[event.type]} />
+          </svg>
+        </div>
+
+        <!-- Vertical line -->
+        <div class="w-0.5 flex-grow bg-gradient-to-b from-kk-border/50 to-transparent mt-2"></div>
+      </div>
+
+      <!-- Content column -->
+      <div class="flex-grow pb-8">
+        <!-- Year badge -->
+        <div class="inline-block mb-3">
+          <span class="text-xl sm:text-2xl font-bold text-kk-accent">
+            {event.year}
+          </span>
+          {event.month && (
+            <span class="text-sm sm:text-base text-kk-text-secondary ml-2">
+              • {event.month}
+            </span>
+          )}
+        </div>
+
+        <!-- Event card -->
+        <div class={`glass rounded-lg p-4 sm:p-6 border-l-4 ${cardAccent} ${highlightClasses} hover:shadow-lg transition-shadow duration-300`}>
+          {event.isHighlight && (
+            <div class="inline-block px-3 py-1 bg-kk-accent/20 text-kk-accent text-xs font-bold rounded-full mb-3">
+              KLJUČNI DOGAĐAJ
+            </div>
+          )}
+
+          <h3 class="font-display font-bold text-lg sm:text-xl text-kk-text-primary mb-2">
+            {event.title}
+          </h3>
+
+          <p class="text-kk-text-secondary text-sm sm:text-base leading-relaxed">
+            {event.description}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Desktop: Alternating Timeline (lg and up) -->
+  <div class="hidden lg:block">
+    <div class="relative mb-12">
+      <div class="grid grid-cols-[1fr_auto_1fr] gap-8 items-start">
+        <!-- Left content (for left-aligned events) -->
+        {isLeft && (
+          <div class="text-right">
+            <!-- Year badge -->
+            <div class="mb-3">
+              <span class="text-2xl font-bold text-kk-accent">
+                {event.year}
+              </span>
+              {event.month && (
+                <span class="text-base text-kk-text-secondary ml-2">
+                  • {event.month}
+                </span>
+              )}
+            </div>
+
+            <!-- Event card -->
+            <div class={`glass rounded-lg p-6 border-l-4 ${cardAccent} ${highlightClasses} hover:shadow-lg transition-shadow duration-300`}>
+              {event.isHighlight && (
+                <div class="inline-block px-3 py-1 bg-kk-accent/20 text-kk-accent text-xs font-bold rounded-full mb-3">
+                  KLJUČNI DOGAĐAJ
+                </div>
+              )}
+
+              <h3 class="font-display font-bold text-xl text-kk-text-primary mb-2">
+                {event.title}
+              </h3>
+
+              <p class="text-kk-text-secondary text-base leading-relaxed">
+                {event.description}
+              </p>
+            </div>
+          </div>
+        )}
+
+        <!-- Empty left space for right-aligned events -->
+        {!isLeft && <div></div>}
+
+        <!-- Center timeline marker -->
+        <div class="flex justify-center pt-3">
+          <div class={`w-12 h-12 rounded-full ${markerColor} border-4 flex items-center justify-center z-10 flex-shrink-0`}>
+            <svg class="w-6 h-6 text-slate-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d={eventIcons[event.type]} />
+            </svg>
+          </div>
+        </div>
+
+        <!-- Right content (for right-aligned events) -->
+        {!isLeft && (
+          <div class="text-left">
+            <!-- Year badge -->
+            <div class="mb-3">
+              <span class="text-2xl font-bold text-kk-accent">
+                {event.year}
+              </span>
+              {event.month && (
+                <span class="text-base text-kk-text-secondary ml-2">
+                  • {event.month}
+                </span>
+              )}
+            </div>
+
+            <!-- Event card -->
+            <div class={`glass rounded-lg p-6 border-l-4 ${cardAccent} ${highlightClasses} hover:shadow-lg transition-shadow duration-300`}>
+              {event.isHighlight && (
+                <div class="inline-block px-3 py-1 bg-kk-accent/20 text-kk-accent text-xs font-bold rounded-full mb-3">
+                  KLJUČNI DOGAĐAJ
+                </div>
+              )}
+
+              <h3 class="font-display font-bold text-xl text-kk-text-primary mb-2">
+                {event.title}
+              </h3>
+
+              <p class="text-kk-text-secondary text-base leading-relaxed">
+                {event.description}
+              </p>
+            </div>
+          </div>
+        )}
+
+        <!-- Empty right space for left-aligned events -->
+        {isLeft && <div></div>}
+      </div>
+    </div>
+  </div>
+</div>
+

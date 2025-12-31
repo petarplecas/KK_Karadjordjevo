@@ -1,0 +1,54 @@
+---
+interface Props {
+  title: string;
+  subtitle: string;
+  years: string;
+  description: string;
+  accentColor: 'amber' | 'blue';
+  isFirst?: boolean;
+}
+
+const { title, subtitle, years, description, accentColor, isFirst = false } = Astro.props;
+
+const accentClasses = accentColor === 'amber'
+  ? 'border-kk-accent text-kk-accent shadow-glow-amber'
+  : 'border-kk-accent-blue text-kk-accent-blue shadow-glow-blue';
+
+const gradientClasses = accentColor === 'amber'
+  ? 'from-kk-accent/10 to-transparent'
+  : 'from-kk-accent-blue/10 to-transparent';
+
+const subtitleColor = accentColor === 'amber' ? 'text-kk-accent' : 'text-kk-accent-blue';
+---
+
+<!-- Spacing between periods (skip for first) -->
+{!isFirst && <div class="my-12 sm:my-16"></div>}
+
+<!-- Period Header -->
+<div class="relative mb-8 sm:mb-12">
+  <!-- Gradient background accent -->
+  <div class={`absolute inset-0 bg-gradient-to-r ${gradientClasses} rounded-lg opacity-20`}></div>
+
+  <!-- Content -->
+  <div class={`relative glass rounded-lg p-6 sm:p-8 border-l-4 ${accentClasses}`}>
+    <!-- Years badge -->
+    <div class={`inline-block px-4 py-1 rounded-full text-sm font-bold mb-3 ${accentClasses}`}>
+      {years}
+    </div>
+
+    <!-- Title -->
+    <h2 class="font-display font-bold text-2xl sm:text-3xl lg:text-4xl text-kk-text-primary mb-2">
+      {title}
+    </h2>
+
+    <!-- Subtitle -->
+    <p class={`text-lg sm:text-xl font-semibold mb-3 ${subtitleColor}`}>
+      {subtitle}
+    </p>
+
+    <!-- Description -->
+    <p class="text-kk-text-secondary text-base sm:text-lg leading-relaxed">
+      {description}
+    </p>
+  </div>
+</div>
