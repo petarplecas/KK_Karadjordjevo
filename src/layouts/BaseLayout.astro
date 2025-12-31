@@ -63,6 +63,9 @@ const imageURL = new URL(image, Astro.site || 'https://kkkaradjordjevo.com');
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={imageURL} />
 
+    <!-- Structured Data Slot -->
+    <slot name="head" />
+
     <ViewTransitions />
   </head>
   <body class="bg-slate-900 text-kk-text-primary min-h-screen flex flex-col">

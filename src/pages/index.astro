@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
 import NewsCard from '../components/news/NewsCard.astro';
+import OrganizationSchema from '../components/seo/OrganizationSchema.astro';
 import { slugify } from '../utils/slugify';
 import { getExcerpt } from '../utils/excerpt';
 
@@ -19,11 +20,14 @@ const latestNews = sortedNews.slice(0, 9);
 ---
 
 <BaseLayout title="Početna">
+  <!-- Schema.org Structured Data -->
+  <OrganizationSchema slot="head" />
+
   <Header />
 
   <main class="flex-grow">
     <!-- Hero Section -->
-    <section class="relative overflow-hidden py-20 sm:py-28 lg:py-36">
+    <section class="relative overflow-hidden py-12 sm:py-20 lg:py-28">
       <!-- Animated gradient background -->
       <div class="absolute inset-0 bg-gradient-to-br from-kk-primary via-kk-secondary to-kk-primary"></div>
 
@@ -38,12 +42,12 @@ const latestNews = sortedNews.slice(0, 9);
       <div class="container mx-auto px-4 relative z-10">
         <div class="text-center max-w-4xl mx-auto">
           <!-- Logo with glow -->
-          <div class="mb-8 flex justify-center">
+          <div class="mb-6 sm:mb-8 flex justify-center">
             <div class="relative">
               <img
                 src="/logo.png"
                 alt="KK Karađorđevo"
-                class="h-24 w-24 sm:h-32 sm:w-32 rounded-full shadow-glow-amber animate-fade-in"
+                class="h-20 w-20 sm:h-28 sm:w-28 lg:h-32 lg:w-32 rounded-full shadow-glow-amber animate-fade-in"
                 style="filter: brightness(1.4) contrast(1.15);"
               />
               <div class="absolute inset-0 rounded-full bg-kk-accent/20 blur-2xl animate-pulse"></div>
@@ -51,14 +55,14 @@ const latestNews = sortedNews.slice(0, 9);
           </div>
 
           <!-- Main heading with gradient -->
-          <h1 class="font-display font-bold text-4xl sm:text-5xl lg:text-7xl mb-6 animate-fade-in-up">
+          <h1 class="font-display font-bold text-3xl sm:text-4xl lg:text-6xl mb-4 sm:mb-6 animate-fade-in-up">
             <span class="text-gradient">Košarkaški klub</span>
             <br />
             <span class="text-kk-text-primary">Karađorđevo</span>
           </h1>
 
           <!-- Subtitle -->
-          <p class="text-lg sm:text-xl lg:text-2xl text-kk-text-secondary mb-8 max-w-2xl mx-auto animate-fade-in-up animation-delay-200">
+          <p class="text-base sm:text-lg lg:text-xl text-kk-text-secondary mb-6 sm:mb-8 max-w-2xl mx-auto animate-fade-in-up animation-delay-200">
             Tradicija, strast i posvećenost košarci od osnivanja
           </p>
 

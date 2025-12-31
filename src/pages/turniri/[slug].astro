@@ -6,9 +6,12 @@ import Header from '../../components/layout/Header.astro';
 import Footer from '../../components/layout/Footer.astro';
 import NewsContent from '../../components/news/NewsContent.astro';
 import SocialShare from '../../components/shared/SocialShare.astro';
+import GalleryLink from '../../components/shared/GalleryLink.astro';
+import SportsEventSchema from '../../components/seo/SportsEventSchema.astro';
 import { slugify } from '../../utils/slugify';
 import { formatDate } from '../../utils/formatDate';
 import { getFirstImage } from '../../utils/getFirstImage';
+import { getGalleryLinkForContent } from '../../utils/getGalleryLink';
 
 export const getStaticPaths = (async () => {
   const allTournaments = await getCollection('turniri');
@@ -26,15 +29,32 @@ const firstImage = getFirstImage(tournament.data.content);
 
 // Get published time for article metadata
 const publishedTime = tournament.data.date?.toISOString();
+
+// Get linked gallery event
+const linkedGalleryEvent = getGalleryLinkForContent('turniri', tournament.id);
+
+// Generate meta description from content
+import { getExcerpt } from '../../utils/excerpt';
+const metaDescription = getExcerpt(tournament.data.content, 160) || tournament.data.title;
 ---
 
 <BaseLayout
   title={tournament.data.title}
-  description={tournament.data.title}
+  description={metaDescription}
   type="article"
   image={firstImage}
   publishedTime={publishedTime}
 >
+  <!-- Schema.org Structured Data -->
+  <SportsEventSchema
+    slot="head"
+    title={tournament.data.title}
+    description={metaDescription}
+    image={firstImage}
+    startDate={publishedTime || new Date().toISOString()}
+    url={Astro.url.pathname}
+  />
+
   <Header />
 
   <main class="container mx-auto px-4 py-8 max-w-4xl flex-grow">
@@ -51,6 +71,10 @@ const publishedTime = tournament.data.date?.toISOString();
       </header>
 
       <NewsContent content={tournament.data.content} />
+
+      {linkedGalleryEvent && (
+        <GalleryLink event={linkedGalleryEvent} />
+      )}
 
       <footer class="mt-8 pt-8 border-t">
         <SocialShare
