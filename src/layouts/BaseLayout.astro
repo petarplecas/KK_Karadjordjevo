@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+
 interface Props {
   title: string;
   description?: string;
@@ -32,9 +34,6 @@ const imageURL = new URL(image, Astro.site || 'https://kkkaradjordjevo.com');
     <!-- Preconnect to Google Fonts for better performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-    <!-- Load Tailwind CSS and Global Styles -->
-    <link rel="stylesheet" href="/src/styles/global.css" />
 
     <!-- Primary Meta Tags -->
     <meta name="description" content={description} />
