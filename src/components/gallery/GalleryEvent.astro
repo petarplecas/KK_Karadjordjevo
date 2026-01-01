@@ -74,7 +74,7 @@ const displayDate = event.dateRange || event.date || event.month ?
         <!-- Event card with thumbnail -->
         <a
           href={`/galerija/${event.id}`}
-          class={`group glass rounded-lg border-l-4 ${cardAccent} overflow-hidden transition-all duration-300 hover:shadow-lg hover:scale-[1.02] block cursor-pointer`}
+          class={`group glass rounded-lg border-l-4 ${cardAccent} overflow-hidden transition-all duration-300 hover:shadow-lg hover:scale-[1.02] block cursor-pointer gallery-event-link`}
         >
           <!-- Thumbnail image -->
           <div class="relative aspect-video overflow-hidden bg-kk-surface/30">
@@ -119,7 +119,7 @@ const displayDate = event.dateRange || event.date || event.month ?
             <!-- Event card with thumbnail -->
             <a
               href={`/galerija/${event.id}`}
-              class={`group glass rounded-lg border-l-4 ${cardAccent} overflow-hidden transition-all duration-300 hover:shadow-lg hover:scale-[1.02] block cursor-pointer`}
+              class={`group glass rounded-lg border-l-4 ${cardAccent} overflow-hidden transition-all duration-300 hover:shadow-lg hover:scale-[1.02] block cursor-pointer gallery-event-link`}
             >
               <!-- Thumbnail image -->
               <div class="relative aspect-video overflow-hidden bg-kk-surface/30">
@@ -171,7 +171,7 @@ const displayDate = event.dateRange || event.date || event.month ?
             <!-- Event card with thumbnail -->
             <a
               href={`/galerija/${event.id}`}
-              class={`group glass rounded-lg border-l-4 ${cardAccent} overflow-hidden transition-all duration-300 hover:shadow-lg hover:scale-[1.02] block cursor-pointer`}
+              class={`group glass rounded-lg border-l-4 ${cardAccent} overflow-hidden transition-all duration-300 hover:shadow-lg hover:scale-[1.02] block cursor-pointer gallery-event-link`}
             >
               <!-- Thumbnail image -->
               <div class="relative aspect-video overflow-hidden bg-kk-surface/30">
@@ -251,11 +251,22 @@ const displayDate = event.dateRange || event.date || event.month ?
     document.querySelectorAll('.lazy-image').forEach(img => observer.observe(img));
   }
 
+  function initScrollPosition() {
+    // Save scroll position when clicking on gallery event links
+    document.querySelectorAll('.gallery-event-link').forEach(link => {
+      link.addEventListener('click', () => {
+        sessionStorage.setItem('galleryScrollPosition', window.scrollY.toString());
+      });
+    });
+  }
+
   // Initialize on first load
   initLazyLoading();
+  initScrollPosition();
 
   // Re-initialize after Astro view transitions
   document.addEventListener('astro:page-load', () => {
     initLazyLoading();
+    initScrollPosition();
   });
 </script>

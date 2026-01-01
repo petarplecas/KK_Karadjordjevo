@@ -1,6 +1,4 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
-
 interface Props {
   title: string;
   description?: string;
@@ -65,8 +63,6 @@ const imageURL = new URL(image, Astro.site || 'https://kkkaradjordjevo.com');
 
     <!-- Structured Data Slot -->
     <slot name="head" />
-
-    <ViewTransitions />
   </head>
   <body class="bg-slate-900 text-kk-text-primary min-h-screen flex flex-col">
     <slot />

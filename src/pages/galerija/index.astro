@@ -76,3 +76,44 @@ const galleryData = buildGalleryData();
     background-clip: text;
   }
 </style>
+
+<script>
+  function scrollToTarget() {
+    // Check if there's a hash in the URL (e.g., #year-2015)
+    const hash = window.location.hash;
+
+    if (hash) {
+      // Scroll to the hash target (year section)
+      requestAnimationFrame(() => {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    } else {
+      // Otherwise, restore saved scroll position
+      const savedPosition = sessionStorage.getItem('galleryScrollPosition');
+      if (savedPosition) {
+        requestAnimationFrame(() => {
+          window.scrollTo({
+            top: parseInt(savedPosition, 10),
+            behavior: 'instant'
+          });
+          // Clear the saved position after restoring
+          sessionStorage.removeItem('galleryScrollPosition');
+        });
+      }
+    }
+  }
+
+  // Scroll to target on page load
+  scrollToTarget();
+
+  // Also handle after Astro view transitions
+  document.addEventListener('astro:page-load', () => {
+    scrollToTarget();
+  });
+</script>

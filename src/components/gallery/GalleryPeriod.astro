@@ -23,7 +23,7 @@ const subtitleColor = period.accentColor === 'amber' ? 'text-kk-accent' : 'text-
 {!isFirst && <div class="my-12 sm:my-16"></div>}
 
 <!-- Period Header -->
-<div class="relative mb-8 sm:mb-12">
+<div id={`year-${period.year}`} class="relative mb-8 sm:mb-12 scroll-mt-24">
   <!-- Gradient background accent -->
   <div class={`absolute inset-0 bg-gradient-to-r ${gradientClasses} rounded-lg opacity-20`}></div>
 

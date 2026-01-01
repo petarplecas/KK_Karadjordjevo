@@ -24,7 +24,7 @@ const { items } = Astro.props;
         {item.href ? (
           <a
             href={item.href}
-            class="text-kk-text-secondary hover:text-kk-accent transition-colors duration-200"
+            class={`text-kk-text-secondary hover:text-kk-accent transition-colors duration-200 ${item.href.includes('#year-') ? 'breadcrumb-year-link' : ''}`}
           >
             {item.label}
           </a>

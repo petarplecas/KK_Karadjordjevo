@@ -159,4 +159,35 @@ const eventTypeLabels = {
 
   <!-- Schema.org Structured Data -->
   <ImageGallerySchema event={event} />
+
+  <!-- Breadcrumb navigation script -->
+  <script>
+    function initEventPage() {
+      // Clear saved scroll position when landing on event page
+      // This ensures we start at the top of the event page
+      sessionStorage.removeItem('galleryScrollPosition');
+
+      // Handle clicks on year breadcrumb links
+      document.querySelectorAll('.breadcrumb-year-link').forEach(link => {
+        link.addEventListener('click', () => {
+          // Position will be handled by hash navigation in gallery page
+          sessionStorage.removeItem('galleryScrollPosition');
+        });
+      });
+
+      // Scroll to top of event page
+      window.scrollTo(0, 0);
+    }
+
+    // Initialize on page load
+    initEventPage();
+
+    // Re-initialize after Astro view transitions
+    document.addEventListener('astro:page-load', () => {
+      // Only initialize if we're on an event page
+      if (window.location.pathname.includes('/galerija/') && !window.location.pathname.endsWith('/galerija')) {
+        initEventPage();
+      }
+    });
+  </script>
 </Fragment>
